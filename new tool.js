@@ -4922,8 +4922,10 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.30000000000001,102.1);
 		}
 		function handle(e) {
 		console.log('cont.isDragged : ' , cont.isDragged)
+			if (e.nativeEvent instanceof MouseEvent) {
 			console.log('e.currentTarget.name: ' , e.currentTarget.name)
 			console.log('handle(e): ' , e)
+			
 			if (cont.isDragged) return;
 		
 		
@@ -4948,7 +4950,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.30000000000001,102.1);
 		
 			cont.totam(null);
 		
-		
+			}
 		
 		}
 		

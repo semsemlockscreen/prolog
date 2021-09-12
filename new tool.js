@@ -4471,7 +4471,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.30000000000001,102.1);
 		
 		var isTouch = true;
 		
-		alert('3')
+		alert('4')
 		
 		setTimeout(function () {
 		
@@ -5044,7 +5044,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.30000000000001,102.1);
 		
 		function onmousedown(e) {
 		
-		e.nativeEvent.preventDefault();
+		//e.nativeEvent.preventDefault();
 			
 			cont.addEventListener("pressmove", onpressmove);
 		
@@ -5094,10 +5094,10 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.30000000000001,102.1);
 			}
 		}
 		
-		
+		stage.preventSelection = false;
 		function onpressmove(e) {
 		
-		stage.preventSelection = false;
+		
 			
 		cont.isDragged = true;
 			var pt = that.globalToLocal(e.stageX, e.stageY);

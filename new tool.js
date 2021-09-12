@@ -4921,7 +4921,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.30000000000001,102.1);
 		
 		}
 		function handle(e) {
-			e.nativeEvent.preventDefault();
+			
 		console.log('cont.isDragged : ' , cont.isDragged)
 			
 			console.log('e.currentTarget.name: ' , e.currentTarget.name)
@@ -5044,7 +5044,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.30000000000001,102.1);
 		function onmousedown(e) {
 		
 		e.nativeEvent.preventDefault();
-			
+			if (e.nativeEvent instanceof MouseEvent) {
 			cont.addEventListener("pressmove", onpressmove);
 		
 			cont.isDragged = false;
@@ -5065,7 +5065,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.30000000000001,102.1);
 				y: posY
 			};
 		}
-		
+		}
 		
 		function stopDrag() {
 		

@@ -5044,7 +5044,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.30000000000001,102.1);
 		function onmousedown(e) {
 		
 		e.nativeEvent.preventDefault();
-			if (e.nativeEvent instanceof MouseEvent) {
+			
 			cont.addEventListener("pressmove", onpressmove);
 		
 			cont.isDragged = false;
@@ -5065,7 +5065,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.30000000000001,102.1);
 				y: posY
 			};
 		}
-		}
+		
 		
 		function stopDrag() {
 		
@@ -5095,9 +5095,9 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.30000000000001,102.1);
 		
 		
 		function onpressmove(e) {
-		if (e.nativeEvent instanceof MouseEvent) {
 		
-			cont.isDragged = true;
+		
+			
 		
 			var pt = that.globalToLocal(e.stageX, e.stageY);
 		
@@ -5127,6 +5127,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.30000000000001,102.1);
 		
 				//stage.update();
 				update_coord = false;
+				cont.isDragged = true;
 			}
 		
 		
@@ -5134,12 +5135,11 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.30000000000001,102.1);
 		}
 		
 		
-		}
+
 		
 		
 		function onpressup(evt) {
 		
-		if (evt.nativeEvent instanceof MouseEvent) {
 			cont.removeEventListener("pressmove", onpressmove);
 		
 			var pt = that.globalToLocal(evt.stageX, evt.stageY);
@@ -5154,7 +5154,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.30000000000001,102.1);
 		
 			remove_settin();
 		}
-		}
+		
 		
 		
 		function toHome(e) {

@@ -4463,7 +4463,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.30000000000001,102.1);
 		
 		stage.enableMouseOver(20);
 		
-		stage.preventSelection = false;
+		
 		
 		createjs.Touch.enable(stage, true, true);
 		
@@ -4471,7 +4471,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.30000000000001,102.1);
 		
 		var isTouch = true;
 		
-		
+		alert('2')
 		
 		setTimeout(function () {
 		
@@ -4926,8 +4926,8 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.30000000000001,102.1);
 			
 			console.log('e.currentTarget.name: ' , e.currentTarget.name)
 			console.log('handle(e)e.nativeEvent : ' ,e.nativeEvent)
-			if (e.nativeEvent instanceof MouseEvent) {
-				console.log('go to tmrn')
+			
+			
 			if (cont.isDragged) return;
 		
 		
@@ -4952,7 +4952,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.30000000000001,102.1);
 		
 			cont.totam(null);
 		
-			}
+			
 		
 		}
 		
@@ -5096,7 +5096,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.30000000000001,102.1);
 		
 		function onpressmove(e) {
 		
-		
+		stage.preventSelection = false;
 			
 		cont.isDragged = true;
 			var pt = that.globalToLocal(e.stageX, e.stageY);

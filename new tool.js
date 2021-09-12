@@ -4974,7 +4974,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.30000000000001,102.1);
 		}
 		
 		function toPrv(ev, swap = false) {
-		
+		stage.preventSelection = false;
 			if (swap || ev.nativeEvent instanceof MouseEvent) {
 		ev.nativeEvent.preventDefault();
 				if (currentPage - 2 < 0) return;
@@ -7110,7 +7110,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.30000000000001,102.1);
 		
 		
 			function ondown(ev) {
-		
+		evt.nativeEvent.preventDefault();
 		
 				downOnAcceptedMc = true;
 		

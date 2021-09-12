@@ -4992,6 +4992,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.30000000000001,102.1);
 		
 		function toNx(ev, swap = false) {
 		console.log('toNex e.nativeEvent : ' ,ev.nativeEvent)
+			stage.preventSelection = false;
 			if (swap || ev.nativeEvent instanceof MouseEvent) {
 		ev.nativeEvent.preventDefault();
 				if (currentPage + 2 > maxPage) return;

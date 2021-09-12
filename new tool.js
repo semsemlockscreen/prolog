@@ -4471,7 +4471,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.30000000000001,102.1);
 		
 		var isTouch = true;
 		
-		alert('4')
+		alert('5')
 		
 		setTimeout(function () {
 		
@@ -7110,7 +7110,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.30000000000001,102.1);
 		
 		
 			function ondown(ev) {
-		evt.nativeEvent.preventDefault();
+		ev.nativeEvent.preventDefault();
 		
 				downOnAcceptedMc = true;
 		

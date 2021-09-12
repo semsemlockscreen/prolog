@@ -5098,7 +5098,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.30000000000001,102.1);
 		
 		
 			
-		
+		cont.isDragged = true;
 			var pt = that.globalToLocal(e.stageX, e.stageY);
 		
 			var newX = pt.x - e.currentTarget.offset.x;
@@ -5127,7 +5127,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.30000000000001,102.1);
 		
 				//stage.update();
 				update_coord = false;
-				cont.isDragged = true;
+				
 			}
 		
 		

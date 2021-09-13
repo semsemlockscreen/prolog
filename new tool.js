@@ -2775,6 +2775,8 @@ p.nominalBounds = new cjs.Rectangle(-8.6,-7.7,124.19999999999999,29.599999999999
 		
 		function zomhandle(e) {
 		
+			
+			
 		
 			if (that.isclicked || that.parent.isDragged) return;
 		
@@ -4838,7 +4840,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.30000000000001,102.1);
 		
 					list_cs[i].removeEventListener('click', handle);
 		
-				} else list_cs[i].removeEventListener('click', chafaf.zomhandle);
+				}// else list_cs[i].removeEventListener('click', chafaf.zomhandle);
 		
 		
 			}

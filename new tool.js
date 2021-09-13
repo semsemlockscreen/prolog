@@ -4473,7 +4473,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.30000000000001,102.1);
 		
 		var isTouch = true;
 		
-		alert('6')
+		alert('7')
 		
 		setTimeout(function () {
 		
@@ -4847,6 +4847,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.30000000000001,102.1);
 		
 		}
 		
+		
 		function cs_setListener(list_cs) {
 		
 			for (var i = 0; i < list_cs.length; i++) {
@@ -4855,7 +4856,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.30000000000001,102.1);
 		
 					list_cs[i].addEventListener('click', handle);
 		
-				} else list_cs[i].addEventListener('click', chafaf.zomhandle);
+				}// else list_cs[i].addEventListener('click', chafaf.zomhandle);
 			}
 		
 		}

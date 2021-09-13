@@ -2773,7 +2773,7 @@ p.nominalBounds = new cjs.Rectangle(-8.6,-7.7,124.19999999999999,29.599999999999
 		
 		function zomhandle(e) {
 		
-			
+			if ( e.nativeEvent instanceof MouseEvent){
 			
 		
 			if (that.isclicked || that.parent.isDragged) return;
@@ -2808,7 +2808,7 @@ p.nominalBounds = new cjs.Rectangle(-8.6,-7.7,124.19999999999999,29.599999999999
 		
 			e.currentTarget.new_rtrn.gotoAndStop(1);
 		}
-		
+		}
 		
 		this.zomhandle = zomhandle;
 	}
@@ -4471,7 +4471,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.30000000000001,102.1);
 		
 		var isTouch = true;
 		
-		alert('10')
+		alert('11')
 		
 		setTimeout(function () {
 		

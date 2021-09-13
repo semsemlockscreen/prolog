@@ -2569,12 +2569,12 @@ p.nominalBounds = new cjs.Rectangle(-29.9,-34.4,60,60);
 		
 		
 		
-		//this.new_rtrn.addEventListener("click", fl_MouseClickHandler_9.bind(this));
+		this.new_rtrn.addEventListener("click", fl_MouseClickHandler_9);
 		
 		function fl_MouseClickHandler_9(e) {
 		
 			if (!that.parent.isclicked) return;
-			that.rtrn.removeEventListener("click", fl_MouseClickHandler_9);
+			that.new_rtrn.removeEventListener("click", fl_MouseClickHandler_9);
 		
 			e.stopImmediatePropagation();
 		
@@ -4471,7 +4471,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.30000000000001,102.1);
 		
 		var isTouch = true;
 		
-		alert('8')
+		alert('9')
 		
 		setTimeout(function () {
 		
@@ -4838,7 +4838,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.30000000000001,102.1);
 		
 					list_cs[i].removeEventListener('click', handle);
 		
-				}// else list_cs[i].removeEventListener('click', chafaf.zomhandle);
+				} else list_cs[i].removeEventListener('click', chafaf.zomhandle);
 		
 		
 			}
@@ -4854,7 +4854,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.30000000000001,102.1);
 		
 					list_cs[i].addEventListener('click', handle);
 		
-				}// else list_cs[i].addEventListener('click', chafaf.zomhandle);
+				} else list_cs[i].addEventListener('click', chafaf.zomhandle);
 			}
 		
 		}

@@ -2569,7 +2569,7 @@ p.nominalBounds = new cjs.Rectangle(-29.9,-34.4,60,60);
 		
 		
 		
-		this.new_rtrn.addEventListener("click", fl_MouseClickHandler_9.bind(this));
+		//this.new_rtrn.addEventListener("click", fl_MouseClickHandler_9.bind(this));
 		
 		function fl_MouseClickHandler_9(e) {
 		
@@ -2578,8 +2578,6 @@ p.nominalBounds = new cjs.Rectangle(-29.9,-34.4,60,60);
 		
 			e.stopImmediatePropagation();
 		
-			// Start your custom code
-			// This example code displays the words "Mouse clicked" in the Output panel.
 			//alert("Mouse clicked rtrn ");
 		
 			that.new_rtrn.gotoAndStop(0);
@@ -4473,7 +4471,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.30000000000001,102.1);
 		
 		var isTouch = true;
 		
-		alert('7')
+		alert('8')
 		
 		setTimeout(function () {
 		

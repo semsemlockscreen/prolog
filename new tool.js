@@ -4472,7 +4472,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.30000000000001,102.1);
 		
 		var isTouch = true;
 		
-		alert('13')
+		alert('14')
 		
 		setTimeout(function () {
 		
@@ -8078,7 +8078,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.30000000000001,102.1);
 		
 		
 		function add_sbr_listener(new_sbr) {
-		
+		return;
 			new_sbr.addEventListener("mousedown", sbr_on_mousedown);
 			new_sbr.addEventListener("pressup", sbr_on_pressup);
 			new_sbr.addEventListener("mouseout", sbr_on_mouseout);

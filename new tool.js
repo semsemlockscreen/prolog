@@ -5046,7 +5046,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.30000000000001,102.1);
 		
 		function onmousedown(e) {
 		
-			
+			console.log(' cont  onmousedown(e) ' ,e);
 			cont.addEventListener("pressmove", onpressmove);
 		
 			cont.isDragged = false;
@@ -5096,10 +5096,11 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.30000000000001,102.1);
 		}
 		
 		stage.preventSelection = false;
+		
 		function onpressmove(e) {
 		
-		console.log(' cont onpressmove' ,e);
-			e.nativeEvent.preventDefault();
+		console.log(' cont onpressmove witout prevent ' ,e);
+			//e.nativeEvent.preventDefault();
 		cont.isDragged = true;
 			var pt = that.globalToLocal(e.stageX, e.stageY);
 		

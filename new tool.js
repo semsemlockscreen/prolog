@@ -4472,7 +4472,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.30000000000001,102.1);
 		
 		var isTouch = true;
 		
-		alert('14')
+		alert('15')
 		
 		setTimeout(function () {
 		
@@ -4802,7 +4802,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.30000000000001,102.1);
 			cont.addChild(awraq);
 			cont.addChildAt(bmp, 1);
 			cont.addChildAt(dill, 2);
-			cont.addChildAt(sbr, 3);
+			//cont.addChildAt(sbr, 3);
 			//frameChafaf();
 		
 		});
@@ -5026,6 +5026,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.30000000000001,102.1);
 		
 		
 		}
+		
 		
 		function startDrag() {
 		
@@ -8078,7 +8079,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.30000000000001,102.1);
 		
 		
 		function add_sbr_listener(new_sbr) {
-		return;
+		
 			new_sbr.addEventListener("mousedown", sbr_on_mousedown);
 			new_sbr.addEventListener("pressup", sbr_on_pressup);
 			new_sbr.addEventListener("mouseout", sbr_on_mouseout);

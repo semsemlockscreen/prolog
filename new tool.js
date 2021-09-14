@@ -4472,7 +4472,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.30000000000001,102.1);
 		
 		var isTouch = true;
 		
-		alert('15')
+		alert('16')
 		
 		setTimeout(function () {
 		
@@ -5100,9 +5100,11 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.30000000000001,102.1);
 		
 		function onpressmove(e) {
 		
-		console.log(' cont onpressmove witout prevent ' ,e);
+		
+			if ( e.nativeEvent instanceof MouseEvent) {
+				console.log(' cont onpressmove witout prevent ' ,e);
 			e.nativeEvent.preventDefault();
-		cont.isDragged = true;
+		       cont.isDragged = true;
 			var pt = that.globalToLocal(e.stageX, e.stageY);
 		
 			var newX = pt.x - e.currentTarget.offset.x;
@@ -5134,7 +5136,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.30000000000001,102.1);
 				
 			}
 		
-		
+			}
 		
 		}
 		
@@ -5143,7 +5145,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.30000000000001,102.1);
 		
 		
 		function onpressup(evt) {
-		
+		if ( evt.nativeEvent instanceof MouseEvent) {
 			cont.removeEventListener("pressmove", onpressmove);
 		
 			var pt = that.globalToLocal(evt.stageX, evt.stageY);
@@ -5158,7 +5160,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.30000000000001,102.1);
 		
 			remove_settin();
 		}
-		
+		}
 		
 		
 		function toHome(e) {

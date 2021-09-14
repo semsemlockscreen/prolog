@@ -5031,7 +5031,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.30000000000001,102.1);
 		
 			cont.addEventListener("pressup", onpressup);
 			//cont.addEventListener("pressmove", onpressmove);
-			cont.addEventListener("mousedown", onmousedown);
+			cont.addEventListener("mousedown", cont_onmousedown);
 		
 		
 		}
@@ -5044,9 +5044,9 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.30000000000001,102.1);
 		
 		var previous_x_update = false;
 		
-		function onmousedown(e) {
+		function cont_onmousedown(e) {
 		
-			console.log(' cont  onmousedown(e) ' ,e);
+			console.log('cont_onmousedown(e) ' ,e);
 			cont.addEventListener("pressmove", onpressmove);
 		
 			cont.isDragged = false;
@@ -5074,7 +5074,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.30000000000001,102.1);
 		
 			cont.removeEventListener("pressup", onpressup);
 			cont.removeEventListener("pressmove", onpressmove);
-			cont.removeEventListener("mousedown", onmousedown);
+			cont.removeEventListener("mousedown", cont_onmousedown);
 		
 		
 		}

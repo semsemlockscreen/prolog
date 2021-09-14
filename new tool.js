@@ -5098,7 +5098,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.30000000000001,102.1);
 		stage.preventSelection = false;
 		function onpressmove(e) {
 		
-		
+		console.log(' cont onpressmove' ,e);
 			e.nativeEvent.preventDefault();
 		cont.isDragged = true;
 			var pt = that.globalToLocal(e.stageX, e.stageY);

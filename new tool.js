@@ -2772,7 +2772,8 @@ p.nominalBounds = new cjs.Rectangle(-8.6,-7.7,124.19999999999999,29.599999999999
 		
 		
 		function zomhandle(e) {
-		
+		console.log("zomhandle(e) clicked");
+			console.log("zomhandle(e) event" , e);
 			if ( e.nativeEvent instanceof MouseEvent){
 			
 		
@@ -8897,7 +8898,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.30000000000001,102.1);
 		
 		}
 		function parentScale(ob) {
-		
+		 console.log('start of  parentScale');
 			var xx = scalx;
 			var yy = scaly;
 		
@@ -8913,8 +8914,9 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.30000000000001,102.1);
 			console.log(" ob.getTransformedBounds().width  " + ob.getTransformedBounds().height * xx);
 			toslidrScal(used - 1);
 		
-		
+		        console.log('start of  parentmask');
 			parentmask(ob, used - 1);
+			console.log('end of  parentmask');
 			stage.update();
 		
 		}

@@ -4802,8 +4802,8 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.30000000000001,102.1);
 			cont.addChild(awraq);
 			cont.addChildAt(bmp, 1);
 			cont.addChildAt(dill, 2);
-			//cont.addChildAt(sbr, 3);
-			//frameChafaf();
+			cont.addChildAt(sbr, 3);
+			frameChafaf();
 		
 		});
 		
@@ -5046,7 +5046,8 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.30000000000001,102.1);
 		
 		function cont_onmousedown(e) {
 		
-			console.log('cont_onmousedown(e) ' ,e);
+			console.log('cont_onmousedown(e) check if e.nativeEvent ' ,e);
+			if ( e.nativeEvent instanceof MouseEvent) {
 			cont.addEventListener("pressmove", onpressmove);
 		
 			cont.isDragged = false;
@@ -5067,7 +5068,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.30000000000001,102.1);
 				y: posY
 			};
 		}
-		
+		}
 		
 		function stopDrag() {
 		

@@ -4472,7 +4472,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.30000000000001,102.1);
 		
 		var isTouch = true;
 		
-		alert('16')
+		alert('17')
 		
 		setTimeout(function () {
 		
@@ -5046,8 +5046,9 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.30000000000001,102.1);
 		
 		function cont_onmousedown(e) {
 		
-			console.log('cont_onmousedown(e) check if e.nativeEvent ' ,e);
+			
 			if ( e.nativeEvent instanceof MouseEvent) {
+				console.log('cont_onmousedown(e) check if e.nativeEvent ' ,e);
 			cont.addEventListener("pressmove", onpressmove);
 		
 			cont.isDragged = false;
@@ -5103,7 +5104,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.30000000000001,102.1);
 		
 			if ( e.nativeEvent instanceof MouseEvent) {
 				console.log(' cont onpressmove witout prevent ' ,e);
-			e.nativeEvent.preventDefault();
+			//e.nativeEvent.preventDefault();
 		       cont.isDragged = true;
 			var pt = that.globalToLocal(e.stageX, e.stageY);
 		

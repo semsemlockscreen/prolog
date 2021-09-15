@@ -2573,7 +2573,9 @@ p.nominalBounds = new cjs.Rectangle(-29.9,-34.4,60,60);
 		
 		function fl_MouseClickHandler_9(e) {
 		
+			if (e.nativeEvent instanceof MouseEvent) {
 			if (!that.parent.isclicked) return;
+			
 			//that.new_rtrn.removeEventListener("click", fl_MouseClickHandler_9);
 		
 			e.stopImmediatePropagation();
@@ -2595,7 +2597,7 @@ p.nominalBounds = new cjs.Rectangle(-29.9,-34.4,60,60);
 			that.parent.isclicked = false;
 		}
 	}
-
+	}
 	// actions tween:
 	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(1));
 
@@ -4479,7 +4481,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.30000000000001,102.1);
 		
 		var isTouch = true;
 		
-		alert('31')
+		alert('32')
 		
 		setTimeout(function () {
 		
@@ -4835,7 +4837,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.30000000000001,102.1);
 		
 			cs_setListener(chafaf.listofcs);
 		
-			chafaf.addYad_by_frame(chafaf.listofcs)
+			//chafaf.addYad_by_frame(chafaf.listofcs)
 		
 		}
 		

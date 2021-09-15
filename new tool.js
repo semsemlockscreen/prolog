@@ -2547,7 +2547,7 @@ p.nominalBounds = new cjs.Rectangle(-29.9,-34.4,60,60);
 		//that.rtrn.setBounds(0,0,2,2);
 		
 		
-		if (false && !that.is_scaled) {
+		if ( !that.is_scaled) {
 			var new_rtrn = new lib.return_btn();
 		
 			that.new_rtrn = new_rtrn;
@@ -2569,14 +2569,14 @@ p.nominalBounds = new cjs.Rectangle(-29.9,-34.4,60,60);
 		
 		
 		
-		//this.new_rtrn.addEventListener("click", fl_MouseClickHandler_9);
+		this.new_rtrn.addEventListener("click", fl_MouseClickHandler_9);
 		
 		function fl_MouseClickHandler_9(e) {
 		
 			if (!that.parent.isclicked) return;
 			//that.new_rtrn.removeEventListener("click", fl_MouseClickHandler_9);
 		
-			//e.stopImmediatePropagation();
+			e.stopImmediatePropagation();
 		
 			//alert("Mouse clicked rtrn ");
 		
@@ -2772,6 +2772,7 @@ p.nominalBounds = new cjs.Rectangle(-8.6,-7.7,124.19999999999999,29.599999999999
 		
 		
 		function zomhandle(e) {
+			return
 		console.log("zomhandle(e) clicked");
 			console.log("zomhandle(e) event" , e);
 			
@@ -2810,7 +2811,7 @@ p.nominalBounds = new cjs.Rectangle(-8.6,-7.7,124.19999999999999,29.599999999999
 			that.parent.parent.parentScale(e.currentTarget);
 		
 			e.currentTarget.new_rtrn.gotoAndStop(1);
-				that.parent.stopDrag();
+			that.parent.stopDrag();
 				
 		}
 		}

@@ -2777,7 +2777,7 @@ p.nominalBounds = new cjs.Rectangle(-8.6,-7.7,124.19999999999999,29.599999999999
 			console.log("zomhandle(e) event" , e);
 			
 		
-			if (true ||  e.nativeEvent instanceof MouseEvent){
+			//if (  e.nativeEvent instanceof MouseEvent){
 			
 		
 			if (that.isclicked || that.parent.isDragged) return;
@@ -2805,15 +2805,17 @@ p.nominalBounds = new cjs.Rectangle(-8.6,-7.7,124.19999999999999,29.599999999999
 			that.parent.regX = contRegxy.x;
 			that.parent.regY = contRegxy.y;
 		
-			
+			that.parent.stopDrag();
 		
+				
 			that.parent.parent.tool_enable(false, 'zoom');
+			e.currentTarget.new_rtrn.gotoAndStop(1);
 			that.parent.parent.parentScale(e.currentTarget);
 		
-			e.currentTarget.new_rtrn.gotoAndStop(1);
-			that.parent.stopDrag();
+			
+			
 				
-		}
+		//}
 		}
 		
 		this.zomhandle = zomhandle;
@@ -4477,7 +4479,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.30000000000001,102.1);
 		
 		var isTouch = true;
 		
-		alert('29')
+		alert('30')
 		
 		setTimeout(function () {
 		
@@ -8929,7 +8931,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.30000000000001,102.1);
 		        console.log('start of  parentmask');
 			parentmask(ob, used - 1);
 			console.log('end of  parentmask');
-			stage.update();
+			
 		
 		}
 		that.parentScale = parentScale;

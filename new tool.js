@@ -2576,7 +2576,7 @@ p.nominalBounds = new cjs.Rectangle(-29.9,-34.4,60,60);
 			if (!that.parent.isclicked) return;
 			//that.new_rtrn.removeEventListener("click", fl_MouseClickHandler_9);
 		
-			e.stopImmediatePropagation();
+			//e.stopImmediatePropagation();
 		
 			//alert("Mouse clicked rtrn ");
 		
@@ -2804,12 +2804,13 @@ p.nominalBounds = new cjs.Rectangle(-8.6,-7.7,124.19999999999999,29.599999999999
 			that.parent.regX = contRegxy.x;
 			that.parent.regY = contRegxy.y;
 		
-			that.parent.stopDrag();
+			
 		
 			that.parent.parent.tool_enable(false, 'zoom');
 			that.parent.parent.parentScale(e.currentTarget);
 		
 			e.currentTarget.new_rtrn.gotoAndStop(1);
+				that.parent.stopDrag();
 				
 		}
 		}
@@ -4475,7 +4476,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.30000000000001,102.1);
 		
 		var isTouch = true;
 		
-		alert('26')
+		alert('27')
 		
 		setTimeout(function () {
 		

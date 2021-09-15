@@ -4481,7 +4481,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.30000000000001,102.1);
 		
 		var isTouch = true;
 		
-		alert('32')
+		alert('33')
 		
 		setTimeout(function () {
 		
@@ -5263,7 +5263,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.30000000000001,102.1);
 		contmrn.y = 0;
 		
 		
-		// stage.addChild(contmrn);
+		 stage.addChild(contmrn);
 		
 		
 		function blockChafaf() {

@@ -4987,7 +4987,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.30000000000001,102.1);
 		function toPrv(ev, swap = false) {
 		
 			if (swap || ev.nativeEvent instanceof MouseEvent) {
-		ev.nativeEvent.preventDefault();
+		//ev.nativeEvent.preventDefault();
 				if (currentPage - 2 < 0) return;
 				currentPage -= 2;
 				that.pageNum.value = currentPage;
@@ -5005,7 +5005,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.30000000000001,102.1);
 		console.log('toNex e.nativeEvent : ' ,ev.nativeEvent)
 			
 			if (swap || ev.nativeEvent instanceof MouseEvent) {
-		ev.nativeEvent.preventDefault();
+		//ev.nativeEvent.preventDefault();
 				if (currentPage + 2 > maxPage) return;
 		
 				currentPage += 2;

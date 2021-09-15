@@ -4472,7 +4472,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.30000000000001,102.1);
 		
 		var isTouch = true;
 		
-		alert('18')
+		alert('19')
 		
 		setTimeout(function () {
 		
@@ -5097,11 +5097,11 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.30000000000001,102.1);
 			}
 		}
 		
-		stage.preventSelection = false;
+		
 		
 		function onpressmove(e) {
 		
-		
+		stage.preventSelection = false;
 			//if ( e.nativeEvent instanceof MouseEvent) {
 				console.log(' cont onpressmove witout prevent ' ,e);
 			//e.nativeEvent.preventDefault();

@@ -4962,7 +4962,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.30000000000001,102.1);
 			cont.mc.name = nameOfcs;
 		
 		
-			//cont.totam(null);
+			cont.totam(null);
 		
 			
 		
@@ -4974,7 +4974,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.30000000000001,102.1);
 			that.page_loader.gotoAndPlay(1);
 			that.page_loader.visible = true;
 		
-		
+		   
 		
 			queue.loadFile({
 				src: "pages/" + file + ".jpg",

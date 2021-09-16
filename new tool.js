@@ -2574,6 +2574,7 @@ p.nominalBounds = new cjs.Rectangle(-29.9,-34.4,60,60);
 		function fl_MouseClickHandler_9(e) {
 		
 			if (e.nativeEvent instanceof MouseEvent) {
+				console.log('new_rtrn clicked');
 			if (!that.parent.isclicked) return;
 			
 			//that.new_rtrn.removeEventListener("click", fl_MouseClickHandler_9);
@@ -4481,7 +4482,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.30000000000001,102.1);
 		
 		var isTouch = true;
 		
-		alert('33')
+		alert('34')
 		
 		setTimeout(function () {
 		
@@ -4837,7 +4838,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.30000000000001,102.1);
 		
 			cs_setListener(chafaf.listofcs);
 		
-			//chafaf.addYad_by_frame(chafaf.listofcs)
+			chafaf.addYad_by_frame(chafaf.listofcs)
 		
 		}
 		

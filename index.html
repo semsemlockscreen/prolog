@@ -14,14 +14,7 @@
 <title>new tool</title>
 <!-- write your code here -->
 <style>
-
-
-@import url('https://fonts.googleapis.com/css2?family=Markazi+Text&display=swap');
-
-/* to prevent window go left/right up/down */
-html, body {
-  overflow:hidden 
-} 
+html,body{overflow:hidden}
 body {
 	
 	/* to add color to backgroun */
@@ -77,24 +70,11 @@ position: absolute;
 .btn:hover {
   background-color: RoyalBlue;
 }
-
-
 </style>
 <script src="https://code.createjs.com/createjs-2015.11.26.min.js"></script>
-<script src="new tool.js?1624560369084"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
-
+<script src="new tool.js?1631955363412"></script>
 <script>
-  WebFont.load({
-    google: {
-      families: ['Markazi+Text']
-    }
-  });
-</script>
-
-
-<script>
-var canvas, stage, exportRoot, anim_container, dom_overlay_container, fnStartAnimation , font_size  ,scal_x;
+var canvas, stage, exportRoot, anim_container, dom_overlay_container, fnStartAnimation , font_size ,scal_x;
 function init() {
 	canvas = document.getElementById("canvas");
 	anim_container = document.getElementById("animation_container");
@@ -102,7 +82,6 @@ function init() {
 	var comp=AdobeAn.getComposition("2034D714F5551F45A41B5E1BA58D4A37");
 	var lib=comp.getLibrary();
 	var loader = new createjs.LoadQueue(false);
-	loader.installPlugin(createjs.Sound);
 	loader.addEventListener("fileload", function(evt){handleFileLoad(evt,comp)});
 	loader.addEventListener("complete", function(evt){handleComplete(evt,comp)});
 	var lib=comp.getLibrary();
@@ -177,8 +156,7 @@ function handleComplete(evt,comp) {
 		function TextStyle(sRatio ,pRatio, h) {
 		
 		 font_size = ( h*pRatio*sRatio*(0.025) ).toString()+'px';
-		 scal_x =  sRatio ;
-		 
+		scal_x = sRatio ;
 		var nodes =document.getElementsByTagName("input");
         for (var i=0; i<nodes.length; i++){
 
@@ -193,7 +171,8 @@ function handleComplete(evt,comp) {
 }
 function playSound(id, loop) {
 	return createjs.Sound.play(id, createjs.Sound.INTERRUPT_EARLY, 0, 0, loop);
-}</script>
+}
+</script>
 <!-- write your code here -->
 </head>
 <body onload="init();" style="margin:0px; overflow: hidden">
@@ -202,7 +181,7 @@ function playSound(id, loop) {
 		<!-- Draggable DIV -->
    <div id="mydiv"  style="display: none;" >
       <!-- Include a header DIV with the same name as the draggable DIV, followed by "header"  style="display: none;" -->
-      <div id="mydivheader"  >  Faites glisser ici pour déplacer la fenêtre
+      <div id="mydivheader"  >
 	  
     		<!-- <button id = "remove" type="button " >Delete</button> Click here to move-->
 	  
@@ -224,7 +203,5 @@ function playSound(id, loop) {
 		</div>
 	</div>
     <div id='_preload_div_' style='position:absolute; top:0; left:0; display: inline-block; height:500px; width: 800px; text-align: center;'>	<span style='display: inline-block; height: 100%; vertical-align: middle;'></span>	<img src=images/_preloader.gif?1559665529553 style='vertical-align: middle; max-height: 100%'/></div>
-
-
 </body>
 </html>

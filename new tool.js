@@ -4409,7 +4409,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.30000000000001,102.1);
 		var isTouch = true;
 		
 		
-				alert('103');
+				alert('104');
 		
 		setTimeout(function () {
 		
@@ -4646,7 +4646,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.30000000000001,102.1);
 		
 		}
 		var cont = new createjs.Container();
-		cont.name = "tttt";
+		cont.name = "ttttt";
 		var awraq = new lib.waraq();
 		var dill = new lib.addil();
 		awraq.x = -10;
@@ -4982,7 +4982,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.30000000000001,102.1);
 		
 		function onmousedown(e) {
 		
-			console.log('cont.children' ,cont.children);
+			console.log(' onmousedown(e) ' ,e);
 			cont.isDragged = false;
 		stage.preventSelection = false;
 			cont.addEventListener("pressmove", onpressmove);

@@ -2037,7 +2037,7 @@ p.nominalBounds = new cjs.Rectangle(-127,-13,263,25);
 				that.trk.x = newX;
 		
 		
-				//	alert("that.parent.parent "+that.parent.parent.parent);
+				
 		
 			}
 		}
@@ -3655,8 +3655,8 @@ p.nominalBounds = new cjs.Rectangle(-10.7,-14.6,31.2,29.6);
 			that.parent.stopDrag();
 		
 			that.parent.parent.tool_enable(false, 'zoom');
-			parentScale(e.currentTarget);
-		
+			//parentScale(e.currentTarget);
+		that.parent.parent.parentScale(e.currentTarget);
 			e.currentTarget.new_rtrn.gotoAndStop(1);
 		}
 		this.zomhandle = zomhandle;
@@ -4607,7 +4607,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.30000000000001,102.1);
 		var isTouch = true;
 		
 		
-				alert('102');
+				alert('103');
 		
 		setTimeout(function () {
 		

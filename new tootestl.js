@@ -4607,7 +4607,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.30000000000001,102.1);
 		var isTouch = true;
 		
 		
-				alert('105');
+				alert('106');
 		
 		setTimeout(function () {
 		
@@ -5177,9 +5177,9 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.30000000000001,102.1);
 		
 		
 		var previous_x_update = false;
-		stage.preventSelection = false;
-		function onmousedown(e) {
 		
+		function onmousedown(e) {
+		stage.preventSelection = false;
 			console.log('cont.children' ,cont.children);
 			cont.isDragged = false;
 		

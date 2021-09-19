@@ -3618,7 +3618,7 @@ p.nominalBounds = new cjs.Rectangle(-10.7,-14.6,31.2,29.6);
 		
 			// reset dimensions before calculate x and y ;
 			that.parent.toreset();
-			e.currentTarget.kadrzoom.alpha = 1 ;
+			e.currentTarget.kadrzoom.alpha = 0 ;
 			var pt = that.localToGlobal(e.currentTarget.x, e.currentTarget.y);
 		
 			diffX = that.parent.regX - e.currentTarget.x * 0.27 + 27 - (e.currentTarget.getTransformedBounds().width * 0.27) / 2;

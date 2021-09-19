@@ -2624,7 +2624,7 @@ p.nominalBounds = new cjs.Rectangle(-29.9,-34.4,60,60);
 		
 			that.new_rtrn.gotoAndStop(0);
 		
-			that.alpha = 1;
+			that.kadrzoom.alpha = 1;
 		
 			that.parent.parent.toreset();
 		
@@ -3618,7 +3618,7 @@ p.nominalBounds = new cjs.Rectangle(-10.7,-14.6,31.2,29.6);
 		
 			// reset dimensions before calculate x and y ;
 			that.parent.toreset();
-			e.currentTarget.kadrzoom.alpha = 0;
+			e.currentTarget.kadrzoom.alpha = 1 ;
 			var pt = that.localToGlobal(e.currentTarget.x, e.currentTarget.y);
 		
 			diffX = that.parent.regX - e.currentTarget.x * 0.27 + 27 - (e.currentTarget.getTransformedBounds().width * 0.27) / 2;
@@ -4607,7 +4607,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.30000000000001,102.1);
 		var isTouch = true;
 		
 		
-				alert('104');
+				alert('105');
 		
 		setTimeout(function () {
 		

@@ -8,14 +8,14 @@ lib.ssMetadata = [
 		{name:"new tootestl_atlas_3", frames: [[0,0,2016,1134]]},
 		{name:"new tootestl_atlas_4", frames: [[0,0,2011,1011],[0,1013,1580,979]]},
 		{name:"new tootestl_atlas_5", frames: [[0,901,1316,962],[0,0,1433,899]]},
-		{name:"new tootestl_atlas_6", frames: [[0,0,1241,932],[0,934,1633,692]]},
+		{name:"new tootestl_atlas_6", frames: [[0,934,1633,692],[0,0,1241,932]]},
 		{name:"new tootestl_atlas_7", frames: [[0,859,1631,669],[0,0,1277,857]]},
 		{name:"new tootestl_atlas_8", frames: [[0,856,1210,847],[0,0,1219,854]]},
 		{name:"new tootestl_atlas_9", frames: [[0,0,1204,848],[0,850,1205,846]]},
 		{name:"new tootestl_atlas_10", frames: [[0,1452,1308,544],[0,0,1308,729],[0,731,1298,719]]},
 		{name:"new tootestl_atlas_11", frames: [[0,0,1499,456],[0,1025,656,689],[658,1025,656,689],[0,458,901,565],[1316,458,656,689],[1316,1149,656,689]]},
-		{name:"new tootestl_atlas_12", frames: [[338,1637,148,148],[1107,591,137,141],[954,176,557,145],[1591,591,256,213],[1402,1105,223,271],[1498,1378,410,107],[302,1036,245,374],[0,398,774,460],[338,1412,195,223],[1591,806,207,252],[1742,397,259,192],[0,2004,725,26],[976,1903,715,31],[976,1870,716,31],[976,1842,865,26],[622,1936,872,25],[976,1776,705,64],[622,1963,670,31],[1294,1963,682,30],[1294,1995,742,26],[1199,1741,759,31],[1199,1608,559,71],[1199,1681,482,58],[1498,1487,523,61],[1627,1177,367,66],[1091,1105,309,209],[1498,1550,427,56],[0,1412,336,229],[0,1643,336,229],[753,1036,336,229],[776,591,329,236],[1627,1060,345,115],[0,1036,300,340],[1513,176,397,132],[954,323,939,72],[1252,591,337,512],[0,860,1250,174],[1849,591,148,148],[776,398,964,191],[549,1036,100,800],[651,1036,100,800],[1872,0,146,160],[0,0,952,396],[1760,1608,167,125],[338,1838,282,164],[954,0,916,174],[1843,1774,168,117],[1800,806,160,220],[1910,1245,135,141],[1052,1316,221,228],[753,1476,221,228],[1275,1378,221,228],[976,1546,221,228],[753,1706,221,228],[753,1267,297,207]]},
-		{name:"new tootestl_atlas_13", frames: [[744,574,44,53],[1125,649,21,14],[622,378,80,87],[1679,301,22,58],[1191,591,36,32],[1414,470,65,57],[420,372,40,53],[634,566,452,6],[1770,497,53,53],[1732,583,28,51],[405,583,37,44],[783,389,83,80],[1541,217,33,7],[634,549,33,13],[420,427,33,9],[1770,552,48,52],[463,555,48,52],[1305,561,48,52],[0,568,48,52],[489,500,53,53],[50,568,48,52],[1334,506,53,53],[0,513,53,53],[1926,568,48,52],[55,513,53,53],[1481,517,53,53],[1552,572,53,45],[1536,517,53,53],[1591,517,53,53],[1976,572,53,45],[634,574,53,45],[689,574,53,45],[1140,538,49,53],[1502,572,48,51],[544,524,53,53],[1416,294,101,105],[1389,529,51,55],[1191,541,53,48],[1796,647,20,20],[1250,525,53,53],[1646,527,53,53],[1818,647,20,20],[768,553,51,8],[790,574,40,53],[408,528,53,53],[191,588,27,47],[783,471,62,59],[370,535,33,59],[1027,574,33,59],[489,439,83,59],[1880,530,44,59],[513,579,33,59],[159,233,85,59],[1355,561,31,59],[0,622,68,12],[704,378,47,9],[110,513,24,14],[1054,427,125,23],[1965,395,71,89],[704,389,77,90],[336,372,82,89],[1679,363,87,90],[158,369,87,90],[247,372,87,87],[1118,154,53,66],[574,439,46,21],[1862,612,44,21],[1515,435,73,80],[644,467,42,80],[933,256,55,21],[1281,615,41,21],[688,481,38,80],[908,377,91,80],[1590,435,73,80],[728,481,38,80],[1930,486,38,80],[1265,371,95,80],[70,622,21,34],[605,56,53,34],[1062,338,109,80],[847,531,64,32],[1970,486,38,80],[1281,580,22,32],[1519,301,78,132],[0,307,77,132],[1599,301,78,132],[1705,228,78,133],[462,305,78,132],[1785,305,77,133],[79,307,77,132],[542,305,78,132],[516,118,351,26],[259,56,344,30],[0,0,719,26],[663,286,450,26],[375,182,431,31],[721,0,682,26],[1001,377,51,67],[420,439,67,87],[790,256,141,26],[516,154,544,26],[259,88,118,1],[0,28,665,26],[1541,177,36,38],[259,92,660,24],[1062,314,52,21],[583,610,47,21],[1885,635,21,22],[408,493,8,29],[1442,529,35,36],[982,534,16,21],[1947,622,24,29],[374,637,23,22],[2020,619,26,29],[1646,625,24,29],[790,215,15,37],[1050,637,23,22],[707,621,27,28],[1305,525,27,33],[100,611,28,34],[879,632,25,24],[431,632,28,24],[847,498,19,24],[1334,453,24,39],[1267,261,27,31],[2038,383,10,33],[408,463,9,28],[463,528,24,22],[1075,637,23,22],[1908,622,37,22],[1281,638,23,22],[544,500,25,22],[1820,623,37,22],[2031,279,12,14],[1688,582,8,29],[1859,635,24,22],[494,609,17,21],[1421,639,23,22],[1688,613,27,33],[251,611,32,28],[1115,614,27,33],[1625,630,19,24],[461,632,28,24],[906,632,25,24],[1768,399,10,33],[1825,497,27,31],[379,596,24,39],[54,636,8,29],[0,636,24,22],[1446,639,23,22],[687,642,17,21],[285,613,32,28],[1762,606,30,34],[622,314,153,62],[933,632,25,24],[1144,614,27,33],[1212,625,28,25],[847,471,19,25],[1472,617,27,31],[1768,363,10,34],[1794,606,24,39],[1306,638,8,29],[1173,625,37,22],[513,640,23,22],[855,632,22,28],[908,314,152,61],[491,632,20,33],[960,632,25,24],[1324,615,26,33],[1999,641,19,24],[826,632,27,24],[2038,418,10,33],[632,621,27,31],[130,611,24,39],[1178,144,119,115],[100,588,89,21],[444,609,48,21],[1791,64,120,128],[1196,480,52,59],[548,579,33,59],[1246,580,33,59],[1405,0,152,113],[1713,0,76,226],[1559,0,152,113],[762,629,33,21],[1062,593,51,21],[1062,616,45,19],[661,621,44,19],[913,534,67,19],[1501,625,42,19],[220,590,66,19],[1862,591,59,19],[538,640,26,19],[1352,628,41,19],[768,532,75,19],[1115,593,54,19],[1388,586,38,40],[1000,480,38,84],[2010,486,35,84],[1701,527,29,84],[1733,497,35,84],[1864,305,40,84],[1040,480,38,84],[599,524,33,84],[251,641,24,20],[2018,297,30,84],[2035,106,13,27],[1672,648,20,20],[1389,506,23,20],[1251,427,8,11],[1242,641,24,20],[1545,641,24,20],[513,555,27,20],[2031,254,17,23],[797,629,27,25],[583,579,12,25],[1395,628,24,29],[1428,617,42,20],[26,636,26,20],[1571,641,23,20],[1768,440,86,55],[1907,297,109,96],[1299,177,119,115],[993,182,123,102],[1907,194,122,101],[0,120,125,111],[127,120,125,111],[1579,115,128,110],[136,441,18,17],[1062,574,18,17],[1171,593,18,17],[325,649,18,17],[868,389,37,56],[1607,572,37,56],[832,574,37,56],[871,574,37,56],[910,574,37,56],[949,574,37,56],[988,574,37,56],[1442,572,58,43],[1825,530,53,51],[156,611,31,30],[1646,582,40,41],[1173,338,90,87],[1913,64,120,128],[574,467,68,55],[2031,194,15,58],[1062,154,50,24],[516,146,14,6],[288,590,55,21],[319,613,24,34],[1118,222,57,30],[2035,64,10,40],[768,481,13,24],[1930,464,32,17],[1733,455,29,36],[246,233,6,28],[2038,453,10,28],[2031,572,17,23],[532,146,10,4],[987,632,32,17],[1299,144,19,26],[1250,480,13,25],[544,146,10,4],[220,611,29,32],[921,92,255,60],[1791,0,257,62],[667,28,257,62],[1322,115,255,60],[926,28,257,62],[0,56,257,62],[1820,583,40,38],[259,118,255,60],[869,118,48,32],[2018,383,10,10],[1181,427,68,24],[1973,641,24,20],[2035,135,13,27],[1501,646,23,20],[1694,648,20,20],[583,633,27,20],[1665,435,8,11],[661,642,24,20],[1745,642,24,20],[444,583,17,23],[405,629,24,29],[1428,586,12,25],[345,630,27,25],[1552,619,42,20],[1908,646,23,20],[1717,636,26,20],[1118,261,147,75],[375,215,150,81],[1267,294,147,75],[315,298,145,72],[159,297,154,70],[808,182,183,72],[0,233,157,72],[1420,177,119,115],[1541,227,162,72],[254,180,119,115],[2035,164,13,27],[156,643,24,20],[303,649,20,20],[93,647,23,20],[1251,440,8,11],[1021,635,27,20],[277,643,24,20],[217,645,24,20],[612,633,17,23],[736,629,24,29],[1229,591,12,25],[189,637,26,20],[1976,619,42,20],[1771,647,23,20],[1596,630,27,25],[1856,464,72,64],[663,215,125,64],[1080,480,56,56],[777,314,129,73],[1138,480,56,56],[1791,194,114,109],[379,88,19,2],[1322,28,80,80],[936,459,62,73],[400,88,19,2],[1100,649,23,13],[110,533,50,53],[162,533,50,53],[214,533,50,53],[266,535,50,53],[318,535,50,53],[1864,395,99,67],[643,305,13,7],[1414,401,99,67],[622,305,19,7],[0,441,66,70],[68,441,66,70],[1266,453,66,70],[1665,455,66,70],[868,459,66,70],[136,461,66,70],[527,215,134,88],[204,461,66,70],[1088,538,50,53],[913,555,47,7],[1362,371,50,133],[272,463,66,70],[1481,470,32,32],[340,463,66,70],[345,596,32,32],[1001,453,263,25],[1185,28,135,114]]}
+		{name:"new tootestl_atlas_12", frames: [[338,1637,148,148],[1107,591,137,141],[954,176,557,145],[1591,591,256,213],[1498,1378,410,107],[1402,1105,223,271],[302,1036,245,374],[338,1412,195,223],[1591,806,207,252],[0,398,774,460],[1742,397,259,192],[0,2004,725,26],[976,1903,715,31],[976,1870,716,31],[976,1842,865,26],[622,1936,872,25],[976,1776,705,64],[622,1963,670,31],[1294,1963,682,30],[1294,1995,742,26],[1199,1741,759,31],[1199,1608,559,71],[1199,1681,482,58],[1498,1487,523,61],[1627,1177,367,66],[1091,1105,309,209],[1498,1550,427,56],[0,1412,336,229],[0,1643,336,229],[776,591,329,236],[753,1036,336,229],[1627,1060,345,115],[0,1036,300,340],[1513,176,397,132],[954,323,939,72],[1252,591,337,512],[0,860,1250,174],[1849,591,148,148],[954,0,916,174],[0,0,952,396],[776,398,964,191],[1760,1608,167,125],[1872,0,146,160],[1800,806,160,220],[338,1838,282,164],[1910,1245,135,141],[549,1036,100,800],[1843,1774,168,117],[1052,1316,221,228],[753,1476,221,228],[1275,1378,221,228],[753,1267,297,207],[976,1546,221,228],[651,1036,100,800],[753,1706,221,228]]},
+		{name:"new tootestl_atlas_13", frames: [[1679,301,22,58],[1191,591,36,32],[744,574,44,53],[622,378,80,87],[1414,470,65,57],[1125,649,21,14],[420,372,40,53],[1732,583,28,51],[420,427,33,9],[1541,217,33,7],[634,566,452,6],[783,389,83,80],[1770,497,53,53],[405,583,37,44],[634,549,33,13],[1770,552,48,52],[463,555,48,52],[1305,561,48,52],[0,568,48,52],[489,500,53,53],[50,568,48,52],[1926,568,48,52],[1334,506,53,53],[0,513,53,53],[55,513,53,53],[1481,517,53,53],[1536,517,53,53],[1552,572,53,45],[1976,572,53,45],[634,574,53,45],[689,574,53,45],[1140,538,49,53],[1502,572,48,51],[1591,517,53,53],[1389,529,51,55],[1191,541,53,48],[1416,294,101,105],[1796,647,20,20],[544,524,53,53],[1250,525,53,53],[768,553,51,8],[1646,527,53,53],[1818,647,20,20],[408,528,53,53],[191,588,27,47],[783,471,62,59],[790,574,40,53],[370,535,33,59],[489,439,83,59],[1027,574,33,59],[1880,530,44,59],[513,579,33,59],[159,233,85,59],[1355,561,31,59],[0,622,68,12],[110,513,24,14],[1054,427,125,23],[704,378,47,9],[336,372,82,89],[704,389,77,90],[1965,395,71,89],[1679,363,87,90],[1118,154,53,66],[158,369,87,90],[247,372,87,87],[574,439,46,21],[1862,612,44,21],[1515,435,73,80],[933,256,55,21],[644,467,42,80],[1281,615,41,21],[908,377,91,80],[688,481,38,80],[1590,435,73,80],[728,481,38,80],[1930,486,38,80],[1265,371,95,80],[70,622,21,34],[605,56,53,34],[1062,338,109,80],[847,531,64,32],[1970,486,38,80],[1281,580,22,32],[0,307,77,132],[1519,301,78,132],[1599,301,78,132],[1705,228,78,133],[462,305,78,132],[1785,305,77,133],[79,307,77,132],[516,118,351,26],[542,305,78,132],[259,56,344,30],[0,0,719,26],[663,286,450,26],[375,182,431,31],[721,0,682,26],[420,439,67,87],[1001,377,51,67],[790,256,141,26],[516,154,544,26],[259,88,118,1],[0,28,665,26],[1541,177,36,38],[259,92,660,24],[1062,314,52,21],[583,610,47,21],[1442,529,35,36],[1885,635,21,22],[408,493,8,29],[1947,622,24,29],[982,534,16,21],[374,637,23,22],[2020,619,26,29],[790,215,15,37],[1050,637,23,22],[1646,625,24,29],[707,621,27,28],[1305,525,27,33],[879,632,25,24],[431,632,28,24],[847,498,19,24],[100,611,28,34],[2038,383,10,33],[463,528,24,22],[1267,261,27,31],[1334,453,24,39],[408,463,9,28],[1908,622,37,22],[1075,637,23,22],[1281,638,23,22],[1820,623,37,22],[2031,279,12,14],[544,500,25,22],[1859,635,24,22],[1688,582,8,29],[1421,639,23,22],[251,611,32,28],[494,609,17,21],[1688,613,27,33],[906,632,25,24],[461,632,28,24],[1115,614,27,33],[1625,630,19,24],[1768,399,10,33],[1825,497,27,31],[687,642,17,21],[379,596,24,39],[0,636,24,22],[54,636,8,29],[1446,639,23,22],[285,613,32,28],[1762,606,30,34],[622,314,153,62],[933,632,25,24],[1144,614,27,33],[847,471,19,25],[1212,625,28,25],[1768,363,10,34],[1794,606,24,39],[1472,617,27,31],[1306,638,8,29],[1173,625,37,22],[513,640,23,22],[855,632,22,28],[908,314,152,61],[491,632,20,33],[1324,615,26,33],[826,632,27,24],[960,632,25,24],[1999,641,19,24],[2038,418,10,33],[632,621,27,31],[130,611,24,39],[1178,144,119,115],[100,588,89,21],[444,609,48,21],[1791,64,120,128],[1196,480,52,59],[548,579,33,59],[1246,580,33,59],[1405,0,152,113],[1713,0,76,226],[762,629,33,21],[1062,593,51,21],[1559,0,152,113],[1062,616,45,19],[661,621,44,19],[913,534,67,19],[1501,625,42,19],[220,590,66,19],[1862,591,59,19],[1352,628,41,19],[538,640,26,19],[768,532,75,19],[1115,593,54,19],[1388,586,38,40],[2010,486,35,84],[1000,480,38,84],[1701,527,29,84],[1864,305,40,84],[1040,480,38,84],[1733,497,35,84],[251,641,24,20],[599,524,33,84],[2018,297,30,84],[1389,506,23,20],[1672,648,20,20],[2035,106,13,27],[513,555,27,20],[1251,427,8,11],[1242,641,24,20],[1545,641,24,20],[2031,254,17,23],[1395,628,24,29],[797,629,27,25],[583,579,12,25],[1428,617,42,20],[26,636,26,20],[1571,641,23,20],[1768,440,86,55],[1907,297,109,96],[1299,177,119,115],[1907,194,122,101],[993,182,123,102],[0,120,125,111],[127,120,125,111],[136,441,18,17],[1579,115,128,110],[1062,574,18,17],[1171,593,18,17],[325,649,18,17],[868,389,37,56],[1607,572,37,56],[832,574,37,56],[871,574,37,56],[910,574,37,56],[949,574,37,56],[988,574,37,56],[1442,572,58,43],[1825,530,53,51],[156,611,31,30],[1646,582,40,41],[1173,338,90,87],[1913,64,120,128],[574,467,68,55],[2031,194,15,58],[1062,154,50,24],[516,146,14,6],[288,590,55,21],[319,613,24,34],[1118,222,57,30],[2035,64,10,40],[768,481,13,24],[1930,464,32,17],[246,233,6,28],[1733,455,29,36],[2038,453,10,28],[2031,572,17,23],[532,146,10,4],[987,632,32,17],[1299,144,19,26],[1250,480,13,25],[544,146,10,4],[220,611,29,32],[921,92,255,60],[1791,0,257,62],[667,28,257,62],[1322,115,255,60],[926,28,257,62],[0,56,257,62],[1820,583,40,38],[259,118,255,60],[869,118,48,32],[2018,383,10,10],[1181,427,68,24],[1973,641,24,20],[2035,135,13,27],[1501,646,23,20],[1694,648,20,20],[583,633,27,20],[1665,435,8,11],[661,642,24,20],[1745,642,24,20],[444,583,17,23],[405,629,24,29],[1428,586,12,25],[345,630,27,25],[1552,619,42,20],[1717,636,26,20],[1908,646,23,20],[1118,261,147,75],[1267,294,147,75],[375,215,150,81],[315,298,145,72],[159,297,154,70],[808,182,183,72],[1541,227,162,72],[0,233,157,72],[1420,177,119,115],[254,180,119,115],[156,643,24,20],[2035,164,13,27],[303,649,20,20],[93,647,23,20],[1251,440,8,11],[1021,635,27,20],[277,643,24,20],[217,645,24,20],[612,633,17,23],[736,629,24,29],[1229,591,12,25],[1596,630,27,25],[1976,619,42,20],[189,637,26,20],[1771,647,23,20],[1856,464,72,64],[663,215,125,64],[777,314,129,73],[1080,480,56,56],[1138,480,56,56],[1791,194,114,109],[379,88,19,2],[1100,649,23,13],[400,88,19,2],[936,459,62,73],[110,533,50,53],[162,533,50,53],[214,533,50,53],[266,535,50,53],[622,305,19,7],[913,555,47,7],[1864,395,99,67],[318,535,50,53],[527,215,134,88],[1088,538,50,53],[1185,28,135,114],[0,441,66,70],[1322,28,80,80],[643,305,13,7],[68,441,66,70],[1266,453,66,70],[1665,455,66,70],[868,459,66,70],[136,461,66,70],[1362,371,50,133],[204,461,66,70],[1481,470,32,32],[345,596,32,32],[1001,453,263,25],[272,463,66,70],[1414,401,99,67],[340,463,66,70]]}
 ];
 
 
@@ -149,42 +149,42 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedBmp_2226 = function() {
+(lib.CachedBmp_2224 = function() {
 	this.initialize(ss["new tootestl_atlas_13"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_2230 = function() {
+(lib.CachedBmp_2229 = function() {
 	this.initialize(ss["new tootestl_atlas_13"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_2227 = function() {
+(lib.CachedBmp_2226 = function() {
 	this.initialize(ss["new tootestl_atlas_13"]);
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_2224 = function() {
+(lib.CachedBmp_2227 = function() {
 	this.initialize(ss["new tootestl_atlas_13"]);
 	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_2229 = function() {
+(lib.CachedBmp_2228 = function() {
 	this.initialize(ss["new tootestl_atlas_13"]);
 	this.gotoAndStop(4);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_2228 = function() {
+(lib.CachedBmp_2230 = function() {
 	this.initialize(ss["new tootestl_atlas_13"]);
 	this.gotoAndStop(5);
 }).prototype = p = new cjs.Sprite();
@@ -198,28 +198,28 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedBmp_2223 = function() {
+(lib.CachedBmp_2219 = function() {
 	this.initialize(ss["new tootestl_atlas_13"]);
 	this.gotoAndStop(7);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_2222 = function() {
+(lib.CachedBmp_2217 = function() {
 	this.initialize(ss["new tootestl_atlas_13"]);
 	this.gotoAndStop(8);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_2219 = function() {
+(lib.CachedBmp_2218 = function() {
 	this.initialize(ss["new tootestl_atlas_13"]);
 	this.gotoAndStop(9);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_2220 = function() {
+(lib.CachedBmp_2223 = function() {
 	this.initialize(ss["new tootestl_atlas_13"]);
 	this.gotoAndStop(10);
 }).prototype = p = new cjs.Sprite();
@@ -233,21 +233,21 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedBmp_2218 = function() {
+(lib.CachedBmp_2222 = function() {
 	this.initialize(ss["new tootestl_atlas_13"]);
 	this.gotoAndStop(12);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_2216 = function() {
+(lib.CachedBmp_2220 = function() {
 	this.initialize(ss["new tootestl_atlas_13"]);
 	this.gotoAndStop(13);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_2217 = function() {
+(lib.CachedBmp_2216 = function() {
 	this.initialize(ss["new tootestl_atlas_13"]);
 	this.gotoAndStop(14);
 }).prototype = p = new cjs.Sprite();
@@ -268,14 +268,14 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedBmp_2212 = function() {
+(lib.CachedBmp_2213 = function() {
 	this.initialize(ss["new tootestl_atlas_13"]);
 	this.gotoAndStop(17);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_2211 = function() {
+(lib.CachedBmp_2212 = function() {
 	this.initialize(ss["new tootestl_atlas_13"]);
 	this.gotoAndStop(18);
 }).prototype = p = new cjs.Sprite();
@@ -289,14 +289,14 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedBmp_2213 = function() {
+(lib.CachedBmp_2211 = function() {
 	this.initialize(ss["new tootestl_atlas_13"]);
 	this.gotoAndStop(20);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_2206 = function() {
+(lib.CachedBmp_2210 = function() {
 	this.initialize(ss["new tootestl_atlas_13"]);
 	this.gotoAndStop(21);
 }).prototype = p = new cjs.Sprite();
@@ -310,112 +310,112 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedBmp_2210 = function() {
+(lib.CachedBmp_2204 = function() {
 	this.initialize(ss["new tootestl_atlas_13"]);
 	this.gotoAndStop(23);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_2204 = function() {
+(lib.CachedBmp_2203 = function() {
 	this.initialize(ss["new tootestl_atlas_13"]);
 	this.gotoAndStop(24);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_2209 = function() {
+(lib.CachedBmp_2206 = function() {
 	this.initialize(ss["new tootestl_atlas_13"]);
 	this.gotoAndStop(25);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_2198 = function() {
+(lib.CachedBmp_2202 = function() {
 	this.initialize(ss["new tootestl_atlas_13"]);
 	this.gotoAndStop(26);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_2203 = function() {
+(lib.CachedBmp_2197 = function() {
 	this.initialize(ss["new tootestl_atlas_13"]);
 	this.gotoAndStop(27);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_2202 = function() {
+(lib.CachedBmp_2198 = function() {
 	this.initialize(ss["new tootestl_atlas_13"]);
 	this.gotoAndStop(28);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_2200 = function() {
+(lib.CachedBmp_2196 = function() {
 	this.initialize(ss["new tootestl_atlas_13"]);
 	this.gotoAndStop(29);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_2197 = function() {
+(lib.CachedBmp_2200 = function() {
 	this.initialize(ss["new tootestl_atlas_13"]);
 	this.gotoAndStop(30);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_2196 = function() {
+(lib.CachedBmp_2194 = function() {
 	this.initialize(ss["new tootestl_atlas_13"]);
 	this.gotoAndStop(31);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_2194 = function() {
+(lib.CachedBmp_2190 = function() {
 	this.initialize(ss["new tootestl_atlas_13"]);
 	this.gotoAndStop(32);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_2190 = function() {
+(lib.CachedBmp_2209 = function() {
 	this.initialize(ss["new tootestl_atlas_13"]);
 	this.gotoAndStop(33);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_2187 = function() {
+(lib.CachedBmp_2191 = function() {
 	this.initialize(ss["new tootestl_atlas_13"]);
 	this.gotoAndStop(34);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_2189 = function() {
+(lib.CachedBmp_2188 = function() {
 	this.initialize(ss["new tootestl_atlas_13"]);
 	this.gotoAndStop(35);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_2191 = function() {
+(lib.CachedBmp_2189 = function() {
 	this.initialize(ss["new tootestl_atlas_13"]);
 	this.gotoAndStop(36);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_2188 = function() {
+(lib.CachedBmp_2184 = function() {
 	this.initialize(ss["new tootestl_atlas_13"]);
 	this.gotoAndStop(37);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_2184 = function() {
+(lib.CachedBmp_2187 = function() {
 	this.initialize(ss["new tootestl_atlas_13"]);
 	this.gotoAndStop(38);
 }).prototype = p = new cjs.Sprite();
@@ -429,27 +429,6 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedBmp_2185 = function() {
-	this.initialize(ss["new tootestl_atlas_13"]);
-	this.gotoAndStop(40);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_2179 = function() {
-	this.initialize(ss["new tootestl_atlas_13"]);
-	this.gotoAndStop(41);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_2182 = function() {
-	this.initialize(ss["new tootestl_atlas_13"]);
-	this.gotoAndStop(42);
-}).prototype = p = new cjs.Sprite();
-
-
-
 (lib.CachedBmp_2183 = function() {
 	this.initialize(ss["new tootestl_atlas_12"]);
 	this.gotoAndStop(0);
@@ -457,16 +436,51 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedBmp_2176 = function() {
+(lib.CachedBmp_2182 = function() {
 	this.initialize(ss["new tootestl_atlas_13"]);
-	this.gotoAndStop(43);
+	this.gotoAndStop(40);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_2185 = function() {
+	this.initialize(ss["new tootestl_atlas_13"]);
+	this.gotoAndStop(41);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_2179 = function() {
+	this.initialize(ss["new tootestl_atlas_13"]);
+	this.gotoAndStop(42);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_2177 = function() {
 	this.initialize(ss["new tootestl_atlas_13"]);
+	this.gotoAndStop(43);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_2173 = function() {
+	this.initialize(ss["new tootestl_atlas_13"]);
 	this.gotoAndStop(44);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_2171 = function() {
+	this.initialize(ss["new tootestl_atlas_13"]);
+	this.gotoAndStop(45);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_2176 = function() {
+	this.initialize(ss["new tootestl_atlas_13"]);
+	this.gotoAndStop(46);
 }).prototype = p = new cjs.Sprite();
 
 
@@ -478,16 +492,9 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedBmp_2173 = function() {
-	this.initialize(ss["new tootestl_atlas_13"]);
-	this.gotoAndStop(45);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_2171 = function() {
-	this.initialize(ss["new tootestl_atlas_13"]);
-	this.gotoAndStop(46);
+(lib.CachedBmp_2178 = function() {
+	this.initialize(ss["new tootestl_atlas_12"]);
+	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
@@ -499,21 +506,14 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedBmp_2178 = function() {
-	this.initialize(ss["new tootestl_atlas_12"]);
-	this.gotoAndStop(2);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_2167 = function() {
+(lib.CachedBmp_2168 = function() {
 	this.initialize(ss["new tootestl_atlas_13"]);
 	this.gotoAndStop(48);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_2168 = function() {
+(lib.CachedBmp_2167 = function() {
 	this.initialize(ss["new tootestl_atlas_13"]);
 	this.gotoAndStop(49);
 }).prototype = p = new cjs.Sprite();
@@ -555,28 +555,28 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedBmp_2159 = function() {
+(lib.CachedBmp_2160 = function() {
 	this.initialize(ss["new tootestl_atlas_13"]);
 	this.gotoAndStop(55);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_2160 = function() {
+(lib.CachedBmp_2158 = function() {
 	this.initialize(ss["new tootestl_atlas_13"]);
 	this.gotoAndStop(56);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_2158 = function() {
+(lib.CachedBmp_2159 = function() {
 	this.initialize(ss["new tootestl_atlas_13"]);
 	this.gotoAndStop(57);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_2154 = function() {
+(lib.CachedBmp_2156 = function() {
 	this.initialize(ss["new tootestl_atlas_13"]);
 	this.gotoAndStop(58);
 }).prototype = p = new cjs.Sprite();
@@ -590,7 +590,7 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedBmp_2156 = function() {
+(lib.CachedBmp_2154 = function() {
 	this.initialize(ss["new tootestl_atlas_13"]);
 	this.gotoAndStop(60);
 }).prototype = p = new cjs.Sprite();
@@ -604,21 +604,21 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedBmp_2152 = function() {
+(lib.CachedBmp_2150 = function() {
 	this.initialize(ss["new tootestl_atlas_13"]);
 	this.gotoAndStop(62);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_2151 = function() {
+(lib.CachedBmp_2152 = function() {
 	this.initialize(ss["new tootestl_atlas_13"]);
 	this.gotoAndStop(63);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_2150 = function() {
+(lib.CachedBmp_2151 = function() {
 	this.initialize(ss["new tootestl_atlas_13"]);
 	this.gotoAndStop(64);
 }).prototype = p = new cjs.Sprite();
@@ -632,14 +632,14 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedBmp_2169 = function() {
+(lib.CachedBmp_2149 = function() {
 	this.initialize(ss["new tootestl_atlas_12"]);
 	this.gotoAndStop(4);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_2149 = function() {
+(lib.CachedBmp_2169 = function() {
 	this.initialize(ss["new tootestl_atlas_12"]);
 	this.gotoAndStop(5);
 }).prototype = p = new cjs.Sprite();
@@ -660,13 +660,6 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedBmp_2133 = function() {
-	this.initialize(ss["new tootestl_atlas_13"]);
-	this.gotoAndStop(67);
-}).prototype = p = new cjs.Sprite();
-
-
-
 (lib.CachedBmp_2157 = function() {
 	this.initialize(ss["new tootestl_atlas_12"]);
 	this.gotoAndStop(6);
@@ -674,14 +667,21 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedBmp_2132 = function() {
+(lib.CachedBmp_2133 = function() {
+	this.initialize(ss["new tootestl_atlas_13"]);
+	this.gotoAndStop(67);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_2130 = function() {
 	this.initialize(ss["new tootestl_atlas_13"]);
 	this.gotoAndStop(68);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_2130 = function() {
+(lib.CachedBmp_2132 = function() {
 	this.initialize(ss["new tootestl_atlas_13"]);
 	this.gotoAndStop(69);
 }).prototype = p = new cjs.Sprite();
@@ -695,14 +695,14 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedBmp_2127 = function() {
+(lib.CachedBmp_2128 = function() {
 	this.initialize(ss["new tootestl_atlas_13"]);
 	this.gotoAndStop(71);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_2128 = function() {
+(lib.CachedBmp_2127 = function() {
 	this.initialize(ss["new tootestl_atlas_13"]);
 	this.gotoAndStop(72);
 }).prototype = p = new cjs.Sprite();
@@ -723,14 +723,14 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedBmp_2136 = function() {
+(lib.CachedBmp_2126 = function() {
 	this.initialize(ss["new tootestl_atlas_12"]);
 	this.gotoAndStop(7);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_2126 = function() {
+(lib.CachedBmp_2131 = function() {
 	this.initialize(ss["new tootestl_atlas_12"]);
 	this.gotoAndStop(8);
 }).prototype = p = new cjs.Sprite();
@@ -744,16 +744,16 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedBmp_2131 = function() {
-	this.initialize(ss["new tootestl_atlas_12"]);
-	this.gotoAndStop(9);
+(lib.CachedBmp_2121 = function() {
+	this.initialize(ss["new tootestl_atlas_13"]);
+	this.gotoAndStop(76);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_2121 = function() {
-	this.initialize(ss["new tootestl_atlas_13"]);
-	this.gotoAndStop(76);
+(lib.CachedBmp_2136 = function() {
+	this.initialize(ss["new tootestl_atlas_12"]);
+	this.gotoAndStop(9);
 }).prototype = p = new cjs.Sprite();
 
 
@@ -807,14 +807,14 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedBmp_2114 = function() {
+(lib.CachedBmp_2112 = function() {
 	this.initialize(ss["new tootestl_atlas_13"]);
 	this.gotoAndStop(83);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_2112 = function() {
+(lib.CachedBmp_2114 = function() {
 	this.initialize(ss["new tootestl_atlas_13"]);
 	this.gotoAndStop(84);
 }).prototype = p = new cjs.Sprite();
@@ -856,14 +856,14 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedBmp_2108 = function() {
+(lib.CachedBmp_2106 = function() {
 	this.initialize(ss["new tootestl_atlas_13"]);
 	this.gotoAndStop(90);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_2106 = function() {
+(lib.CachedBmp_2108 = function() {
 	this.initialize(ss["new tootestl_atlas_13"]);
 	this.gotoAndStop(91);
 }).prototype = p = new cjs.Sprite();
@@ -912,23 +912,9 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedBmp_2098 = function() {
-	this.initialize(ss["new tootestl_atlas_12"]);
-	this.gotoAndStop(14);
-}).prototype = p = new cjs.Sprite();
-
-
-
 (lib.CachedBmp_2099 = function() {
 	this.initialize(ss["new tootestl_atlas_13"]);
 	this.gotoAndStop(95);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_2097 = function() {
-	this.initialize(ss["new tootestl_atlas_12"]);
-	this.gotoAndStop(15);
 }).prototype = p = new cjs.Sprite();
 
 
@@ -940,16 +926,37 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedBmp_2094 = function() {
-	this.initialize(ss["new tootestl_atlas_13"]);
-	this.gotoAndStop(97);
+(lib.CachedBmp_2098 = function() {
+	this.initialize(ss["new tootestl_atlas_12"]);
+	this.gotoAndStop(14);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_2097 = function() {
+	this.initialize(ss["new tootestl_atlas_12"]);
+	this.gotoAndStop(15);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_2095 = function() {
 	this.initialize(ss["new tootestl_atlas_13"]);
+	this.gotoAndStop(97);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_2094 = function() {
+	this.initialize(ss["new tootestl_atlas_13"]);
 	this.gotoAndStop(98);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_2145 = function() {
+	this.initialize(ss["new tootestl_atlas_11"]);
+	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
@@ -1003,13 +1010,6 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedBmp_2087 = function() {
-	this.initialize(ss["new tootestl_atlas_12"]);
-	this.gotoAndStop(20);
-}).prototype = p = new cjs.Sprite();
-
-
-
 (lib.CachedBmp_2085 = function() {
 	this.initialize(ss["new tootestl_atlas_13"]);
 	this.gotoAndStop(102);
@@ -1017,9 +1017,9 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedBmp_2145 = function() {
-	this.initialize(ss["new tootestl_atlas_11"]);
-	this.gotoAndStop(0);
+(lib.CachedBmp_2087 = function() {
+	this.initialize(ss["new tootestl_atlas_12"]);
+	this.gotoAndStop(20);
 }).prototype = p = new cjs.Sprite();
 
 
@@ -1052,9 +1052,9 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedBmp_2078 = function() {
-	this.initialize(ss["new tootestl_atlas_13"]);
-	this.gotoAndStop(106);
+(lib.CachedBmp_2137 = function() {
+	this.initialize(ss["new tootestl_atlas_10"]);
+	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
@@ -1066,16 +1066,44 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedBmp_2054 = function() {
+(lib.CachedBmp_2078 = function() {
+	this.initialize(ss["new tootestl_atlas_13"]);
+	this.gotoAndStop(106);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_2055 = function() {
 	this.initialize(ss["new tootestl_atlas_13"]);
 	this.gotoAndStop(107);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_2053 = function() {
+(lib.CachedBmp_2054 = function() {
 	this.initialize(ss["new tootestl_atlas_13"]);
 	this.gotoAndStop(108);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_2053 = function() {
+	this.initialize(ss["new tootestl_atlas_13"]);
+	this.gotoAndStop(109);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_2051 = function() {
+	this.initialize(ss["new tootestl_atlas_13"]);
+	this.gotoAndStop(110);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_2052 = function() {
+	this.initialize(ss["new tootestl_atlas_13"]);
+	this.gotoAndStop(111);
 }).prototype = p = new cjs.Sprite();
 
 
@@ -1083,27 +1111,6 @@ lib.ssMetadata = [
 (lib.CachedBmp_2056 = function() {
 	this.initialize(ss["new tootestl_atlas_12"]);
 	this.gotoAndStop(23);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_2055 = function() {
-	this.initialize(ss["new tootestl_atlas_13"]);
-	this.gotoAndStop(109);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_2052 = function() {
-	this.initialize(ss["new tootestl_atlas_13"]);
-	this.gotoAndStop(110);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_2051 = function() {
-	this.initialize(ss["new tootestl_atlas_13"]);
-	this.gotoAndStop(111);
 }).prototype = p = new cjs.Sprite();
 
 
@@ -1122,21 +1129,21 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedBmp_2045 = function() {
+(lib.CachedBmp_2047 = function() {
 	this.initialize(ss["new tootestl_atlas_13"]);
 	this.gotoAndStop(114);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_2047 = function() {
+(lib.CachedBmp_2044 = function() {
 	this.initialize(ss["new tootestl_atlas_13"]);
 	this.gotoAndStop(115);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_2044 = function() {
+(lib.CachedBmp_2045 = function() {
 	this.initialize(ss["new tootestl_atlas_13"]);
 	this.gotoAndStop(116);
 }).prototype = p = new cjs.Sprite();
@@ -1150,9 +1157,9 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedBmp_2137 = function() {
-	this.initialize(ss["new tootestl_atlas_10"]);
-	this.gotoAndStop(0);
+(lib.CachedBmp_2042 = function() {
+	this.initialize(ss["new tootestl_atlas_12"]);
+	this.gotoAndStop(24);
 }).prototype = p = new cjs.Sprite();
 
 
@@ -1164,84 +1171,77 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedBmp_2041 = function() {
+(lib.CachedBmp_2040 = function() {
 	this.initialize(ss["new tootestl_atlas_13"]);
 	this.gotoAndStop(119);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_2042 = function() {
-	this.initialize(ss["new tootestl_atlas_12"]);
-	this.gotoAndStop(24);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_2040 = function() {
+(lib.CachedBmp_2038 = function() {
 	this.initialize(ss["new tootestl_atlas_13"]);
 	this.gotoAndStop(120);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_2038 = function() {
+(lib.CachedBmp_2037 = function() {
 	this.initialize(ss["new tootestl_atlas_13"]);
 	this.gotoAndStop(121);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_2037 = function() {
+(lib.CachedBmp_2041 = function() {
 	this.initialize(ss["new tootestl_atlas_13"]);
 	this.gotoAndStop(122);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_2034 = function() {
+(lib.CachedBmp_2036 = function() {
 	this.initialize(ss["new tootestl_atlas_13"]);
 	this.gotoAndStop(123);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_2035 = function() {
+(lib.CachedBmp_2031 = function() {
 	this.initialize(ss["new tootestl_atlas_13"]);
 	this.gotoAndStop(124);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_2036 = function() {
+(lib.CachedBmp_2035 = function() {
 	this.initialize(ss["new tootestl_atlas_13"]);
 	this.gotoAndStop(125);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_2032 = function() {
+(lib.CachedBmp_2034 = function() {
 	this.initialize(ss["new tootestl_atlas_13"]);
 	this.gotoAndStop(126);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_2031 = function() {
+(lib.CachedBmp_2032 = function() {
 	this.initialize(ss["new tootestl_atlas_13"]);
 	this.gotoAndStop(127);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_2028 = function() {
+(lib.CachedBmp_2049 = function() {
 	this.initialize(ss["new tootestl_atlas_13"]);
 	this.gotoAndStop(128);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_2049 = function() {
+(lib.CachedBmp_2028 = function() {
 	this.initialize(ss["new tootestl_atlas_13"]);
 	this.gotoAndStop(129);
 }).prototype = p = new cjs.Sprite();
@@ -1255,91 +1255,91 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedBmp_2026 = function() {
+(lib.CachedBmp_2025 = function() {
 	this.initialize(ss["new tootestl_atlas_13"]);
 	this.gotoAndStop(131);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_2025 = function() {
+(lib.CachedBmp_2024 = function() {
 	this.initialize(ss["new tootestl_atlas_13"]);
 	this.gotoAndStop(132);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_2024 = function() {
+(lib.CachedBmp_2026 = function() {
 	this.initialize(ss["new tootestl_atlas_13"]);
 	this.gotoAndStop(133);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_2030 = function() {
+(lib.CachedBmp_2023 = function() {
 	this.initialize(ss["new tootestl_atlas_13"]);
 	this.gotoAndStop(134);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_2023 = function() {
+(lib.CachedBmp_2030 = function() {
 	this.initialize(ss["new tootestl_atlas_13"]);
 	this.gotoAndStop(135);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_2021 = function() {
+(lib.CachedBmp_2020 = function() {
 	this.initialize(ss["new tootestl_atlas_13"]);
 	this.gotoAndStop(136);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_2020 = function() {
+(lib.CachedBmp_2019 = function() {
 	this.initialize(ss["new tootestl_atlas_13"]);
 	this.gotoAndStop(137);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_2017 = function() {
+(lib.CachedBmp_2021 = function() {
 	this.initialize(ss["new tootestl_atlas_13"]);
 	this.gotoAndStop(138);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_2019 = function() {
+(lib.CachedBmp_2017 = function() {
 	this.initialize(ss["new tootestl_atlas_13"]);
 	this.gotoAndStop(139);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_2015 = function() {
+(lib.CachedBmp_2016 = function() {
 	this.initialize(ss["new tootestl_atlas_13"]);
 	this.gotoAndStop(140);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_2013 = function() {
+(lib.CachedBmp_2014 = function() {
 	this.initialize(ss["new tootestl_atlas_13"]);
 	this.gotoAndStop(141);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_2014 = function() {
+(lib.CachedBmp_2015 = function() {
 	this.initialize(ss["new tootestl_atlas_13"]);
 	this.gotoAndStop(142);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_2016 = function() {
+(lib.CachedBmp_2013 = function() {
 	this.initialize(ss["new tootestl_atlas_13"]);
 	this.gotoAndStop(143);
 }).prototype = p = new cjs.Sprite();
@@ -1367,14 +1367,14 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedBmp_2010 = function() {
+(lib.CachedBmp_2006 = function() {
 	this.initialize(ss["new tootestl_atlas_13"]);
 	this.gotoAndStop(146);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_2007 = function() {
+(lib.CachedBmp_2010 = function() {
 	this.initialize(ss["new tootestl_atlas_13"]);
 	this.gotoAndStop(147);
 }).prototype = p = new cjs.Sprite();
@@ -1388,14 +1388,14 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedBmp_2005 = function() {
+(lib.CachedBmp_2007 = function() {
 	this.initialize(ss["new tootestl_atlas_13"]);
 	this.gotoAndStop(149);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_2006 = function() {
+(lib.CachedBmp_2005 = function() {
 	this.initialize(ss["new tootestl_atlas_13"]);
 	this.gotoAndStop(150);
 }).prototype = p = new cjs.Sprite();
@@ -1437,35 +1437,35 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedBmp_1999 = function() {
+(lib.CachedBmp_1998 = function() {
 	this.initialize(ss["new tootestl_atlas_13"]);
 	this.gotoAndStop(156);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_1998 = function() {
+(lib.CachedBmp_1999 = function() {
 	this.initialize(ss["new tootestl_atlas_13"]);
 	this.gotoAndStop(157);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_1996 = function() {
+(lib.CachedBmp_1997 = function() {
 	this.initialize(ss["new tootestl_atlas_13"]);
 	this.gotoAndStop(158);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_1997 = function() {
+(lib.CachedBmp_1995 = function() {
 	this.initialize(ss["new tootestl_atlas_13"]);
 	this.gotoAndStop(159);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_1995 = function() {
+(lib.CachedBmp_1996 = function() {
 	this.initialize(ss["new tootestl_atlas_13"]);
 	this.gotoAndStop(160);
 }).prototype = p = new cjs.Sprite();
@@ -1514,28 +1514,28 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedBmp_1987 = function() {
+(lib.CachedBmp_1986 = function() {
 	this.initialize(ss["new tootestl_atlas_13"]);
 	this.gotoAndStop(167);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_1986 = function() {
+(lib.CachedBmp_1985 = function() {
 	this.initialize(ss["new tootestl_atlas_13"]);
 	this.gotoAndStop(168);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_1984 = function() {
+(lib.CachedBmp_1987 = function() {
 	this.initialize(ss["new tootestl_atlas_13"]);
 	this.gotoAndStop(169);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_1985 = function() {
+(lib.CachedBmp_1984 = function() {
 	this.initialize(ss["new tootestl_atlas_13"]);
 	this.gotoAndStop(170);
 }).prototype = p = new cjs.Sprite();
@@ -1633,21 +1633,21 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedBmp_1965 = function() {
+(lib.CachedBmp_1964 = function() {
 	this.initialize(ss["new tootestl_atlas_13"]);
 	this.gotoAndStop(183);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_1964 = function() {
+(lib.CachedBmp_1963 = function() {
 	this.initialize(ss["new tootestl_atlas_13"]);
 	this.gotoAndStop(184);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_1963 = function() {
+(lib.CachedBmp_1965 = function() {
 	this.initialize(ss["new tootestl_atlas_13"]);
 	this.gotoAndStop(185);
 }).prototype = p = new cjs.Sprite();
@@ -1689,6 +1689,13 @@ lib.ssMetadata = [
 
 
 
+(lib.CachedBmp_2033 = function() {
+	this.initialize(ss["new tootestl_atlas_9"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
 (lib.CachedBmp_1979 = function() {
 	this.initialize(ss["new tootestl_atlas_11"]);
 	this.gotoAndStop(1);
@@ -1703,14 +1710,14 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedBmp_1953 = function() {
+(lib.CachedBmp_1954 = function() {
 	this.initialize(ss["new tootestl_atlas_13"]);
 	this.gotoAndStop(192);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_1954 = function() {
+(lib.CachedBmp_1953 = function() {
 	this.initialize(ss["new tootestl_atlas_13"]);
 	this.gotoAndStop(193);
 }).prototype = p = new cjs.Sprite();
@@ -1720,13 +1727,6 @@ lib.ssMetadata = [
 (lib.CachedBmp_1952 = function() {
 	this.initialize(ss["new tootestl_atlas_13"]);
 	this.gotoAndStop(194);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_2033 = function() {
-	this.initialize(ss["new tootestl_atlas_9"]);
-	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
@@ -1745,23 +1745,23 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedBmp_1946 = function() {
-	this.initialize(ss["new tootestl_atlas_13"]);
-	this.gotoAndStop(197);
+(lib.CachedBmp_1950 = function() {
+	this.initialize(ss["new tootestl_atlas_12"]);
+	this.gotoAndStop(26);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_1945 = function() {
 	this.initialize(ss["new tootestl_atlas_13"]);
-	this.gotoAndStop(198);
+	this.gotoAndStop(197);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_1950 = function() {
-	this.initialize(ss["new tootestl_atlas_12"]);
-	this.gotoAndStop(26);
+(lib.CachedBmp_1946 = function() {
+	this.initialize(ss["new tootestl_atlas_13"]);
+	this.gotoAndStop(198);
 }).prototype = p = new cjs.Sprite();
 
 
@@ -1773,35 +1773,35 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedBmp_1941 = function() {
+(lib.CachedBmp_1942 = function() {
 	this.initialize(ss["new tootestl_atlas_13"]);
 	this.gotoAndStop(200);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_1942 = function() {
+(lib.CachedBmp_1943 = function() {
 	this.initialize(ss["new tootestl_atlas_13"]);
 	this.gotoAndStop(201);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_1943 = function() {
+(lib.CachedBmp_1941 = function() {
 	this.initialize(ss["new tootestl_atlas_13"]);
 	this.gotoAndStop(202);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_1940 = function() {
+(lib.CachedBmp_2075 = function() {
 	this.initialize(ss["new tootestl_atlas_13"]);
 	this.gotoAndStop(203);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_2075 = function() {
+(lib.CachedBmp_1940 = function() {
 	this.initialize(ss["new tootestl_atlas_13"]);
 	this.gotoAndStop(204);
 }).prototype = p = new cjs.Sprite();
@@ -1815,7 +1815,7 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedBmp_2073 = function() {
+(lib.CachedBmp_2074 = function() {
 	this.initialize(ss["new tootestl_atlas_13"]);
 	this.gotoAndStop(206);
 }).prototype = p = new cjs.Sprite();
@@ -1829,42 +1829,35 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedBmp_2074 = function() {
+(lib.CachedBmp_2073 = function() {
 	this.initialize(ss["new tootestl_atlas_13"]);
 	this.gotoAndStop(208);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_2009 = function() {
-	this.initialize(ss["new tootestl_atlas_8"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_2067 = function() {
+(lib.CachedBmp_2069 = function() {
 	this.initialize(ss["new tootestl_atlas_13"]);
 	this.gotoAndStop(209);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_2070 = function() {
+(lib.CachedBmp_2067 = function() {
 	this.initialize(ss["new tootestl_atlas_13"]);
 	this.gotoAndStop(210);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_2065 = function() {
+(lib.CachedBmp_2070 = function() {
 	this.initialize(ss["new tootestl_atlas_13"]);
 	this.gotoAndStop(211);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_2069 = function() {
+(lib.CachedBmp_2065 = function() {
 	this.initialize(ss["new tootestl_atlas_13"]);
 	this.gotoAndStop(212);
 }).prototype = p = new cjs.Sprite();
@@ -1878,21 +1871,28 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedBmp_2060 = function() {
+(lib.CachedBmp_2062 = function() {
 	this.initialize(ss["new tootestl_atlas_13"]);
 	this.gotoAndStop(214);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_2066 = function() {
+(lib.CachedBmp_2009 = function() {
+	this.initialize(ss["new tootestl_atlas_8"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_2060 = function() {
 	this.initialize(ss["new tootestl_atlas_13"]);
 	this.gotoAndStop(215);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_2062 = function() {
+(lib.CachedBmp_2066 = function() {
 	this.initialize(ss["new tootestl_atlas_13"]);
 	this.gotoAndStop(216);
 }).prototype = p = new cjs.Sprite();
@@ -1920,20 +1920,6 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedBmp_1994 = function() {
-	this.initialize(ss["new tootestl_atlas_8"]);
-	this.gotoAndStop(1);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_1893 = function() {
-	this.initialize(ss["new tootestl_atlas_13"]);
-	this.gotoAndStop(220);
-}).prototype = p = new cjs.Sprite();
-
-
-
 (lib.CachedBmp_1900 = function() {
 	this.initialize(ss["new tootestl_atlas_12"]);
 	this.gotoAndStop(27);
@@ -1948,9 +1934,30 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedBmp_1898 = function() {
+(lib.CachedBmp_1893 = function() {
+	this.initialize(ss["new tootestl_atlas_13"]);
+	this.gotoAndStop(220);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_1994 = function() {
+	this.initialize(ss["new tootestl_atlas_8"]);
+	this.gotoAndStop(1);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_1894 = function() {
 	this.initialize(ss["new tootestl_atlas_12"]);
 	this.gotoAndStop(29);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_1898 = function() {
+	this.initialize(ss["new tootestl_atlas_12"]);
+	this.gotoAndStop(30);
 }).prototype = p = new cjs.Sprite();
 
 
@@ -1962,30 +1969,9 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedBmp_1894 = function() {
-	this.initialize(ss["new tootestl_atlas_12"]);
-	this.gotoAndStop(30);
-}).prototype = p = new cjs.Sprite();
-
-
-
 (lib.CachedBmp_1891 = function() {
 	this.initialize(ss["new tootestl_atlas_13"]);
 	this.gotoAndStop(222);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_1980 = function() {
-	this.initialize(ss["new tootestl_atlas_9"]);
-	this.gotoAndStop(1);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_1867 = function() {
-	this.initialize(ss["new tootestl_atlas_13"]);
-	this.gotoAndStop(223);
 }).prototype = p = new cjs.Sprite();
 
 
@@ -1997,35 +1983,49 @@ lib.ssMetadata = [
 
 
 
+(lib.CachedBmp_1980 = function() {
+	this.initialize(ss["new tootestl_atlas_9"]);
+	this.gotoAndStop(1);
+}).prototype = p = new cjs.Sprite();
+
+
+
 (lib.CachedBmp_1868 = function() {
+	this.initialize(ss["new tootestl_atlas_13"]);
+	this.gotoAndStop(223);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_1867 = function() {
 	this.initialize(ss["new tootestl_atlas_13"]);
 	this.gotoAndStop(224);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_1866 = function() {
+(lib.CachedBmp_1865 = function() {
 	this.initialize(ss["new tootestl_atlas_13"]);
 	this.gotoAndStop(225);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_1865 = function() {
+(lib.CachedBmp_1866 = function() {
 	this.initialize(ss["new tootestl_atlas_13"]);
 	this.gotoAndStop(226);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_1864 = function() {
+(lib.CachedBmp_1862 = function() {
 	this.initialize(ss["new tootestl_atlas_13"]);
 	this.gotoAndStop(227);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_1862 = function() {
+(lib.CachedBmp_1864 = function() {
 	this.initialize(ss["new tootestl_atlas_13"]);
 	this.gotoAndStop(228);
 }).prototype = p = new cjs.Sprite();
@@ -2053,14 +2053,14 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedBmp_1855 = function() {
+(lib.CachedBmp_1856 = function() {
 	this.initialize(ss["new tootestl_atlas_13"]);
 	this.gotoAndStop(232);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_1856 = function() {
+(lib.CachedBmp_1855 = function() {
 	this.initialize(ss["new tootestl_atlas_13"]);
 	this.gotoAndStop(233);
 }).prototype = p = new cjs.Sprite();
@@ -2095,13 +2095,6 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedBmp_1870 = function() {
-	this.initialize(ss["new tootestl_atlas_12"]);
-	this.gotoAndStop(32);
-}).prototype = p = new cjs.Sprite();
-
-
-
 (lib.CachedBmp_1858 = function() {
 	this.initialize(ss["new tootestl_atlas_13"]);
 	this.gotoAndStop(238);
@@ -2112,6 +2105,13 @@ lib.ssMetadata = [
 (lib.CachedBmp_1849 = function() {
 	this.initialize(ss["new tootestl_atlas_13"]);
 	this.gotoAndStop(239);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_1870 = function() {
+	this.initialize(ss["new tootestl_atlas_12"]);
+	this.gotoAndStop(32);
 }).prototype = p = new cjs.Sprite();
 
 
@@ -2133,13 +2133,6 @@ lib.ssMetadata = [
 (lib.CachedBmp_1844 = function() {
 	this.initialize(ss["new tootestl_atlas_13"]);
 	this.gotoAndStop(242);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_1948 = function() {
-	this.initialize(ss["new tootestl_atlas_5"]);
-	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
@@ -2193,6 +2186,13 @@ lib.ssMetadata = [
 
 
 
+(lib.CachedBmp_1948 = function() {
+	this.initialize(ss["new tootestl_atlas_5"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
 (lib.CachedBmp_1835 = function() {
 	this.initialize(ss["new tootestl_atlas_13"]);
 	this.gotoAndStop(250);
@@ -2228,14 +2228,14 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedBmp_1880 = function() {
+(lib.CachedBmp_1879 = function() {
 	this.initialize(ss["new tootestl_atlas_13"]);
 	this.gotoAndStop(255);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_1879 = function() {
+(lib.CachedBmp_1880 = function() {
 	this.initialize(ss["new tootestl_atlas_13"]);
 	this.gotoAndStop(256);
 }).prototype = p = new cjs.Sprite();
@@ -2277,16 +2277,16 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedBmp_1869 = function() {
-	this.initialize(ss["new tootestl_atlas_10"]);
-	this.gotoAndStop(1);
+(lib.CachedBmp_1873 = function() {
+	this.initialize(ss["new tootestl_atlas_13"]);
+	this.gotoAndStop(262);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_1873 = function() {
-	this.initialize(ss["new tootestl_atlas_13"]);
-	this.gotoAndStop(262);
+(lib.CachedBmp_1869 = function() {
+	this.initialize(ss["new tootestl_atlas_10"]);
+	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
@@ -2301,6 +2301,13 @@ lib.ssMetadata = [
 (lib.CachedBmp_1871 = function() {
 	this.initialize(ss["new tootestl_atlas_13"]);
 	this.gotoAndStop(264);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_1847 = function() {
+	this.initialize(ss["new tootestl_atlas_11"]);
+	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
@@ -2329,13 +2336,6 @@ lib.ssMetadata = [
 (lib.CachedBmp_1811 = function() {
 	this.initialize(ss["new tootestl_atlas_13"]);
 	this.gotoAndStop(268);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_1847 = function() {
-	this.initialize(ss["new tootestl_atlas_11"]);
-	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
@@ -2438,13 +2438,6 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedBmp_1885 = function() {
-	this.initialize(ss["new tootestl_atlas_5"]);
-	this.gotoAndStop(1);
-}).prototype = p = new cjs.Sprite();
-
-
-
 (lib.CachedBmp_2255 = function() {
 	this.initialize(ss["new tootestl_atlas_13"]);
 	this.gotoAndStop(283);
@@ -2473,6 +2466,13 @@ lib.ssMetadata = [
 
 
 
+(lib.CachedBmp_1885 = function() {
+	this.initialize(ss["new tootestl_atlas_5"]);
+	this.gotoAndStop(1);
+}).prototype = p = new cjs.Sprite();
+
+
+
 (lib.CachedBmp_2245 = function() {
 	this.initialize(ss["new tootestl_atlas_13"]);
 	this.gotoAndStop(287);
@@ -2487,14 +2487,14 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedBmp_2242 = function() {
+(lib.CachedBmp_2243 = function() {
 	this.initialize(ss["new tootestl_atlas_13"]);
 	this.gotoAndStop(289);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_2243 = function() {
+(lib.CachedBmp_2242 = function() {
 	this.initialize(ss["new tootestl_atlas_13"]);
 	this.gotoAndStop(290);
 }).prototype = p = new cjs.Sprite();
@@ -2508,13 +2508,6 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedBmp_2240 = function() {
-	this.initialize(ss["new tootestl_atlas_13"]);
-	this.gotoAndStop(292);
-}).prototype = p = new cjs.Sprite();
-
-
-
 (lib.CachedBmp_1795 = function() {
 	this.initialize(ss["new tootestl_atlas_12"]);
 	this.gotoAndStop(33);
@@ -2522,30 +2515,16 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedBmp_1840 = function() {
-	this.initialize(ss["new tootestl_atlas_10"]);
-	this.gotoAndStop(2);
-}).prototype = p = new cjs.Sprite();
-
-
-
 (lib.CachedBmp_2239 = function() {
 	this.initialize(ss["new tootestl_atlas_13"]);
+	this.gotoAndStop(292);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_2240 = function() {
+	this.initialize(ss["new tootestl_atlas_13"]);
 	this.gotoAndStop(293);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_2238 = function() {
-	this.initialize(ss["new tootestl_atlas_13"]);
-	this.gotoAndStop(294);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_2237 = function() {
-	this.initialize(ss["new tootestl_atlas_13"]);
-	this.gotoAndStop(295);
 }).prototype = p = new cjs.Sprite();
 
 
@@ -2564,6 +2543,27 @@ lib.ssMetadata = [
 
 
 
+(lib.CachedBmp_1840 = function() {
+	this.initialize(ss["new tootestl_atlas_10"]);
+	this.gotoAndStop(2);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_2238 = function() {
+	this.initialize(ss["new tootestl_atlas_13"]);
+	this.gotoAndStop(294);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_2237 = function() {
+	this.initialize(ss["new tootestl_atlas_13"]);
+	this.gotoAndStop(295);
+}).prototype = p = new cjs.Sprite();
+
+
+
 (lib.CachedBmp_2236 = function() {
 	this.initialize(ss["new tootestl_atlas_13"]);
 	this.gotoAndStop(296);
@@ -2571,21 +2571,21 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedBmp_2235 = function() {
+(lib.CachedBmp_2234 = function() {
 	this.initialize(ss["new tootestl_atlas_13"]);
 	this.gotoAndStop(297);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_2233 = function() {
+(lib.CachedBmp_2235 = function() {
 	this.initialize(ss["new tootestl_atlas_13"]);
 	this.gotoAndStop(298);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_2234 = function() {
+(lib.CachedBmp_2233 = function() {
 	this.initialize(ss["new tootestl_atlas_13"]);
 	this.gotoAndStop(299);
 }).prototype = p = new cjs.Sprite();
@@ -2599,23 +2599,23 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedBmp_2231 = function() {
-	this.initialize(ss["new tootestl_atlas_12"]);
-	this.gotoAndStop(34);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_2340 = function() {
+(lib.CachedBmp_2342 = function() {
 	this.initialize(ss["new tootestl_atlas_13"]);
 	this.gotoAndStop(301);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_2342 = function() {
+(lib.CachedBmp_2340 = function() {
 	this.initialize(ss["new tootestl_atlas_13"]);
 	this.gotoAndStop(302);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_2231 = function() {
+	this.initialize(ss["new tootestl_atlas_12"]);
+	this.gotoAndStop(34);
 }).prototype = p = new cjs.Sprite();
 
 
@@ -2662,16 +2662,16 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedBmp_2330 = function() {
-	this.initialize(ss["new tootestl_atlas_13"]);
-	this.gotoAndStop(309);
+(lib.CachedBmp_2343 = function() {
+	this.initialize(ss["new tootestl_atlas_12"]);
+	this.gotoAndStop(35);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_2343 = function() {
-	this.initialize(ss["new tootestl_atlas_12"]);
-	this.gotoAndStop(35);
+(lib.CachedBmp_2330 = function() {
+	this.initialize(ss["new tootestl_atlas_13"]);
+	this.gotoAndStop(309);
 }).prototype = p = new cjs.Sprite();
 
 
@@ -2683,13 +2683,6 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedBmp_1863 = function() {
-	this.initialize(ss["new tootestl_atlas_4"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
 (lib.CachedBmp_2333 = function() {
 	this.initialize(ss["new tootestl_atlas_13"]);
 	this.gotoAndStop(311);
@@ -2697,7 +2690,7 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedBmp_2325 = function() {
+(lib.CachedBmp_2327 = function() {
 	this.initialize(ss["new tootestl_atlas_13"]);
 	this.gotoAndStop(312);
 }).prototype = p = new cjs.Sprite();
@@ -2711,14 +2704,21 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedBmp_2324 = function() {
+(lib.CachedBmp_1863 = function() {
+	this.initialize(ss["new tootestl_atlas_4"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_2325 = function() {
 	this.initialize(ss["new tootestl_atlas_13"]);
 	this.gotoAndStop(314);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_2327 = function() {
+(lib.CachedBmp_2324 = function() {
 	this.initialize(ss["new tootestl_atlas_13"]);
 	this.gotoAndStop(315);
 }).prototype = p = new cjs.Sprite();
@@ -2739,14 +2739,14 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedBmp_2319 = function() {
+(lib.CachedBmp_2320 = function() {
 	this.initialize(ss["new tootestl_atlas_13"]);
 	this.gotoAndStop(318);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_2320 = function() {
+(lib.CachedBmp_2319 = function() {
 	this.initialize(ss["new tootestl_atlas_13"]);
 	this.gotoAndStop(319);
 }).prototype = p = new cjs.Sprite();
@@ -2756,13 +2756,6 @@ lib.ssMetadata = [
 (lib.CachedBmp_2232 = function() {
 	this.initialize(ss["new tootestl_atlas_12"]);
 	this.gotoAndStop(36);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_2345 = function() {
-	this.initialize(ss["new tootestl_atlas_11"]);
-	this.gotoAndStop(5);
 }).prototype = p = new cjs.Sprite();
 
 
@@ -2788,16 +2781,16 @@ lib.ssMetadata = [
 
 
 
-(lib._2 = function() {
+(lib._16 = function() {
 	this.initialize(ss["new tootestl_atlas_12"]);
 	this.gotoAndStop(38);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Path = function() {
-	this.initialize(ss["new tootestl_atlas_13"]);
-	this.gotoAndStop(322);
+(lib._3 = function() {
+	this.initialize(ss["new tootestl_atlas_12"]);
+	this.gotoAndStop(39);
 }).prototype = p = new cjs.Sprite();
 
 
@@ -2808,58 +2801,58 @@ lib.ssMetadata = [
 p.nominalBounds = new cjs.Rectangle(0,0,2480,1754);
 
 
-(lib.Bitmap15 = function() {
-	this.initialize(ss["new tootestl_atlas_6"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.Bitmap18 = function() {
-	this.initialize(ss["new tootestl_atlas_6"]);
-	this.gotoAndStop(1);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_1794 = function() {
-	this.initialize(ss["new tootestl_atlas_12"]);
-	this.gotoAndStop(39);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.Bitmap20 = function() {
-	this.initialize(ss["new tootestl_atlas_7"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.Bitmap26 = function() {
-	this.initialize(ss["new tootestl_atlas_2"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.Asset51001 = function() {
-	this.initialize(ss["new tootestl_atlas_13"]);
-	this.gotoAndStop(323);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_1793 = function() {
+(lib._2 = function() {
 	this.initialize(ss["new tootestl_atlas_12"]);
 	this.gotoAndStop(40);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Bitmap301 = function() {
+(lib.Path_1 = function() {
+	this.initialize(ss["new tootestl_atlas_13"]);
+	this.gotoAndStop(322);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.Group = function() {
+	this.initialize(ss["new tootestl_atlas_13"]);
+	this.gotoAndStop(323);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.Bitmap18 = function() {
+	this.initialize(ss["new tootestl_atlas_6"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.Bitmap19 = function() {
+	this.initialize(ss["new tootestl_atlas_4"]);
+	this.gotoAndStop(1);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.Path = function() {
 	this.initialize(ss["new tootestl_atlas_13"]);
 	this.gotoAndStop(324);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.Bitmap15 = function() {
+	this.initialize(ss["new tootestl_atlas_6"]);
+	this.gotoAndStop(1);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.Bitmap301 = function() {
+	this.initialize(ss["new tootestl_atlas_13"]);
+	this.gotoAndStop(325);
 }).prototype = p = new cjs.Sprite();
 
 
@@ -2870,37 +2863,44 @@ p.nominalBounds = new cjs.Rectangle(0,0,2480,1754);
 p.nominalBounds = new cjs.Rectangle(0,0,3333,2083);
 
 
-(lib.image418 = function() {
+(lib.Bitmap26 = function() {
+	this.initialize(ss["new tootestl_atlas_2"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.image419 = function() {
 	this.initialize(ss["new tootestl_atlas_12"]);
 	this.gotoAndStop(41);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Path_1 = function() {
-	this.initialize(ss["new tootestl_atlas_13"]);
-	this.gotoAndStop(325);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.Group = function() {
+(lib.image420 = function() {
 	this.initialize(ss["new tootestl_atlas_13"]);
 	this.gotoAndStop(326);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.image422 = function() {
+(lib.image421 = function() {
 	this.initialize(ss["new tootestl_atlas_13"]);
 	this.gotoAndStop(327);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.image423 = function() {
+(lib.image422 = function() {
 	this.initialize(ss["new tootestl_atlas_13"]);
 	this.gotoAndStop(328);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.image418 = function() {
+	this.initialize(ss["new tootestl_atlas_12"]);
+	this.gotoAndStop(42);
 }).prototype = p = new cjs.Sprite();
 
 
@@ -2912,44 +2912,23 @@ p.nominalBounds = new cjs.Rectangle(0,0,3333,2083);
 
 
 
-(lib._3 = function() {
-	this.initialize(ss["new tootestl_atlas_12"]);
-	this.gotoAndStop(42);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.image421 = function() {
-	this.initialize(ss["new tootestl_atlas_13"]);
-	this.gotoAndStop(330);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.image419 = function() {
+(lib.image426 = function() {
 	this.initialize(ss["new tootestl_atlas_12"]);
 	this.gotoAndStop(43);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.image425 = function() {
+(lib.image427 = function() {
+	this.initialize(ss["new tootestl_atlas_13"]);
+	this.gotoAndStop(330);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.image431 = function() {
 	this.initialize(ss["new tootestl_atlas_13"]);
 	this.gotoAndStop(331);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_1789 = function() {
-	this.initialize(ss["new tootestl_atlas_12"]);
-	this.gotoAndStop(44);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib._16 = function() {
-	this.initialize(ss["new tootestl_atlas_12"]);
-	this.gotoAndStop(45);
 }).prototype = p = new cjs.Sprite();
 
 
@@ -2961,91 +2940,105 @@ p.nominalBounds = new cjs.Rectangle(0,0,3333,2083);
 
 
 
-(lib.image429 = function() {
+(lib.image423 = function() {
 	this.initialize(ss["new tootestl_atlas_13"]);
 	this.gotoAndStop(333);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.image559 = function() {
-	this.initialize(ss["new tootestl_atlas_12"]);
-	this.gotoAndStop(46);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.image453 = function() {
+(lib.image558 = function() {
 	this.initialize(ss["new tootestl_atlas_13"]);
 	this.gotoAndStop(334);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.image426 = function() {
-	this.initialize(ss["new tootestl_atlas_12"]);
-	this.gotoAndStop(47);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.image427 = function() {
+(lib.image425 = function() {
 	this.initialize(ss["new tootestl_atlas_13"]);
 	this.gotoAndStop(335);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.image578 = function() {
+(lib.CachedBmp_2345 = function() {
+	this.initialize(ss["new tootestl_atlas_11"]);
+	this.gotoAndStop(5);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.image563 = function() {
 	this.initialize(ss["new tootestl_atlas_13"]);
 	this.gotoAndStop(336);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.image575 = function() {
+(lib.CachedBmp_1789 = function() {
 	this.initialize(ss["new tootestl_atlas_12"]);
-	this.gotoAndStop(48);
+	this.gotoAndStop(44);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.image577 = function() {
+(lib.image575 = function() {
+	this.initialize(ss["new tootestl_atlas_12"]);
+	this.gotoAndStop(45);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_1793 = function() {
+	this.initialize(ss["new tootestl_atlas_12"]);
+	this.gotoAndStop(46);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.image578 = function() {
 	this.initialize(ss["new tootestl_atlas_13"]);
 	this.gotoAndStop(337);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.image581 = function() {
+(lib.Asset51001 = function() {
 	this.initialize(ss["new tootestl_atlas_13"]);
 	this.gotoAndStop(338);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.image579 = function() {
+(lib.image429 = function() {
 	this.initialize(ss["new tootestl_atlas_13"]);
 	this.gotoAndStop(339);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.image580 = function() {
+(lib.image581 = function() {
 	this.initialize(ss["new tootestl_atlas_13"]);
 	this.gotoAndStop(340);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.image584 = function() {
+(lib.image559 = function() {
+	this.initialize(ss["new tootestl_atlas_12"]);
+	this.gotoAndStop(47);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.image577 = function() {
 	this.initialize(ss["new tootestl_atlas_13"]);
 	this.gotoAndStop(341);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.image558 = function() {
+(lib.image584 = function() {
 	this.initialize(ss["new tootestl_atlas_13"]);
 	this.gotoAndStop(342);
 }).prototype = p = new cjs.Sprite();
@@ -3059,51 +3052,58 @@ p.nominalBounds = new cjs.Rectangle(0,0,3333,2083);
 
 
 
-(lib.images1 = function() {
-	this.initialize(ss["new tootestl_atlas_12"]);
-	this.gotoAndStop(49);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.image420 = function() {
+(lib.image580 = function() {
 	this.initialize(ss["new tootestl_atlas_13"]);
 	this.gotoAndStop(344);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.images1_1 = function() {
+(lib.images1 = function() {
 	this.initialize(ss["new tootestl_atlas_12"]);
-	this.gotoAndStop(50);
+	this.gotoAndStop(48);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.images1_2 = function() {
+(lib.images1_1 = function() {
 	this.initialize(ss["new tootestl_atlas_12"]);
-	this.gotoAndStop(51);
+	this.gotoAndStop(49);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.image452 = function() {
+	this.initialize(ss["new tootestl_atlas_13"]);
+	this.gotoAndStop(345);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.images1pngcopy = function() {
 	this.initialize(ss["new tootestl_atlas_12"]);
-	this.gotoAndStop(52);
+	this.gotoAndStop(50);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.images1_3 = function() {
-	this.initialize(ss["new tootestl_atlas_12"]);
-	this.gotoAndStop(53);
+(lib.image579 = function() {
+	this.initialize(ss["new tootestl_atlas_13"]);
+	this.gotoAndStop(346);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.whitrglossyrectanglebuttonmd = function() {
-	this.initialize(ss["new tootestl_atlas_12"]);
-	this.gotoAndStop(54);
+(lib.TextInputcopy = function() {
+	this.initialize(ss["new tootestl_atlas_13"]);
+	this.gotoAndStop(347);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.TextInput = function() {
+	this.initialize(ss["new tootestl_atlas_13"]);
+	this.gotoAndStop(348);
 }).prototype = p = new cjs.Sprite();
 
 
@@ -3114,65 +3114,65 @@ p.nominalBounds = new cjs.Rectangle(0,0,3333,2083);
 p.nominalBounds = new cjs.Rectangle(0,0,4961,3508);
 
 
-(lib.image431 = function() {
-	this.initialize(ss["new tootestl_atlas_13"]);
-	this.gotoAndStop(345);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.image452 = function() {
-	this.initialize(ss["new tootestl_atlas_13"]);
-	this.gotoAndStop(346);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.image583 = function() {
-	this.initialize(ss["new tootestl_atlas_13"]);
-	this.gotoAndStop(347);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.TextInputcopy = function() {
-	this.initialize(ss["new tootestl_atlas_13"]);
-	this.gotoAndStop(348);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.image582 = function() {
+(lib.sfrechfqf = function() {
 	this.initialize(ss["new tootestl_atlas_13"]);
 	this.gotoAndStop(349);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.TextInput = function() {
+(lib.image583 = function() {
 	this.initialize(ss["new tootestl_atlas_13"]);
 	this.gotoAndStop(350);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Bitmap19 = function() {
-	this.initialize(ss["new tootestl_atlas_4"]);
-	this.gotoAndStop(1);
+(lib.whitrglossyrectanglebuttonmd = function() {
+	this.initialize(ss["new tootestl_atlas_12"]);
+	this.gotoAndStop(51);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.sfrechfqf = function() {
+(lib.images1_2 = function() {
+	this.initialize(ss["new tootestl_atlas_12"]);
+	this.gotoAndStop(52);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.image453 = function() {
 	this.initialize(ss["new tootestl_atlas_13"]);
 	this.gotoAndStop(351);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.image563 = function() {
+(lib.CachedBmp_1794 = function() {
+	this.initialize(ss["new tootestl_atlas_12"]);
+	this.gotoAndStop(53);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.Bitmap20 = function() {
+	this.initialize(ss["new tootestl_atlas_7"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.image582 = function() {
 	this.initialize(ss["new tootestl_atlas_13"]);
 	this.gotoAndStop(352);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.images1_3 = function() {
+	this.initialize(ss["new tootestl_atlas_12"]);
+	this.gotoAndStop(54);
 }).prototype = p = new cjs.Sprite();
 
 
@@ -9430,11 +9430,10 @@ p.nominalBounds = new cjs.Rectangle(-29.5,-28.4,59.5,57.5);
 			e.currentTarget.kadrzoom.alpha = 0;
 			var pt = that.localToGlobal(e.currentTarget.x, e.currentTarget.y);
 		
-			diffX = that.parent.regX - e.currentTarget.x * 0.27 + 27 - (e.currentTarget.getTransformedBounds().width * 0.27) / 2;
-			diffY = that.parent.regY - e.currentTarget.y * 0.25 + 25 - (2 * (4 - Math.log(1 + e.currentTarget.y))) - (e.currentTarget.getTransformedBounds().height * 0.28) / 2;
-			//diffX = e.currentTarget.x*0.27 + e.currentTarget.getTransformedBounds().width *0.27/ 2;
-			//diffY = e.currentTarget.y*0.25 + e.currentTarget.getTransformedBounds().height *0.25/ 2;
+			var pt = that.localToGlobal(e.currentTarget.x + (e.currentTarget.getTransformedBounds().width) / 2,
+				e.currentTarget.y + (e.currentTarget.getTransformedBounds().height) / 2);
 		
+			var contRegxy = that.parent.globalToLocal(pt.x, pt.y);
 		
 		
 		
@@ -9444,22 +9443,12 @@ p.nominalBounds = new cjs.Rectangle(-29.5,-28.4,59.5,57.5);
 			console.log("e.currentTarget.getBounds().width " + e.currentTarget.getBounds().width);
 		
 		
-			console.log("pt.x " + pt.x);
-		
-			console.log("that.parent.x  " + that.parent.x);
-			console.log("that.parent.y" + that.parent.y);
-		
-		
-		
-			console.log("before scal pt.x  " + pt.x);
-		
-		
+			
 			that.isclicked = true;
 		
 		
-		
-			that.parent.regX -= diffX - 50;
-			that.parent.regY -= diffY - 35;
+		    that.parent.regX = contRegxy.x;
+			that.parent.regY = contRegxy.y;
 		
 			that.parent.stopDrag();
 		
@@ -9940,7 +9929,7 @@ p.nominalBounds = new cjs.Rectangle(-29.5,-28.4,59.5,57.5);
 	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(3));
 
 	// Layer_2
-	this.instance = new lib.images1_2();
+	this.instance = new lib.images1_3();
 	this.instance.setTransform(-21,-15,0.2095,0.1814);
 
 	this.instance_1 = new lib.CachedBmp_2233();
@@ -9969,7 +9958,7 @@ p.nominalBounds = new cjs.Rectangle(-29.5,-28.4,59.5,57.5);
 	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(3));
 
 	// Layer_2
-	this.instance = new lib.images1_3();
+	this.instance = new lib.images1_2();
 	this.instance.setTransform(-30,8,0.2095,0.1814);
 
 	this.instance_1 = new lib.akmilcopy_1();
@@ -9998,7 +9987,7 @@ p.nominalBounds = new cjs.Rectangle(-35.1,8,85.6,41.4);
 	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(3));
 
 	// Layer_2
-	this.instance_3 = new lib.images1_3();
+	this.instance_3 = new lib.images1_2();
 	this.instance_3.setTransform(-30,8,0.2095,0.1814);
 
 	this.instance_4 = new lib.akmilcopy_3();
@@ -10658,6 +10647,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.30000000000001,102.1);
 		
 		createjs.Touch.enable(stage, true, true);
 		
+		
 		window.Modernizr = {touch: true,};
 		
 		var isTouch = true;
@@ -10935,7 +10925,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.30000000000001,102.1);
 		
 		
 		
-			bmp.cache(0, 0, image.width, image.height);
+			//bmp.cache(0, 0, image.width, image.height);
 		
 			if (firstwidth == 0) {
 		
@@ -15379,32 +15369,32 @@ lib.properties = {
 	color: "#DBDBDB",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/_30.jpg?1632145774060", id:"_30"},
-		{src:"images/boook.jpg?1632145774060", id:"boook"},
-		{src:"images/PHOTO.png?1632145774060", id:"PHOTO"},
-		{src:"images/new tootestl_atlas_1.png?1632145773738", id:"new tootestl_atlas_1"},
-		{src:"images/new tootestl_atlas_2.png?1632145773738", id:"new tootestl_atlas_2"},
-		{src:"images/new tootestl_atlas_3.png?1632145773738", id:"new tootestl_atlas_3"},
-		{src:"images/new tootestl_atlas_4.png?1632145773739", id:"new tootestl_atlas_4"},
-		{src:"images/new tootestl_atlas_5.png?1632145773739", id:"new tootestl_atlas_5"},
-		{src:"images/new tootestl_atlas_6.png?1632145773739", id:"new tootestl_atlas_6"},
-		{src:"images/new tootestl_atlas_7.png?1632145773739", id:"new tootestl_atlas_7"},
-		{src:"images/new tootestl_atlas_8.png?1632145773739", id:"new tootestl_atlas_8"},
-		{src:"images/new tootestl_atlas_9.png?1632145773740", id:"new tootestl_atlas_9"},
-		{src:"images/new tootestl_atlas_10.png?1632145773740", id:"new tootestl_atlas_10"},
-		{src:"images/new tootestl_atlas_11.png?1632145773740", id:"new tootestl_atlas_11"},
-		{src:"images/new tootestl_atlas_12.png?1632145773741", id:"new tootestl_atlas_12"},
-		{src:"images/new tootestl_atlas_13.png?1632145773747", id:"new tootestl_atlas_13"},
-		{src:"sounds/_12wav.mp3?1632145774060", id:"_12wav"},
-		{src:"sounds/_32wav.mp3?1632145774060", id:"_32wav"},
-		{src:"sounds/_42wav.mp3?1632145774060", id:"_42wav"},
-		{src:"sounds/_5JEFRAPPELESSYLLABESP17wav.mp3?1632145774060", id:"_5JEFRAPPELESSYLLABESP17wav"},
-		{src:"sounds/_22wav.mp3?1632145774060", id:"_22wav"},
-		{src:"sounds/_52wav.mp3?1632145774060", id:"_52wav"},
-		{src:"https://code.jquery.com/jquery-3.4.1.min.js?1632145774060", id:"lib/jquery-3.4.1.min.js"},
-		{src:"components/sdk/anwidget.js?1632145774060", id:"sdk/anwidget.js"},
-		{src:"components/ui/src/textinput.js?1632145774060", id:"an.TextInput"},
-		{src:"components/ui/src/textinput.js?1632145774060", id:"an.TextInput"}
+		{src:"images/_30.jpg?1632162572036", id:"_30"},
+		{src:"images/boook.jpg?1632162572036", id:"boook"},
+		{src:"images/PHOTO.png?1632162572036", id:"PHOTO"},
+		{src:"images/new tootestl_atlas_1.png?1632162571741", id:"new tootestl_atlas_1"},
+		{src:"images/new tootestl_atlas_2.png?1632162571741", id:"new tootestl_atlas_2"},
+		{src:"images/new tootestl_atlas_3.png?1632162571741", id:"new tootestl_atlas_3"},
+		{src:"images/new tootestl_atlas_4.png?1632162571742", id:"new tootestl_atlas_4"},
+		{src:"images/new tootestl_atlas_5.png?1632162571742", id:"new tootestl_atlas_5"},
+		{src:"images/new tootestl_atlas_6.png?1632162571742", id:"new tootestl_atlas_6"},
+		{src:"images/new tootestl_atlas_7.png?1632162571742", id:"new tootestl_atlas_7"},
+		{src:"images/new tootestl_atlas_8.png?1632162571742", id:"new tootestl_atlas_8"},
+		{src:"images/new tootestl_atlas_9.png?1632162571742", id:"new tootestl_atlas_9"},
+		{src:"images/new tootestl_atlas_10.png?1632162571743", id:"new tootestl_atlas_10"},
+		{src:"images/new tootestl_atlas_11.png?1632162571743", id:"new tootestl_atlas_11"},
+		{src:"images/new tootestl_atlas_12.png?1632162571744", id:"new tootestl_atlas_12"},
+		{src:"images/new tootestl_atlas_13.png?1632162571749", id:"new tootestl_atlas_13"},
+		{src:"sounds/_12wav.mp3?1632162572036", id:"_12wav"},
+		{src:"sounds/_32wav.mp3?1632162572036", id:"_32wav"},
+		{src:"sounds/_42wav.mp3?1632162572036", id:"_42wav"},
+		{src:"sounds/_52wav.mp3?1632162572036", id:"_52wav"},
+		{src:"sounds/_5JEFRAPPELESSYLLABESP17wav.mp3?1632162572036", id:"_5JEFRAPPELESSYLLABESP17wav"},
+		{src:"sounds/_22wav.mp3?1632162572036", id:"_22wav"},
+		{src:"https://code.jquery.com/jquery-3.4.1.min.js?1632162572036", id:"lib/jquery-3.4.1.min.js"},
+		{src:"components/sdk/anwidget.js?1632162572036", id:"sdk/anwidget.js"},
+		{src:"components/ui/src/textinput.js?1632162572036", id:"an.TextInput"},
+		{src:"components/ui/src/textinput.js?1632162572036", id:"an.TextInput"}
 	],
 	preloads: []
 };

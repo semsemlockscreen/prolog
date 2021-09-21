@@ -10653,7 +10653,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.30000000000001,102.1);
 		var isTouch = true;
 		
 		
-				alert('107');
+				alert('108');
 		
 		setTimeout(function () {
 		
@@ -11226,6 +11226,8 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.30000000000001,102.1);
 		
 		var previous_x_update = false;
 		 stage.preventSelection = false;
+		
+		fingers = [];
 		function onmousedown(e) {
 		
 		 console.log(' finger e.pointerID' , e.pointerID)
@@ -11251,6 +11253,19 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.30000000000001,102.1);
 				x: posX,
 				y: posY
 			};
+			
+			
+			
+			 if (! e.pointerID) e.pointerID = -1;
+ 
+      fingers[e.pointerID] = {
+        start: {x : e.stageX, y : e.stageY },
+        current: {x : e.stageX, y : e.stageY },
+        old:  {x : e.stageX, y : e.stageY },
+      };
+ 
+	  
+      calculateActiveFingers();
 		}
 		
 		
@@ -11320,6 +11335,13 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.30000000000001,102.1);
 		
 		
 		
+	  fingers[e.pointerID].current.x =  e.stageX;
+      fingers[e.pointerID].current.y =  e.stageY;
+ 
+      calculateActiveFingers();
+	 console.log('move fingers' , fingers)
+	   update();
+
 		
 		
 		}
@@ -11342,10 +11364,59 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.30000000000001,102.1);
 		
 			remove_settin();
 		
+			
+			
+			 if (! evt.pointerID) evt.pointerID = -1;
+ 
+      if (fingers[evt.pointerID]) {
+        delete(fingers[evt.pointerID]);
+      }
+ 
+      calculateActiveFingers();
+	  
 		}
 		
+	
+var calculateActiveFingers = function(){
+      activeFingers = 0;
+ 
+      for (var pointerID in fingers) {
+        if ( fingers[pointerID].start) {
+          activeFingers++;
+        }
+      }
+    };
+	
+	
+var getDistance = function(p1, p2) {
+      var x = p2.x - p1.x;
+      var y = p2.y - p1.y;
+ 
+      return Math.sqrt((x * x) + (y * y));
+    };
+	
+	
+ var update = function(){
+      if (  activeFingers > 1) {
+        var points = [];
+ 
+        // extract touchpoints
+        for (var k in  fingers) {
+          if ( fingers[k].current) {
+            points.push( fingers[k]);
+            if (points.length >= 2) break;
+          }
+        }
+ 
+        var scale = getDistance(points[0].current, points[1].current) / getDistance(points[0].old, points[1].old);
+       console.log(scale );
+        scal_page( 1.3 );
+ 
+      }
+  }  ;
+  		
 		
-		function toHome(e) {
+function toHome(e) {
 		
 			if (e.nativeEvent instanceof MouseEvent) {
 		

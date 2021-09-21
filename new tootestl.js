@@ -10645,7 +10645,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.30000000000001,102.1);
 		
 		
 		
-		createjs.Touch.enable(stage, true, true);
+		createjs.Touch.enable(stage, false, false);
 		
 		
 		window.Modernizr = {touch: true,};
@@ -11256,16 +11256,16 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.30000000000001,102.1);
 			
 			
 			
-		 /*  if (! e.pointerID) e.pointerID = -1;
+		   if (! e.pointerID) e.pointerID = -1;
  
       fingers[e.pointerID] = {
         start: {x : e.stageX, y : e.stageY },
         current: {x : e.stageX, y : e.stageY },
         old:  {x : e.stageX, y : e.stageY },
       };
- */
+ 
 	  
-      //calculateActiveFingers();
+      calculateActiveFingers();
 		}
 		
 		
@@ -11334,7 +11334,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.30000000000001,102.1);
 		
 		
 		
-		 /*  if (! e.pointerID) e.pointerID = -1;
+		  if (! e.pointerID) e.pointerID = -1;
 	  fingers[e.pointerID].current.x =  e.stageX;
       fingers[e.pointerID].current.y =  e.stageY;
  
@@ -11342,7 +11342,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.30000000000001,102.1);
 	 console.log('move fingers' , fingers)
 	   update();
 
-	*/	
+		
 		
 		}
 		
@@ -11366,7 +11366,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.30000000000001,102.1);
 		
 			
 			
-			/* if (! evt.pointerID) evt.pointerID = -1;
+			if (! evt.pointerID) evt.pointerID = -1;
  
       if (fingers[evt.pointerID]) {
         delete(fingers[evt.pointerID]);
@@ -11374,7 +11374,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.30000000000001,102.1);
       }
  
       calculateActiveFingers();
-	  */
+	 
 		}
 		
 	
@@ -11411,7 +11411,7 @@ var getDistance = function(p1, p2) {
  
         var scale = getDistance(points[0].current, points[1].current) / getDistance(points[0].old, points[1].old);
        console.log(scale );
-        scal_page( 1.3 );
+        toslidrScal( scale );
  
       }
   }  ;

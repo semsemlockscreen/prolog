@@ -10645,7 +10645,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.30000000000001,102.1);
 		
 		
 		
-		createjs.Touch.enable(stage, false, false);
+		createjs.Touch.enable(stage, true, true);
 		
 		
 		window.Modernizr = {touch: true,};
@@ -11256,16 +11256,16 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.30000000000001,102.1);
 			
 			
 			
-			 if (! e.pointerID) e.pointerID = -1;
+		 /*  if (! e.pointerID) e.pointerID = -1;
  
       fingers[e.pointerID] = {
         start: {x : e.stageX, y : e.stageY },
         current: {x : e.stageX, y : e.stageY },
         old:  {x : e.stageX, y : e.stageY },
       };
- 
+ */
 	  
-      calculateActiveFingers();
+      //calculateActiveFingers();
 		}
 		
 		
@@ -11334,7 +11334,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.30000000000001,102.1);
 		
 		
 		
-		 if (! e.pointerID) e.pointerID = -1;
+		 /*  if (! e.pointerID) e.pointerID = -1;
 	  fingers[e.pointerID].current.x =  e.stageX;
       fingers[e.pointerID].current.y =  e.stageY;
  
@@ -11342,7 +11342,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.30000000000001,102.1);
 	 console.log('move fingers' , fingers)
 	   update();
 
-		
+	*/	
 		
 		}
 		
@@ -11366,14 +11366,15 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.30000000000001,102.1);
 		
 			
 			
-			 if (! evt.pointerID) evt.pointerID = -1;
+			/* if (! evt.pointerID) evt.pointerID = -1;
  
       if (fingers[evt.pointerID]) {
         delete(fingers[evt.pointerID]);
+	
       }
  
       calculateActiveFingers();
-	  
+	  */
 		}
 		
 	

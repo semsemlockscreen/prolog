@@ -10645,7 +10645,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.30000000000001,102.1);
 		
 		
 		
-		createjs.Touch.enable(stage, true, true);
+		createjs.Touch.enable(stage, false, false);
 		
 		
 		window.Modernizr = {touch: true,};
@@ -10653,7 +10653,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.30000000000001,102.1);
 		var isTouch = true;
 		
 		
-				alert('106');
+				alert('107');
 		
 		setTimeout(function () {
 		
@@ -11228,7 +11228,8 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.30000000000001,102.1);
 		 stage.preventSelection = false;
 		function onmousedown(e) {
 		
-		
+		 console.log(' finger e.pointerID' , e.pointerID)
+	
 			cont.isDragged = false;
 			
 		   

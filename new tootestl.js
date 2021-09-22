@@ -10653,7 +10653,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.30000000000001,102.1);
 		var isTouch = true;
 		
 		
-		alert('111');
+		alert('112');
 		
 		setTimeout(function () {
 		
@@ -10937,6 +10937,10 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.30000000000001,102.1);
 				scalx = (500 / (image_h + 100)); //100 
 				scaly = (500 / (image_h + 150)); //250
 		
+				
+			   scaleFac = scalx ;
+				
+				
 				firstwidth = image.width * scalx;
 				firstheight = image_h * scaly;
 		
@@ -11413,7 +11417,7 @@ var getDistance = function(p1, p2) {
 	    console.log('points[0].current , points[0].old * ' , points[0].current , points[0].old);
        console.log(scale );
 	       console.log(' scale  *  scalx * scaleFac' , scale  *  scalx * scaleFac );
-        toslidrScal( scale  *  scalx * scaleFac);
+        toslidrScal( scale   * scaleFac);
  
       }
   }  ;

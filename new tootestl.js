@@ -10654,7 +10654,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.30000000000001,102.1);
 		var isTouch = true;
 		
 		
-		alert('121');
+		alert('122');
 		
 		setTimeout(function () {
 		
@@ -11455,14 +11455,16 @@ function  toTouchScal( rate){
  var enterFrame = function(){
       if (changed ) {
         changed = false;
-       
+	      
+        update();
+	      
         for (var pointerID in fingers) {
           if ( fingers[pointerID].start) {
              fingers[pointerID].old.x =  fingers[pointerID].current.x;
              fingers[pointerID].old.y =  fingers[pointerID].current.y;
           }
         }
-	       update();
+	      
       }
     };
 function toHome(e) {

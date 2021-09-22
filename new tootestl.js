@@ -11412,7 +11412,8 @@ var getDistance = function(p1, p2) {
         var scale = getDistance(points[0].current, points[1].current) / getDistance(points[0].old, points[1].old);
 	    console.log('points[0].current , points[0].old * ' , points[0].current , points[0].old);
        console.log(scale );
-        toslidrScal( scale  *  scalx);
+	       console.log(' scale  *  scalx * scaleFac' , scale  *  scalx * scaleFac );
+        toslidrScal( scale  *  scalx * scaleFac);
  
       }
   }  ;

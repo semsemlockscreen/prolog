@@ -10654,7 +10654,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.30000000000001,102.1);
 		var isTouch = true;
 		
 		
-		alert('116');
+		alert('117');
 		
 		setTimeout(function () {
 		
@@ -11345,8 +11345,9 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.30000000000001,102.1);
 	  fingers[e.pointerID].current.x =  e.stageX;
           fingers[e.pointerID].current.y =  e.stageY;
 			
-
-       changed = true ;
+       if(  fingers[0].old.x !== fingers[0].current.x) {
+	       changed = true ;
+       }
       calculateActiveFingers();
 	 console.log('move fingers e.pointerID ' , e.pointerID)
 	  
@@ -11431,7 +11432,7 @@ var getDistance = function(p1, p2) {
 	
 	
  var enterFrame = function(){
-      if (changed &&  fingers[0].old.x !== fingers[0].current.x ) {
+      if (changed ) {
         changed = false;
        
         for (var pointerID in fingers) {

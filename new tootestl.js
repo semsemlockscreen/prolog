@@ -10653,7 +10653,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.30000000000001,102.1);
 		var isTouch = true;
 		
 		
-				alert('109');
+		alert('110');
 		
 		setTimeout(function () {
 		
@@ -11339,7 +11339,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.30000000000001,102.1);
       fingers[e.pointerID].current.y =  e.stageY;
  
       calculateActiveFingers();
-	 console.log('move fingers' , fingers)
+	 console.log('move fingers e.pointerID ' , e.pointerID)
 	   update();
 
 		
@@ -11410,6 +11410,7 @@ var getDistance = function(p1, p2) {
         }
  
         var scale = getDistance(points[0].current, points[1].current) / getDistance(points[0].old, points[1].old);
+	    console.log('points[0].current , points[0].old' , points[0].current , points[0].old);
        console.log(scale );
         toslidrScal( scale );
  

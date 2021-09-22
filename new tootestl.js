@@ -10654,7 +10654,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.30000000000001,102.1);
 		var isTouch = true;
 		
 		
-		alert('122');
+		alert('123');
 		
 		setTimeout(function () {
 		
@@ -11237,7 +11237,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.30000000000001,102.1);
 		fingers = [];
 		function onmousedown(e) {
 		
-		 console.log(' finger e.pointerID' , e.pointerID)
+		 console.log('onmousedown finger e.pointerID' , e.pointerID)
 	
 			cont.isDragged = false;
 			
@@ -11350,8 +11350,8 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.30000000000001,102.1);
        }
 	console.log('changed',changed);
       calculateActiveFingers();
-			 for (var pointerID in fingers){
-			  console.log('move fingers pointerID' ,pointerID);
+			 for (var pointerID  = 0 ; pointerID < fingers.length ;pointerID++ ){
+			  console.log('move fingers pointerID' ,fingers[pointerID]);
 			 }
 	
 	  
@@ -11395,8 +11395,8 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.30000000000001,102.1);
 var calculateActiveFingers = function(){
       activeFingers = 0;
  
-      for (var pointerID in fingers) {
-        if ( fingers[pointerID].start) {
+      for (var pointerID of fingers) {
+        if ( pointerID.start) {
           activeFingers++;
         }
       }
@@ -11416,9 +11416,9 @@ var getDistance = function(p1, p2) {
         var points = [];
  
         // extract touchpoints
-        for (var k in  fingers) {
-          if ( fingers[k].current) {
-            points.push( fingers[k]);
+        for (var k of  fingers) {
+          if ( k.current) {
+            points.push( k);
             if (points.length >= 2) break;
           }
         }
@@ -11458,10 +11458,10 @@ function  toTouchScal( rate){
 	      
         update();
 	      
-        for (var pointerID in fingers) {
-          if ( fingers[pointerID].start) {
-             fingers[pointerID].old.x =  fingers[pointerID].current.x;
-             fingers[pointerID].old.y =  fingers[pointerID].current.y;
+        for (var pointerID of fingers) {
+          if ( pointerID.start) {
+             pointerID.old.x =  pointerID.current.x;
+             pointerID.old.y =  pointerID.current.y;
           }
         }
 	      

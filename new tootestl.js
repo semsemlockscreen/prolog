@@ -10653,7 +10653,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.30000000000001,102.1);
 		var isTouch = true;
 		
 		
-		alert('112');
+		alert('113');
 		
 		setTimeout(function () {
 		
@@ -11340,11 +11340,13 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.30000000000001,102.1);
 		
 		  if (! e.pointerID) e.pointerID = -1;
 	  fingers[e.pointerID].current.x =  e.stageX;
-      fingers[e.pointerID].current.y =  e.stageY;
- 
+          fingers[e.pointerID].current.y =  e.stageY;
+			
+
+       changed = true ;
       calculateActiveFingers();
 	 console.log('move fingers e.pointerID ' , e.pointerID)
-	   update();
+	  
 
 		
 		
@@ -11413,16 +11415,31 @@ var getDistance = function(p1, p2) {
           }
         }
  
-        var scale = getDistance(points[0].current, points[1].current) / getDistance(points[0].old, points[1].old);
-	    console.log('points[0].current , points[0].old * ' , points[0].current , points[0].old);
+        var scale = getDistance(points[0].current, points[1].current) / getDistance(points[0].start, points[1].start);
+	    console.log('points[1].current , points[1].old * ' , points[1].current , points[1].old);
        console.log(scale );
 	       console.log(' scale  *  scalx * scaleFac' , scale  *  scalx * scaleFac );
-        toslidrScal( scale   * scaleFac);
+          if(  true)
+	      toslidrScal( scale   * scaleFac);
  
       }
   }  ;
   		
-		
+	
+createjs.Ticker.on("tick", enterFrame);		
+ var enterFrame = function(){
+      if (changed) {
+        changed = false;
+       
+        for (var pointerID in fingers) {
+          if ( fingers[pointerID].start) {
+             fingers[pointerID].old.x =  fingers[pointerID].current.x;
+             fingers[pointerID].old.y =  fingers[pointerID].current.y;
+          }
+        }
+	       update();
+      }
+    };
 function toHome(e) {
 		
 			if (e.nativeEvent instanceof MouseEvent) {

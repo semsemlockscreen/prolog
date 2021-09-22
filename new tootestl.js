@@ -10653,7 +10653,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.30000000000001,102.1);
 		var isTouch = true;
 		
 		
-		alert('110');
+		alert('111');
 		
 		setTimeout(function () {
 		
@@ -15266,7 +15266,7 @@ function toHome(e) {
 		
 			if (scaleFac > scalfactor) {
 		
-				repositionContainer();
+				//repositionContainer();
 			}
 		
 			scaleFac = scalfactor;

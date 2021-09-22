@@ -10654,7 +10654,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.30000000000001,102.1);
 		var isTouch = true;
 		
 		
-		alert('115');
+		alert('116');
 		
 		setTimeout(function () {
 		
@@ -11418,12 +11418,12 @@ var getDistance = function(p1, p2) {
           }
         }
  
-        var scale = getDistance(points[0].current, points[1].current) / getDistance(points[0].start, points[1].start);
+        var scale = getDistance(points[0].old, points[1].old) / getDistance(points[0].current, points[1].current) ;
 	    console.log('points[1].current , points[1].old * ' , points[1].current , points[1].old);
        console.log(scale );
 	       console.log(' scale  *  scalx * scaleFac' , scale  *  scalx * scaleFac );
           if(  true)
-	      toslidrScal( scale   * scaleFac);
+	      toslidrScal( scale   +  scaleFac);
  
       }
   }  ;
@@ -11431,7 +11431,7 @@ var getDistance = function(p1, p2) {
 	
 	
  var enterFrame = function(){
-      if (changed) {
+      if (changed &&  fingers[0].old.x !== fingers[0].current.x ) {
         changed = false;
        
         for (var pointerID in fingers) {

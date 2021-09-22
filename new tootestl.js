@@ -11345,7 +11345,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.30000000000001,102.1);
 	  fingers[e.pointerID].current.x =  e.stageX;
           fingers[e.pointerID].current.y =  e.stageY;
 			
-       if(  fingers[0].old.x !== fingers[0].current.x) {
+       if(  fingers[e.pointerID].old.x !== fingers[e.pointerID].current.x) {
 	       changed = true ;
        }
       calculateActiveFingers();

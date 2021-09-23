@@ -10994,7 +10994,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.30000000000001,102.1);
 			cont.addChildAt(sbr, 3);
 			frameChafaf();
 		
-			 cont.cache(  0 , 0  , cont.getTransformedBounds().weight, cont.getTransformedBounds().height);		
+			 cont.cache(  0 , 0  , cont.getBounds().weight, cont.getBounds().height);		
 		});
 		
 		

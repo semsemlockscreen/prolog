@@ -9,6 +9,7 @@ lib.ssMetadata = [
 		{name:"new tootestl_atlas_4", frames: [[0,0,2011,1011],[0,1013,1580,979]]},
 		{name:"new tootestl_atlas_5", frames: [[0,901,1316,962],[0,0,1433,899]]},
 		{name:"new tootestl_atlas_6", frames: [[0,934,1633,692],[0,0,1241,932]]},
+	
 		{name:"new tootestl_atlas_7", frames: [[0,859,1631,669],[0,0,1277,857]]},
 		{name:"new tootestl_atlas_8", frames: [[0,856,1210,847],[0,0,1219,854]]},
 		{name:"new tootestl_atlas_9", frames: [[0,0,1204,848],[0,850,1205,846]]},
@@ -10654,7 +10655,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.30000000000001,102.1);
 		var isTouch = true;
 		
 		
-		alert('10');
+		alert('11');
 		
 		setTimeout(function () {
 		
@@ -11307,6 +11308,23 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.30000000000001,102.1);
 		
 		
 		function onpressmove(e) {
+			
+				
+		  if ( e.pointerID === -1)  return ; //e.pointerID = -1;
+	  fingers[e.pointerID].current.x =  e.stageX;
+          fingers[e.pointerID].current.y =  e.stageY;
+			
+       if(  fingers[e.pointerID].old.x !== fingers[e.pointerID].current.x) {
+	       changed = true ;
+       }
+	console.log('on move changed',changed);
+    
+		
+	
+	    calculateActiveFingers();
+			
+			
+			return ;
 		
 		    //e.nativeEvent.preventDefault();
 			
@@ -11343,19 +11361,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.30000000000001,102.1);
 			}
 		
 		
-		
-		  if ( e.pointerID === -1)  return ; //e.pointerID = -1;
-	  fingers[e.pointerID].current.x =  e.stageX;
-          fingers[e.pointerID].current.y =  e.stageY;
-			
-       if(  fingers[e.pointerID].old.x !== fingers[e.pointerID].current.x) {
-	       changed = true ;
-       }
-	console.log('on move changed',changed);
-    
-		
 	
-	    calculateActiveFingers();
 
 		
 		
@@ -11460,7 +11466,7 @@ function  toTouchScal( rate){
 		//repositionContainer();
 	}
 
-	
+	stage.update();
 }	
 	
  var enterFrame = function(){

@@ -10655,7 +10655,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.30000000000001,102.1);
 		var isTouch = true;
 		
 		
-		alert('11');
+		alert('12');
 		
 		setTimeout(function () {
 		
@@ -11314,7 +11314,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.30000000000001,102.1);
 	  fingers[e.pointerID].current.x =  e.stageX;
           fingers[e.pointerID].current.y =  e.stageY;
 			
-       if(  fingers[e.pointerID].old.x !== fingers[e.pointerID].current.x) {
+       if( Math.abs( fingers[e.pointerID].old.x - fingers[e.pointerID].current.x ) > 10) {
 	       changed = true ;
        }
 	console.log('on move changed',changed);
@@ -11454,7 +11454,7 @@ function  toTouchScal( rate){
 	
          var scl = rate > 1 ?  rate - 1 :  - (1 - rate );
 	 
-	if ( scaleTouchFac + scl < 1  || scaleTouchFac + scl > 2 ) return ;
+	if ( scaleTouchFac + scl < 1  || scaleTouchFac + scl > 3 ) return ;
          scalTouchfactor = scaleTouchFac + scl;
 
 	cont.scaleX = scalTouchfactor;

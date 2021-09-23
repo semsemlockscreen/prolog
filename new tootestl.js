@@ -11470,7 +11470,7 @@ function  toTouchScal( rate){
 		
 	} ;
        
-         cont.cache(  -cont.regX , -cont.regY  , cont.getBounds().weight, cont.getBounds().height);
+         cont.cache(  0 , 0  , cont.getTransformedBounds().weight, cont.getTransformedBounds().height);
 	cont.scaleX = scalTouchfactor;
 
 	cont.scaleY = scalTouchfactor;

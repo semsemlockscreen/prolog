@@ -11235,6 +11235,9 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.30000000000001,102.1);
 		 stage.preventSelection = false;
 		
 		fingers = [];
+		var scalTouchfactor = 1 ;
+		
+		
 		function onmousedown(e) {
 		
 		 console.log('onmousedown finger e.pointerID' , e.pointerID)

@@ -11394,8 +11394,11 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.30000000000001,102.1);
 	
 var calculateActiveFingers = function(){
       activeFingers = 0;
- 
+  for (var pointerID  = 0 ; pointerID < fingers.length ;pointerID++ ){
+			  console.log('calculateActiveFingers  pointerID' ,fingers[pointerID]);
+			 }
      for (var i = 0; i < fingers.length; i++ ) {
+	     
         if ( fingers[i].start) {
           activeFingers++;
         }

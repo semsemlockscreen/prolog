@@ -10655,7 +10655,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.30000000000001,102.1);
 		var isTouch = true;
 		
 		
-		alert('14');
+		alert('15');
 		
 		setTimeout(function () {
 		
@@ -11396,7 +11396,9 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.30000000000001,102.1);
  
       calculateActiveFingers();
 	 scaleTouchFac = scalTouchfactor;
-	 console.log('	scaleTouchFac' , scaleTouchFac);	
+	 console.log('	scaleTouchFac' , scaleTouchFac);
+			
+			  cont.uncache();
 		}
 		
 	
@@ -11468,7 +11470,7 @@ function  toTouchScal( rate){
 		
 	} ;
        
-         cont.cache(  cont.x , cont.y  , cont.getTransformedBounds().weight, cont.getTransformedBounds().height);
+         cont.cache(  -cont.regX , -cont.regY  , cont.getBounds().weight, cont.getBounds().height);
 	cont.scaleX = scalTouchfactor;
 
 	cont.scaleY = scalTouchfactor;
@@ -11480,7 +11482,7 @@ function  toTouchScal( rate){
 
 	stage.update();
 	
-	  cont.uncache();
+	
 }	
 		
 	

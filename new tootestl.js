@@ -10654,7 +10654,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.30000000000001,102.1);
 		var isTouch = true;
 		
 		
-		alert('134');
+		alert('135');
 		
 		setTimeout(function () {
 		
@@ -11383,7 +11383,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.30000000000001,102.1);
  
       if (fingers[evt.pointerID]) {
 	       console.log('deleted' , evt.pointerID);
-       fingers .splice(evt.pointerID ,1);
+      fingers[evt.pointerID] = undefined;
 	
       }
  

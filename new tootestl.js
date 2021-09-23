@@ -11454,9 +11454,20 @@ var scaleTouchFac = 1 ;
 function  toTouchScal( rate){
 	
          var scl = rate > 1 ?  rate - 1 :  - (1 - rate );
-	 
-	if ( scaleTouchFac + scl < 1  || scaleTouchFac + scl > 3 ) return ;
-         scalTouchfactor = scaleTouchFac + scl;
+	  scalTouchfactor = scaleTouchFac + scl;
+	
+	if (scalTouchfactor < 1  ){
+	
+		scalTouchfactor = 1 ;
+	
+	}
+	
+	if(scalTouchfactor  > 3 ) {
+		
+	scalTouchfactor = 3 ;
+		
+	} ;
+       
 
 	cont.scaleX = scalTouchfactor;
 

@@ -10654,7 +10654,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.30000000000001,102.1);
 		var isTouch = true;
 		
 		
-		alert('137');
+		alert('138');
 		
 		setTimeout(function () {
 		
@@ -11424,7 +11424,7 @@ var getDistance = function(p1, p2) {
  
         // extract touchpoints
        for (var i = 0; i < fingers.length; i++ ) {
-	      if ( fingers[i] in fingers){
+	      if ( fingers[i] ){
           if (  fingers[i].current) {
             points.push( fingers[i]);
             if (points.length >= 2) break;

@@ -11396,6 +11396,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.30000000000001,102.1);
  
       calculateActiveFingers();
 	 scaleTouchFac = scalTouchfactor;
+	 console.log('	scaleTouchFac' , scaleTouchFac);	
 		}
 		
 	
@@ -15352,7 +15353,7 @@ function toHome(e) {
 		
 		
 			scaleFac = 0;
-		
+		         scaleTouchFac =1 ;
 			cont.x = firstwidth / 2 + offsetX;
 			cont.y = firstheight / 2 + offsetY;
 		

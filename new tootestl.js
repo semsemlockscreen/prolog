@@ -11379,7 +11379,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.30000000000001,102.1);
 			remove_settin();
 		
 			
-    if ( e.pointerID === -1)  return ; //evt.pointerID = -1;
+    if ( evt.pointerID === -1)  return ; //evt.pointerID = -1;
  
       if (fingers[evt.pointerID]) {
 	       console.log('deleted' , evt.pointerID);

@@ -10654,7 +10654,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.30000000000001,102.1);
 		var isTouch = true;
 		
 		
-		alert('136');
+		alert('137');
 		
 		setTimeout(function () {
 		
@@ -11398,7 +11398,8 @@ var calculateActiveFingers = function(){
 			  console.log('calculateActiveFingers  pointerID' ,fingers[pointerID]);
 			 }
      for (var i = 0; i < fingers.length; i++ ) {
-	      if ( fingers[i] in fingers){
+	     console.log(' in loop  activeFingers++ ' , i);  
+	      if ( fingers.includes(fingers[i]) ){
        // if ( fingers[i].start) {
           activeFingers++;
        // }

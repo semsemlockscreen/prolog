@@ -10654,7 +10654,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.30000000000001,102.1);
 		var isTouch = true;
 		
 		
-		alert('131');
+		alert('132');
 		
 		setTimeout(function () {
 		
@@ -11263,7 +11263,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.30000000000001,102.1);
 			
 			
 			
-		   if (! e.pointerID) return ;//e.pointerID = -1;
+		   if ( e.pointerID === -1) return ;//e.pointerID = -1;
       console.log('add fonger mousedown' , e.pointerID)
       fingers[e.pointerID] = {
         start: {x : e.stageX, y : e.stageY },
@@ -11341,7 +11341,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.30000000000001,102.1);
 		
 		
 		
-		  if (! e.pointerID) return ; //e.pointerID = -1;
+		  if ( e.pointerID === -1)  return ; //e.pointerID = -1;
 	  fingers[e.pointerID].current.x =  e.stageX;
           fingers[e.pointerID].current.y =  e.stageY;
 			
@@ -11379,8 +11379,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.30000000000001,102.1);
 			remove_settin();
 		
 			
-			
-			if (! evt.pointerID) return ; //evt.pointerID = -1;
+    if ( e.pointerID === -1)  return ; //evt.pointerID = -1;
  
       if (fingers[evt.pointerID]) {
 	       console.log('deleted' , evt.pointerID);

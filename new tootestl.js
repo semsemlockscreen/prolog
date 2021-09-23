@@ -11263,7 +11263,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.30000000000001,102.1);
 			
 			
 			
-		   if (! e.pointerID) return ,//e.pointerID = -1;
+		   if (! e.pointerID) return ;//e.pointerID = -1;
  
       fingers[e.pointerID] = {
         start: {x : e.stageX, y : e.stageY },

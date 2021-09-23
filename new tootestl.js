@@ -11265,7 +11265,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.30000000000001,102.1);
 				y: posY
 			};
 			
-			
+	 cont.cache(  0 , 0  , cont.getTransformedBounds().weight, cont.getTransformedBounds().height);		
 			
 		   if ( e.pointerID === -1) return ;//e.pointerID = -1;
       console.log('add fonger mousedown' , e.pointerID)
@@ -11470,7 +11470,7 @@ function  toTouchScal( rate){
 		
 	} ;
        
-         cont.cache(  0 , 0  , cont.getTransformedBounds().weight, cont.getTransformedBounds().height);
+        
 	cont.scaleX = scalTouchfactor;
 
 	cont.scaleY = scalTouchfactor;

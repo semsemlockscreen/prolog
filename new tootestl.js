@@ -11440,13 +11440,13 @@ var getDistance = function(p1, p2) {
   }  ;
   	
 	
-var scaleTouchFac = 0 ;		
+var scaleTouchFac = 1 ;		
 function  toTouchScal( rate){
 	
          var scl = rate > 1 ?  rate - 1 :  - (1 - rate );
 	 
 	if ( scaleTouchFac + scl < 1  || scaleTouchFac + scl > 2 ) return ;
-         scalTouchfactor = 1 + scl;
+         scalTouchfactor = scaleTouchFac + scl;
 
 	cont.scaleX = scalTouchfactor;
 

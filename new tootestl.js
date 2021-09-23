@@ -10654,7 +10654,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.30000000000001,102.1);
 		var isTouch = true;
 		
 		
-		alert('126');
+		alert('127');
 		
 		setTimeout(function () {
 		
@@ -11263,7 +11263,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.30000000000001,102.1);
 			
 			
 			
-		   if (! e.pointerID) e.pointerID = -1;
+		   if (! e.pointerID) return ,//e.pointerID = -1;
  
       fingers[e.pointerID] = {
         start: {x : e.stageX, y : e.stageY },
@@ -11341,7 +11341,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.30000000000001,102.1);
 		
 		
 		
-		  if (! e.pointerID) e.pointerID = -1;
+		  if (! e.pointerID) return ; //e.pointerID = -1;
 	  fingers[e.pointerID].current.x =  e.stageX;
           fingers[e.pointerID].current.y =  e.stageY;
 			
@@ -11380,7 +11380,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.30000000000001,102.1);
 		
 			
 			
-			if (! evt.pointerID) evt.pointerID = -1;
+			if (! evt.pointerID) return ; //evt.pointerID = -1;
  
       if (fingers[evt.pointerID]) {
         delete(fingers[evt.pointerID]);

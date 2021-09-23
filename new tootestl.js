@@ -10654,7 +10654,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.30000000000001,102.1);
 		var isTouch = true;
 		
 		
-		alert('1');
+		alert('3');
 		
 		setTimeout(function () {
 		
@@ -11434,7 +11434,7 @@ var getDistance = function(p1, p2) {
        console.log(scale );
 	       console.log(' scale  ' , scale  );
           if(  true)
-	      toTouchScal( scale  );
+	      toTouchScal( scale - 1 );
  
       }
   }  ;
@@ -11443,7 +11443,7 @@ var getDistance = function(p1, p2) {
 var scaleTouchFac = 1 ;		
 function  toTouchScal( rate){
          var scl = rate < 1 ?  -rate : rate ;
-         scalTouchfactor = scaleTouchFac + scl;
+         scalTouchfactor = scaleTouchFac + rate;
 
 	cont.scaleX = scalTouchfactor;
 

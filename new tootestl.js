@@ -10654,7 +10654,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.30000000000001,102.1);
 		var isTouch = true;
 		
 		
-		alert('8');
+		alert('9');
 		
 		setTimeout(function () {
 		
@@ -11386,7 +11386,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.30000000000001,102.1);
       }
  
       calculateActiveFingers();
-	 
+	 scaleTouchFac = scalTouchfactor;
 		}
 		
 	
@@ -11440,13 +11440,13 @@ var getDistance = function(p1, p2) {
   }  ;
   	
 	
-var scaleTouchFac = 1 ;		
+var scaleTouchFac = 0 ;		
 function  toTouchScal( rate){
 	
          var scl = rate > 1 ?  rate - 1 :  - (1 - rate );
 	 
 	if ( scaleTouchFac + scl < 1  || scaleTouchFac + scl > 2 ) return ;
-         scalTouchfactor = scaleTouchFac + scl;
+         scalTouchfactor = 1 + scl;
 
 	cont.scaleX = scalTouchfactor;
 
@@ -11457,7 +11457,7 @@ function  toTouchScal( rate){
 		//repositionContainer();
 	}
 
-	scaleTouchFac = scalTouchfactor;
+	
 }	
 	
  var enterFrame = function(){

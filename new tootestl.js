@@ -11457,8 +11457,8 @@ var getDistance = function(p1, p2) {
 	         var contregy =(p1.y + p2.y )/2
 		
 		
-	      cont.regX = contreg.x;
-	      cont.regY = contreg.y ;
+	      cont.regX =contregX;
+	      cont.regY = contregy ;
 	      
           if(  true)
 	      toTouchScal( scale  );

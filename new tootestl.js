@@ -11337,8 +11337,8 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.30000000000001,102.1);
 			var newX = pt.x - e.currentTarget.offset.x;
 			var newY = pt.y - e.currentTarget.offset.y;
 		
-		
-			var mult = scaleFac * firstwidth;
+		        
+			var mult = scaleTouchFac * firstwidth;
 		
 			if (mult / 2 - ((firstwidth / 2 + offsetX) - newX) > firstwidth / 2 && mult / 2 - (newX - (firstwidth / 2 + offsetX)) > firstwidth / 2) {
 		
@@ -11348,7 +11348,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.30000000000001,102.1);
 				previous_x_update = true;
 			}
 		
-			var mult2 = scaleFac * firstheight;
+			var mult2 = scaleTouchFac * firstheight;
 			if (mult2 / 2 - ((firstheight / 2 + offsetY) - newY) > firstheight / 2 && mult2 / 2 - (newY - (firstheight / 2 + offsetY)) > firstheight / 2) {
 		
 				e.currentTarget.y = newY;

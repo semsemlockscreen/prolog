@@ -11479,7 +11479,7 @@ function  toTouchScal( rate){
 
 	if (scaleTouchFac > scalTouchfactor) {
 
-		repositionContainer();
+		repositionTouchContainer();
 	}
 
 	//stage.update();
@@ -11504,6 +11504,24 @@ function  toTouchScal( rate){
 	}     
       }
     };
+		
+function repositionTouchContainer() {
+		
+		
+			var diff = (cont.x - (firstwidth / 2 + offsetX));
+		
+			cont.x = cont.x - diff * (1 / (scalTouchfactor + 1));
+		
+		
+		
+			diff = (cont.y - (firstheight / 2 + offsetY));
+		
+			cont.y = cont.y - diff * (1 / (scalTouchfactor + 1));
+		
+		
+		}
+		
+		
 function toHome(e) {
 		
 			if (e.nativeEvent instanceof MouseEvent) {

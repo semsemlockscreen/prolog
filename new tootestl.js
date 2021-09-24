@@ -11278,7 +11278,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.30000000000001,102.1);
  
 	  
       calculateActiveFingers();
-   if(activeFingers === 2) cont.cache(  0 , 0  , cont.getBounds().width, cont.getBounds().height);
+   if(activeFingers === 2) cont.cache(  -8 , 0  , cont.getBounds().width, cont.getBounds().height);
 		}
 		
 		
@@ -11401,6 +11401,9 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.30000000000001,102.1);
 	 console.log('	scaleTouchFac' , scaleTouchFac);
 			
 			  cont.uncache();
+			cont.regX = cont.origin_regX;
+		        cont.regY = cont.origin_regY;
+
 		}
 		
 	
@@ -11447,6 +11450,14 @@ var getDistance = function(p1, p2) {
 	   // console.log('points[1].current , points[1].start * ' , points[1].current , points[1].start);
        console.log(scale );
 	       console.log(' scale  ' , scale  );
+	      
+	      var contregX =( points[0].current.x + points[1].current.x )/2
+	         var contregy =( points[0].current.y + points[1].current.y )/2
+		var contreg = that.globalToLocal( contregX , contregy ); 
+		
+	      cont.regX = contreg.x;
+	      cont.regY = contreg.y ;
+	      
           if(  true)
 	      toTouchScal( scale  );
  
@@ -11482,7 +11493,7 @@ function  toTouchScal( rate){
 		repositionTouchContainer();
 	}
 
-	//stage.update();
+	stage.update();
 	
 	
 }	

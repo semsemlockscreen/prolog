@@ -11316,7 +11316,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.30000000000001,102.1);
 	  fingers[e.pointerID].current.x =  e.stageX;
           fingers[e.pointerID].current.y =  e.stageY;
 			
-       if( Math.abs( fingers[e.pointerID].old.x - fingers[e.pointerID].current.x ) > 10||  Math.abs( fingers[e.pointerID].old.y - fingers[e.pointerID].current.y ) > 10) {
+       if( Math.abs( fingers[e.pointerID].old.x - fingers[e.pointerID].current.x ) > 10 ||  Math.abs( fingers[e.pointerID].old.y - fingers[e.pointerID].current.y ) > 10) {
 	       changed = true ;
        }
 	console.log('on move changed',changed);
@@ -11457,7 +11457,7 @@ var getDistance = function(p1, p2) {
 	      
 	      yd.x = p1.x;
 	      yd.y = p1.y;
-	      that .addChild(yd);
+	      cont .addChild(yd);
 	      var contregX =( p1.x + p2.x )/2
 	         var contregy =(p1.y + p2.y )/2
 		

@@ -11278,7 +11278,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.30000000000001,102.1);
  
 	  
       calculateActiveFingers();
-   if(activeFingers === 2) cont.cache(  -8 , 0  , cont.getBounds().width, cont.getBounds().height);
+   if(activeFingers === 2) cont.cache(  -8 , 0  , cont.getTransformedBounds().width, cont.getTransformedBounds().height);
 		}
 		
 		
@@ -11452,8 +11452,8 @@ var getDistance = function(p1, p2) {
        console.log(scale );
 	       console.log(' scale  ' , scale  );
 	      
-	      var p1 = that.globalToLocal( points[0].current.x , points[0].current.y);
-	       var p2 = that.globalToLocal( points[1].current.x , points[1].current.y);
+	      var p1 = that.globalToLocal( points[0].start.x , points[0].start.y);
+	       var p2 = that.globalToLocal( points[1].start.x , points[1].start.y);
 	      
 	      yd.x = p1.x;
 	      yd.y = p1.y;

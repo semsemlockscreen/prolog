@@ -11455,8 +11455,8 @@ var getDistance = function(p1, p2) {
 	         var contregy =( points[0].current.y + points[1].current.y )/2
 		var contreg = that.globalToLocal( contregX , contregy ); 
 		
-	      cont.regX = contreg.x;
-	      cont.regY = contreg.y ;
+	     // cont.regX = contreg.x;
+	     // cont.regY = contreg.y ;
 	      
           if(  true)
 	      toTouchScal( scale  );

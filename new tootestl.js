@@ -11326,7 +11326,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.30000000000001,102.1);
 	    calculateActiveFingers();
 			
 			
-			return ;
+		 if(activeFingers === 2)	return ;
 		
 		    //e.nativeEvent.preventDefault();
 			

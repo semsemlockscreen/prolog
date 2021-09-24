@@ -11479,10 +11479,10 @@ function  toTouchScal( rate){
 
 	if (scaleTouchFac > scalTouchfactor) {
 
-		//repositionContainer();
+		repositionContainer();
 	}
 
-	stage.update();
+	//stage.update();
 	
 	
 }	

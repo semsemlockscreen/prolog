@@ -10994,7 +10994,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.30000000000001,102.1);
 			cont.addChildAt(sbr, 3);
 			frameChafaf();
 		    
-			 cont.cache(  0 , 0  , cont.getBounds().width, cont.getBounds().height);		
+					
 		});
 		
 		
@@ -11266,7 +11266,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.30000000000001,102.1);
 				y: posY
 			};
 			
-	
+	 cont.cache(  0 , 0  , cont.getBounds().width, cont.getBounds().height);
 			
 		   if ( e.pointerID === -1) return ;//e.pointerID = -1;
       console.log('add fonger mousedown' , e.pointerID)

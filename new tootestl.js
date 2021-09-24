@@ -11266,7 +11266,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.30000000000001,102.1);
 				y: posY
 			};
 			
-	 cont.cache(  0 , 0  , cont.getBounds().width, cont.getBounds().height);
+	
 			
 		   if ( e.pointerID === -1) return ;//e.pointerID = -1;
       console.log('add fonger mousedown' , e.pointerID)
@@ -11278,6 +11278,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.30000000000001,102.1);
  
 	  
       calculateActiveFingers();
+   if(activeFingers === 2) cont.cache(  0 , 0  , cont.getBounds().width, cont.getBounds().height);
 		}
 		
 		
@@ -11315,7 +11316,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.30000000000001,102.1);
 	  fingers[e.pointerID].current.x =  e.stageX;
           fingers[e.pointerID].current.y =  e.stageY;
 			
-       if( Math.abs( fingers[e.pointerID].old.x - fingers[e.pointerID].current.x ) ||  Math.abs( fingers[e.pointerID].old.y - fingers[e.pointerID].current.y ) > 10) {
+       if( Math.abs( fingers[e.pointerID].old.x - fingers[e.pointerID].current.x ) > 10||  Math.abs( fingers[e.pointerID].old.y - fingers[e.pointerID].current.y ) > 10) {
 	       changed = true ;
        }
 	console.log('on move changed',changed);
@@ -11472,9 +11473,9 @@ function  toTouchScal( rate){
 	} ;
        
         
-	cont.scaleX = scalTouchfactor;
+	cont.scale= scalTouchfactor;
 
-	cont.scaleY = scalTouchfactor;
+	//cont.scaleY = scalTouchfactor;
 
 	if (scaleTouchFac > scalTouchfactor) {
 

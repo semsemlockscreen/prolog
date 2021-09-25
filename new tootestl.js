@@ -11395,7 +11395,9 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.30000000000001,102.1);
 			cont.isDragged = false;
 		
 			remove_settin();
-		
+			
+	 scaleTouchFac = scalTouchfactor;
+	 console.log('	scaleTouchFac' , scaleTouchFac);	
 			
     if ( evt.pointerID === -1)  return ; //evt.pointerID = -1;
  
@@ -11406,8 +11408,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.30000000000001,102.1);
       }
  
       calculateActiveFingers();
-	 scaleTouchFac = scalTouchfactor;
-	 console.log('	scaleTouchFac' , scaleTouchFac);
+	
 			
 			  cont.uncache();
 			/*cont.regX = cont.origin_regX;

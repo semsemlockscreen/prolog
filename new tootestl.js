@@ -15346,7 +15346,8 @@ function toHome(e) {
 		
 			var diff = scalMainusAndPlus > 0 ? 0.2 : -0.2;
 			
-			toTouchScal(diff) return
+			toTouchScal(diff);
+			return;
 			//To prevent quick drag of trk by the user ,we send "dispatchEvent("change")" for eadch mini change of trk.x 
 			for (var i = 0; i < Math.abs(scalMainusAndPlus); i++) {
 		

@@ -11257,8 +11257,8 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.30000000000001,102.1);
 			var posX = pt.x;
 			var posY = pt.y;
 			e.currentTarget.offset = {
-				x: posX -  cont.origin_regX + offsetX ; //e.currentTarget.x,
-				y: posY -  cont.origin_regY + offsetY ; //e.currentTarget.y
+				x: posX -  cont.origin_regX + offsetX , //e.currentTarget.x,
+				y: posY -  cont.origin_regY + offsetY  //e.currentTarget.y
 			};
 		
 			e.currentTarget.down = {

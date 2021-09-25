@@ -15345,7 +15345,7 @@ function toHome(e) {
 		function scal_page(scalMainusAndPlus) {
 			console.log('from scal_page scal ', scalMainusAndPlus);
 		
-			var diff = scalMainusAndPlus > 0 ? 1.2 : -1.2;
+			var diff = scalMainusAndPlus > 0 ? 1.2 : 0.8;
 			
 			toTouchScal(diff);
 			 scaleTouchFac = scalTouchfactor;

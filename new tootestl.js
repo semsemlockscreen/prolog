@@ -15430,7 +15430,9 @@ function toHome(e) {
 		
 		
 			scaleFac = 0;
-		         scaleTouchFac =1 ;
+		        scaleTouchFac = 1 ;
+			
+			scalTouchfactor = 0 ;
 			cont.x = firstwidth / 2 + offsetX;
 			cont.y = firstheight / 2 + offsetY;
 		

@@ -11257,8 +11257,8 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.30000000000001,102.1);
 			var posX = pt.x;
 			var posY = pt.y;
 			e.currentTarget.offset = {
-				x: posX -  cont.origin_regX + offsetX , //e.currentTarget.x,
-				y: posY -  cont.origin_regY + offsetY  //e.currentTarget.y
+				x: posX -  e.currentTarget.x,
+				y: posY - e.currentTarget.y
 			};
 		
 			e.currentTarget.down = {
@@ -11267,7 +11267,9 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.30000000000001,102.1);
 			};
 			
 	
-			
+		 cont.regX += 10 ;
+			console.log(' cont.regX ' , pt.x)
+		 	
 		   if ( e.pointerID === -1) return ;//e.pointerID = -1;
       console.log('add fonger mousedown' , e.pointerID)
       fingers[e.pointerID] = {

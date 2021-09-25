@@ -15336,7 +15336,7 @@ function toHome(e) {
 		
 		function onMinus(ev) {
 		
-			if (currentPosition > 0) {
+			if (currentPosition >= 0) {
 		
 				scal_page(-4);
 			}

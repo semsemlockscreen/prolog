@@ -11452,8 +11452,8 @@ var getDistance = function(p1, p2) {
        console.log(scale );
 	       console.log(' scale  ' , scale  );
 	      
-	      var p1 = that.globalToLocal( points[0].start.x , points[0].start.y);
-	       var p2 = that.globalToLocal( points[1].start.x , points[1].start.y);
+	      var p1 = cont.globalToLocal( points[0].start.x , points[0].start.y);
+	       var p2 = cont.globalToLocal( points[1].start.x , points[1].start.y);
 	      
 	      yd.x = p1.x;
 	      yd.y = p1.y;

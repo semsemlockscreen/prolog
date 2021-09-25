@@ -11238,14 +11238,14 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.30000000000001,102.1);
 		
 		fingers = [];
 		var scalTouchfactor = 1 ;
-		
+		var twoFinger = false;
 		
 		function onmousedown(e) {
 		
 		 console.log('onmousedown finger e.pointerID' , e.pointerID)
 	
 			cont.isDragged = false;
-			
+			twoFinger = false ;
 		   
 			
 			cont.addEventListener("pressmove", onpressmove);
@@ -11281,9 +11281,11 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.30000000000001,102.1);
  
 	  
       calculateActiveFingers();
-   if(activeFingers === 2) cont.cache(  -10, 0  , cont.getTransformedBounds().width, cont.getTransformedBounds().height);
+   if(activeFingers === 2) {
+	   twoFinger = true ;
+	   cont.cache(  -10, 0  , cont.getTransformedBounds().width, cont.getTransformedBounds().height);
 		}
-		
+		}	
 		
 		function stopDrag() {
 		
@@ -11382,7 +11384,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.30000000000001,102.1);
 		
 		
 		console.log('previous_x_update' , previous_x_update) ;
-			if (((Math.abs(evt.currentTarget.down.x - pt.x) ) > 100 && !previous_x_update) || (cont.isDragged && scaleTouchFac === 1 ))
+			if (((Math.abs(evt.currentTarget.down.x - pt.x) ) > 100 && !previous_x_update && !twoFinger ) || (!twoFinger &&cont.isDragged && scaleTouchFac === 1 ))
 			{
 				console.log('evt.currentTarget.down.x - pt.x' , evt.currentTarget.down.x - pt.x);
 				
@@ -15354,7 +15356,7 @@ function toHome(e) {
 		
 					trkRate(currentPosition);
 		
-					toslidrScal(rate);
+					tosTouchScal(rate);
 		
 					//that.dispatchEvent("change");
 		

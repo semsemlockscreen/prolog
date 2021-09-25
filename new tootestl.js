@@ -11503,7 +11503,7 @@ function  toTouchScal( rate){
 		
 	} ;
        
-        
+        console.log('toTouchScal' ,scalTouchfactor)
 	cont.scale= scalTouchfactor;
 
 	//cont.scaleY = scalTouchfactor;

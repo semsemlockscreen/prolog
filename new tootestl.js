@@ -11267,8 +11267,8 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.30000000000001,102.1);
 			};
 			
 	
-		 cont.regX += 10 ;
-			console.log(' cont.regX ' , pt.x)
+		
+			console.log('  e.currentTarget.x ' ,  e.currentTarget.x)
 		 	
 		   if ( e.pointerID === -1) return ;//e.pointerID = -1;
       console.log('add fonger mousedown' , e.pointerID)

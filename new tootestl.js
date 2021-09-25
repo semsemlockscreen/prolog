@@ -11437,7 +11437,7 @@ var getDistance = function(p1, p2) {
       return Math.sqrt((x * x) + (y * y));
     };
 	
-	var yd = new lib.yad() ;
+	
 		
  var update = function(){
       if (  activeFingers > 1) {
@@ -11457,7 +11457,7 @@ var getDistance = function(p1, p2) {
        console.log(scale );
 	       console.log(' scale  ' , scale  );
 	      
-	      var p1 = cont.globalToLocal( points[0].start.x , points[0].start.y);
+	      /* var p1 = cont.globalToLocal( points[0].start.x , points[0].start.y);
 	       var p2 = cont.globalToLocal( points[1].start.x , points[1].start.y);
 	      
 	      yd.x = p1.x;
@@ -11467,11 +11467,11 @@ var getDistance = function(p1, p2) {
 	         var contregy =(p1.y + p2.y )/2
 		
 		
-	      cont.regX =contregX;
+	     cont.regX =contregX;
 	      cont.regY = contregy ;
 	      cont.x = contregX+offsetX;
 	      cont.y = contregy+offsetY;
-	      
+	      */
           if(  true)
 	      toTouchScal( scale  );
  

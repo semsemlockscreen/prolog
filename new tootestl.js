@@ -11281,7 +11281,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.30000000000001,102.1);
  
 	  
       calculateActiveFingers();
-   //if(activeFingers === 2) cont.cache(  -10, 0  , cont.getTransformedBounds().width, cont.getTransformedBounds().height);
+   if(activeFingers === 2) cont.cache(  -10, 0  , cont.getTransformedBounds().width, cont.getTransformedBounds().height);
 		}
 		
 		
@@ -11382,7 +11382,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.30000000000001,102.1);
 		
 		
 		
-			if (((cont.isDragged && Math.abs(evt.currentTarget.down.x - pt.x) * scaleTouchFac) > 100 && !previous_x_update) || (cont.isDragged && scaleTouchFac === 1 ))
+			if (((cont.isDragged && Math.abs(evt.currentTarget.down.x - pt.x) ) > 100 && !previous_x_update) || (cont.isDragged && scaleTouchFac === 1 ))
 			{
 				console.log('evt.currentTarget.down.x - pt.x' , evt.currentTarget.down.x - pt.x);
 				console.log('scaleTouchFac' , scaleTouchFac) ;

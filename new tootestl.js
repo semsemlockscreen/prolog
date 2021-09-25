@@ -11278,7 +11278,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.30000000000001,102.1);
  
 	  
       calculateActiveFingers();
-   if(activeFingers === 2) cont.cache(  -8 , 0  , cont.getTransformedBounds().width, cont.getTransformedBounds().height);
+   if(activeFingers === 2) //cont.cache(  -10, 0  , cont.getTransformedBounds().width, cont.getTransformedBounds().height);
 		}
 		
 		

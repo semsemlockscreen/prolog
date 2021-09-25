@@ -11384,9 +11384,9 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.30000000000001,102.1);
 		
 			if ((Math.abs(evt.currentTarget.down.x - pt.x) * scaleTouchFac) > 100 && !previous_x_update || (cont.isDragged && scaleTouchFac === 1 ))
 			{
-				console.log('evt.currentTarget.down.x - pt.x' , evt.currentTarget.down.x - pt.x)
-				console.log('scaleTouchFac' , scaleTouchFac)
-				console.log('evt.currentTarget.down.x - pt.x) * scaleTouchFac)',evt.currentTarget.down.x - pt.x) * scaleTouchFac);
+				console.log('evt.currentTarget.down.x - pt.x' , evt.currentTarget.down.x - pt.x);
+				console.log('scaleTouchFac' , scaleTouchFac) ;
+				console.log('evt.currentTarget.down.x - pt.x) * scaleTouchFac)', (evt.currentTarget.down.x - pt.x) * scaleTouchFac);
 				swapToNext(evt.currentTarget.down.x - pt.x, evt);
 			}
 			stage.update();

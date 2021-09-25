@@ -10647,7 +10647,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.30000000000001,102.1);
 		
 		
 		
-		createjs.Touch.enable(stage, false, false);
+		createjs.Touch.enable(stage, false, true);
 		
 		
 		window.Modernizr = {touch: true,};

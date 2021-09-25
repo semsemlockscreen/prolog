@@ -15348,6 +15348,9 @@ function toHome(e) {
 			var diff = scalMainusAndPlus > 0 ? 1.2 : -1.2;
 			
 			toTouchScal(diff);
+			 scaleTouchFac = scalTouchfactor;
+	                 console.log('	scaleTouchFac' , scaleTouchFac);
+			
 			return;
 			//To prevent quick drag of trk by the user ,we send "dispatchEvent("change")" for eadch mini change of trk.x 
 			for (var i = 0; i < Math.abs(scalMainusAndPlus); i++) {

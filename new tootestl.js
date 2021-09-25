@@ -11403,7 +11403,8 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.30000000000001,102.1);
 			  cont.uncache();
 			cont.regX = cont.origin_regX;
 		        cont.regY = cont.origin_regY;
-
+                         cont.x =    cont.origin_regX + offsetX ;
+			  cont.y =    cont.origin_regY + offsetY ;
 		}
 		
 	

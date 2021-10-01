@@ -11120,8 +11120,9 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.30000000000001,102.1);
 		
 			calculateActiveFingers();
 		
-		
+		cont.snapToPixel = true;
 			cont.uncache();
+			
 			/*cont.regX = cont.origin_regX;
 				        cont.regY = cont.origin_regY;
 		                         cont.x =    cont.origin_regX + offsetX ;
@@ -15153,8 +15154,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.30000000000001,102.1);
 		
 					toTouchScal( 1.2);
 				   scaleTouchFac = scalTouchfactor;    
-					var n_shap = sbr.getChildByName('shapeDraw');
-		n_shap.updateCache() ;
+					
 			}
 		}
 		

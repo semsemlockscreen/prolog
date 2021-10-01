@@ -10360,7 +10360,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.30000000000001,102.1);
 		
 		var ctx = canvas.getContext('2d');
 		ctx.translate(0.5 ,0.5);
-		
+		ctx.imageSmoothingEnabled = false ;
 		function initTextStyle() {
 		
 		

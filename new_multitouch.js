@@ -15154,7 +15154,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.30000000000001,102.1);
 					toTouchScal( 1.2);
 				   scaleTouchFac = scalTouchfactor;    
 					var n_shap = sbr.getChildByName('shapeDraw');
-		n_shap.uncache() ;
+		n_shap.updateCache() ;
 			}
 		}
 		

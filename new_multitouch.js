@@ -14114,7 +14114,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.30000000000001,102.1);
 			shape_draw_w = type === 'ktb' ? 700 : 900;
 			shape_draw_h = type === 'ktb' ? 500 : 500;
 		
-			shapeDraw.cache(shape_draw_x, shape_draw_y, shape_draw_w, shape_draw_h);
+			//shapeDraw.cache(shape_draw_x, shape_draw_y, shape_draw_w, shape_draw_h);
 		
 			var f_shapeDraw = new createjs.Shape();
 			f_shapeDraw.name = 'f_shapeDraw';
@@ -14413,6 +14413,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.30000000000001,102.1);
 					sbr.getChildByName('shapeDraw').updateCache("destination-out");
 		
 					sbr.getChildByName('shapeDraw').graphics.clear();
+					
 				} else {
 		
 					if (that.tool.is_feutre) {
@@ -14434,6 +14435,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.30000000000001,102.1);
 						f_shap.graphics.clear();
 					} else {
 						var n_shap = sbr.getChildByName('shapeDraw');
+		n_shap.cache(0, 0, 900, 500);
 		
 						n_shap.graphics.beginStroke(that.tool.color)
 		
@@ -14448,6 +14450,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.30000000000001,102.1);
 						n_shap.updateCache("source-over");
 		
 						n_shap.graphics.clear();
+						n_shap.uncache();
 					}
 		
 				}

@@ -14114,7 +14114,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.30000000000001,102.1);
 			shape_draw_w = type === 'ktb' ? 700 : 900;
 			shape_draw_h = type === 'ktb' ? 500 : 500;
 		
-			//shapeDraw.cache(shape_draw_x, shape_draw_y, shape_draw_w, shape_draw_h);
+			shapeDraw.cache(shape_draw_x, shape_draw_y, shape_draw_w, shape_draw_h);
 		
 			var f_shapeDraw = new createjs.Shape();
 			f_shapeDraw.name = 'f_shapeDraw';

@@ -14435,7 +14435,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.30000000000001,102.1);
 						f_shap.graphics.clear();
 					} else {
 						var n_shap = sbr.getChildByName('shapeDraw');
-		n_shap.cache(0, 0, 900, 500);
+		//n_shap.cache(0, 0, 900, 500);
 		
 						n_shap.graphics.beginStroke(that.tool.color)
 		
@@ -14450,7 +14450,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.30000000000001,102.1);
 						n_shap.updateCache("source-over");
 		
 						n_shap.graphics.clear();
-						n_shap.uncache();
+						
 					}
 		
 				}
@@ -15169,6 +15169,8 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.30000000000001,102.1);
 		
 		function toslidrScal(rate) {
 				
+			var n_shap = sbr.getChildByName('shapeDraw');
+		n_shap.uncache() ;	
 					var scalfactor = 1 + rate;
 				
 					cont.scaleX = scalfactor;

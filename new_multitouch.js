@@ -5162,7 +5162,7 @@ p.nominalBounds = new cjs.Rectangle(-127,-13,263,25);
 				that.trk.x = sldWidth * rate;
 				that.rate = rate;
 				
-					that.parent.mov.gotoAndPlay(that.totalFrm * that.rate);
+					//that.parent.mov.gotoAndPlay(that.totalFrm * that.rate);
 				}
 		}
 	}

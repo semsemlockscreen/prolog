@@ -15,9 +15,9 @@ lib.ssMetadata = [
 		{name:"new_multitouch_atlas_10", frames: [[0,981,1241,932],[0,0,1580,979]]},
 		{name:"new_multitouch_atlas_11", frames: [[0,0,1352,848],[0,850,1633,692]]},
 		{name:"new_multitouch_atlas_12", frames: [[0,671,984,1034],[0,0,1631,669],[986,671,984,1034]]},
-		{name:"new_multitouch_atlas_13", frames: [[508,1546,836,218],[1615,0,368,560],[0,0,1161,690],[1163,0,450,510],[0,955,506,768],[0,692,1874,261],[1876,562,150,1200],[508,1353,964,191],[508,955,952,396]]},
-		{name:"new_multitouch_atlas_14", frames: [[1298,1778,222,222],[1746,1807,206,212],[152,356,384,319],[543,976,614,161],[1660,0,335,407],[1562,860,310,378],[1603,1240,293,335],[152,976,389,288],[223,1792,1072,46],[223,1744,1073,46],[0,1703,1297,39],[0,2002,1308,37],[543,1240,1058,96],[223,1840,1005,47],[223,1889,1022,45],[0,1655,1138,46],[520,1338,839,106],[0,1446,722,87],[543,1139,784,92],[1023,1446,551,100],[1154,345,464,313],[0,1535,641,83],[648,0,504,343],[1154,0,504,343],[648,345,504,343],[152,0,494,354],[0,1266,518,173],[1154,660,595,198],[152,866,1408,108],[1522,1807,222,222],[1620,409,423,245],[152,690,916,174],[0,0,150,1200],[1329,976,221,228],[1299,1548,221,228],[1522,1577,221,228],[1745,1577,221,228],[724,1446,297,207],[0,1744,221,228]]},
-		{name:"new_multitouch_atlas_15", frames: [[1679,652,31,21],[137,912,97,85],[2011,250,33,87],[310,1280,60,79],[243,1280,65,79],[1399,967,53,48],[406,961,119,130],[439,1188,79,79],[1140,1348,55,66],[0,1269,678,9],[264,1014,124,120],[2003,554,42,77],[1624,108,49,13],[1500,110,49,10],[1573,94,49,20],[1615,1226,72,78],[1316,1235,72,78],[1824,1235,72,78],[1898,1235,72,78],[1972,1235,72,78],[1054,1242,72,78],[0,1146,80,79],[614,1150,80,79],[1370,1154,80,79],[1850,1154,80,79],[1932,1154,80,79],[680,1278,79,67],[1074,1161,80,79],[357,1179,80,79],[0,1280,79,67],[81,1280,79,67],[891,1214,73,79],[162,1280,79,67],[1156,1185,77,82],[755,1029,97,105],[966,1264,71,77],[1235,1204,79,79],[1452,1208,79,79],[1128,1269,71,77],[789,654,152,157],[1743,1211,79,79],[1533,1226,80,73],[1624,94,76,12],[2014,1440,31,29],[972,1183,80,79],[1620,1018,30,30],[372,1280,60,79],[1880,1057,40,70],[458,658,94,89],[1992,1315,50,89],[0,1055,124,89],[1039,1322,50,89],[1156,855,66,89],[1620,1053,127,89],[965,1343,50,89],[1091,1348,47,89],[1346,94,102,17],[1702,94,39,23],[1500,94,71,14],[769,556,187,34],[1399,1018,107,134],[527,961,115,134],[1922,920,123,134],[1790,920,130,135],[860,949,130,135],[992,949,130,131],[992,1082,80,99],[1462,1387,69,31],[291,1391,66,31],[1508,1018,110,119],[1306,1083,62,119],[520,1218,82,31],[860,908,61,31],[1124,956,136,119],[555,1097,57,119],[644,1029,109,119],[126,1136,57,119],[185,1136,57,119],[335,602,32,51],[1891,0,142,119],[943,800,80,51],[244,1136,57,119],[694,908,164,119],[238,602,95,47],[546,1407,33,47],[0,712,116,198],[118,712,116,198],[1227,756,116,198],[1109,654,116,199],[458,761,116,198],[1827,678,116,199],[576,761,116,198],[1463,879,527,39],[1490,349,515,45],[1345,767,116,198],[0,82,1079,39],[0,41,1088,39],[556,613,675,39],[1139,438,647,46],[1945,678,101,131],[0,123,1023,39],[1228,1083,76,100],[556,556,211,39],[1126,397,816,39],[0,595,177,1],[0,0,1113,39],[1025,123,998,39],[576,164,990,37],[183,1349,54,56],[1383,1363,77,31],[819,1367,70,31],[434,1352,52,54],[624,1438,32,33],[2032,1056,12,43],[152,1442,25,31],[1872,1401,36,44],[1992,877,56,32],[1275,1431,34,33],[1370,1083,22,55],[2007,348,39,43],[1910,1434,34,32],[183,1407,36,44],[1368,596,40,43],[1485,1420,38,36],[809,1136,41,52],[1617,1392,40,49],[581,1413,41,36],[972,1086,15,50],[1946,1434,29,36],[742,1397,40,47],[82,1146,36,59],[2035,0,13,42],[303,1424,36,33],[1978,1406,56,32],[1783,1432,34,33],[399,1438,34,32],[264,1424,37,33],[488,1407,56,32],[1859,94,18,21],[2034,811,12,44],[868,1430,36,33],[1355,1437,25,32],[1819,1432,34,33],[1757,1378,48,42],[1533,1392,40,50],[359,1421,38,36],[1659,1394,40,49],[1017,1413,41,36],[357,1136,29,37],[1054,1183,15,50],[784,1400,40,47],[638,1280,36,59],[390,1014,12,44],[906,1430,36,33],[125,1442,25,32],[944,1434,34,33],[1928,1390,48,42],[1074,1082,44,51],[694,813,230,93],[1140,1416,38,37],[1575,1392,40,50],[1060,1413,29,37],[1772,840,42,37],[101,1207,15,50],[592,1352,36,59],[1383,1396,41,47],[2032,1101,12,43],[61,1408,56,32],[980,1434,34,33],[1450,1420,33,42],[2014,1154,31,50],[926,855,228,92],[1743,1422,38,36],[221,1416,41,36],[1701,1394,40,49],[658,1438,29,36],[1017,1343,15,50],[826,1400,40,47],[381,1361,36,58],[1233,596,133,31],[891,1367,70,31],[959,438,178,173],[475,1097,78,89],[1126,203,180,192],[638,1347,50,89],[690,1347,50,89],[460,164,114,339],[0,164,228,170],[0,1412,49,31],[742,1364,75,31],[868,1400,67,28],[1249,1401,66,28],[419,1408,63,28],[230,164,228,170],[0,1227,99,28],[291,1361,88,28],[119,1412,61,28],[1269,1285,38,28],[1658,840,112,28],[1675,1364,80,28],[124,1349,57,61],[854,1086,57,126],[303,1136,52,126],[1390,1235,44,126],[913,1086,57,126],[385,336,60,126],[755,1136,52,126],[1691,1144,50,126],[696,1150,45,126],[1749,1057,129,83],[943,654,164,144],[371,505,183,151],[1415,486,185,153],[769,388,188,166],[576,388,191,166],[0,427,188,166],[1743,94,27,26],[1772,94,27,26],[1801,94,27,26],[1830,94,27,26],[1757,1292,55,84],[1504,1301,55,84],[1561,1306,55,84],[1618,1306,55,84],[1269,1315,55,84],[1326,1315,55,84],[1814,1315,55,84],[1871,1315,55,84],[809,1214,80,76],[1945,811,87,64],[0,1349,59,61],[137,1014,125,120],[1653,920,135,131],[1308,203,180,192],[1124,1077,102,82],[1426,1396,22,87],[959,425,21,9],[371,464,75,36],[604,1231,82,31],[1317,1401,36,51],[1658,767,15,60],[694,761,86,45],[1617,1443,20,36],[644,961,44,54],[2035,44,10,42],[972,1138,15,42],[614,1097,25,35],[1450,94,48,26],[2025,121,20,37],[1077,800,28,40],[1551,110,15,6],[1452,1154,44,48],[1115,0,386,92],[1490,258,383,89],[1503,0,386,92],[576,297,383,89],[1568,164,386,92],[576,203,386,92],[61,1349,61,57],[0,336,383,89],[1490,203,72,48],[769,592,15,15],[1944,396,102,35],[1233,641,221,113],[1776,554,225,122],[1456,652,221,113],[238,658,218,108],[556,654,231,105],[0,602,236,108],[1139,486,274,108],[1788,438,255,114],[190,427,179,173],[1090,41,19,41],[1977,1440,35,29],[510,1441,30,29],[1316,1204,41,29],[473,1441,35,29],[371,427,12,16],[435,1438,36,30],[51,1442,35,29],[1355,1401,25,34],[1197,1412,35,43],[556,505,18,38],[2003,633,41,38],[1807,1401,63,29],[1234,1431,39,29],[1922,1056,108,96],[88,1442,35,29],[1463,920,188,96],[1463,767,193,110],[1956,164,83,84],[390,1093,83,84],[1602,486,172,164],[1675,108,23,13],[1395,113,19,2],[1609,1144,80,80],[1679,678,146,160],[1928,1315,62,73],[1025,800,50,53],[406,903,50,53],[488,1352,50,53],[236,768,167,125],[1416,113,19,2],[964,203,160,220],[1346,113,47,7],[540,1352,50,53],[1508,1139,99,67],[1875,258,134,88],[236,895,168,117],[1262,967,135,114],[0,912,135,141],[2035,88,13,7],[434,1280,66,70],[1081,84,19,7],[502,1280,66,70],[570,1280,66,70],[1201,1285,66,70],[1436,1289,66,70],[1197,1357,50,53],[761,1292,66,70],[1689,1292,66,70],[829,1295,66,70],[1749,1142,99,67],[897,1295,66,70],[689,1438,32,32],[1091,1439,32,32],[1081,94,263,25],[239,1361,50,53],[406,768,50,133]]}
+		{name:"new_multitouch_atlas_13", frames: [[508,1546,836,218],[1615,0,368,560],[0,0,1161,690],[1163,0,450,510],[0,692,1874,261],[0,955,506,768],[1876,562,150,1200],[508,1353,964,191],[508,955,952,396]]},
+		{name:"new_multitouch_atlas_14", frames: [[1298,1778,222,222],[1746,1807,206,212],[152,356,384,319],[543,976,614,161],[1660,0,335,407],[1603,1240,293,335],[1562,860,310,378],[152,976,389,288],[223,1792,1072,46],[223,1744,1073,46],[0,1703,1297,39],[0,2002,1308,37],[223,1840,1005,47],[543,1240,1058,96],[223,1889,1022,45],[0,1655,1138,46],[520,1338,839,106],[0,1446,722,87],[543,1139,784,92],[1023,1446,551,100],[1154,345,464,313],[0,1535,641,83],[648,0,504,343],[1154,0,504,343],[648,345,504,343],[152,0,494,354],[0,1266,518,173],[1154,660,595,198],[152,866,1408,108],[1522,1807,222,222],[152,690,916,174],[0,0,150,1200],[1620,409,423,245],[1329,976,221,228],[1299,1548,221,228],[1522,1577,221,228],[1745,1577,221,228],[724,1446,297,207],[0,1744,221,228]]},
+		{name:"new_multitouch_atlas_15", frames: [[1679,652,31,21],[1399,967,53,48],[243,1280,65,79],[137,912,97,85],[2011,250,33,87],[406,961,119,130],[310,1280,60,79],[439,1188,79,79],[1140,1348,55,66],[0,1269,678,9],[2003,554,42,77],[1500,110,49,10],[1624,108,49,13],[264,1014,124,120],[1573,94,49,20],[1615,1226,72,78],[1316,1235,72,78],[1824,1235,72,78],[1898,1235,72,78],[1972,1235,72,78],[1054,1242,72,78],[0,1146,80,79],[614,1150,80,79],[1370,1154,80,79],[1850,1154,80,79],[1932,1154,80,79],[1074,1161,80,79],[680,1278,79,67],[357,1179,80,79],[0,1280,79,67],[81,1280,79,67],[891,1214,73,79],[966,1264,71,77],[162,1280,79,67],[1156,1185,77,82],[1128,1269,71,77],[755,1029,97,105],[1533,1226,80,73],[789,654,152,157],[1235,1204,79,79],[1620,1018,30,30],[2014,1440,31,29],[1452,1208,79,79],[1743,1211,79,79],[1624,94,76,12],[972,1183,80,79],[372,1280,60,79],[1880,1057,40,70],[458,658,94,89],[1992,1315,50,89],[1039,1322,50,89],[0,1055,124,89],[1156,855,66,89],[1620,1053,127,89],[1091,1348,47,89],[1346,94,102,17],[965,1343,50,89],[1702,94,39,23],[1500,94,71,14],[769,556,187,34],[1922,920,123,134],[527,961,115,134],[1399,1018,107,134],[1790,920,130,135],[860,949,130,135],[992,1082,80,99],[992,949,130,131],[1462,1387,69,31],[291,1391,66,31],[1508,1018,110,119],[1306,1083,62,119],[520,1218,82,31],[860,908,61,31],[1124,956,136,119],[555,1097,57,119],[644,1029,109,119],[126,1136,57,119],[185,1136,57,119],[1891,0,142,119],[335,602,32,51],[943,800,80,51],[244,1136,57,119],[694,908,164,119],[238,602,95,47],[546,1407,33,47],[0,712,116,198],[118,712,116,198],[1227,756,116,198],[1109,654,116,199],[1827,678,116,199],[458,761,116,198],[576,761,116,198],[1463,879,527,39],[1345,767,116,198],[1490,349,515,45],[0,82,1079,39],[0,41,1088,39],[556,613,675,39],[1139,438,647,46],[0,123,1023,39],[1945,678,101,131],[1228,1083,76,100],[556,556,211,39],[1126,397,816,39],[0,595,177,1],[0,0,1113,39],[1025,123,998,39],[183,1349,54,56],[576,164,990,37],[1383,1363,77,31],[819,1367,70,31],[624,1438,32,33],[434,1352,52,54],[2032,1056,12,43],[152,1442,25,31],[1872,1401,36,44],[1992,877,56,32],[1275,1431,34,33],[1370,1083,22,55],[1910,1434,34,32],[2007,348,39,43],[1368,596,40,43],[183,1407,36,44],[1617,1392,40,49],[1485,1420,38,36],[809,1136,41,52],[581,1413,41,36],[972,1086,15,50],[1946,1434,29,36],[742,1397,40,47],[82,1146,36,59],[2035,0,13,42],[1978,1406,56,32],[1783,1432,34,33],[303,1424,36,33],[399,1438,34,32],[1859,94,18,21],[488,1407,56,32],[264,1424,37,33],[2034,811,12,44],[868,1430,36,33],[1355,1437,25,32],[1819,1432,34,33],[1757,1378,48,42],[1533,1392,40,50],[359,1421,38,36],[1659,1394,40,49],[1017,1413,41,36],[357,1136,29,37],[1054,1183,15,50],[784,1400,40,47],[638,1280,36,59],[390,1014,12,44],[906,1430,36,33],[125,1442,25,32],[944,1434,34,33],[1928,1390,48,42],[694,813,230,93],[1074,1082,44,51],[1140,1416,38,37],[1575,1392,40,50],[1060,1413,29,37],[1772,840,42,37],[101,1207,15,50],[592,1352,36,59],[1383,1396,41,47],[2032,1101,12,43],[61,1408,56,32],[980,1434,34,33],[1450,1420,33,42],[2014,1154,31,50],[926,855,228,92],[1743,1422,38,36],[1701,1394,40,49],[221,1416,41,36],[658,1438,29,36],[1017,1343,15,50],[826,1400,40,47],[381,1361,36,58],[959,438,178,173],[1233,596,133,31],[891,1367,70,31],[1126,203,180,192],[475,1097,78,89],[638,1347,50,89],[690,1347,50,89],[0,164,228,170],[460,164,114,339],[230,164,228,170],[0,1412,49,31],[742,1364,75,31],[868,1400,67,28],[1249,1401,66,28],[419,1408,63,28],[0,1227,99,28],[291,1361,88,28],[119,1412,61,28],[1269,1285,38,28],[1658,840,112,28],[1675,1364,80,28],[124,1349,57,61],[854,1086,57,126],[303,1136,52,126],[1390,1235,44,126],[913,1086,57,126],[385,336,60,126],[755,1136,52,126],[1691,1144,50,126],[696,1150,45,126],[1749,1057,129,83],[943,654,164,144],[371,505,183,151],[769,388,188,166],[1415,486,185,153],[576,388,191,166],[0,427,188,166],[1743,94,27,26],[1772,94,27,26],[1801,94,27,26],[1830,94,27,26],[1757,1292,55,84],[1504,1301,55,84],[1561,1306,55,84],[1618,1306,55,84],[1269,1315,55,84],[1326,1315,55,84],[1814,1315,55,84],[1871,1315,55,84],[1945,811,87,64],[809,1214,80,76],[137,1014,125,120],[0,1349,59,61],[1653,920,135,131],[1308,203,180,192],[1124,1077,102,82],[1426,1396,22,87],[371,464,75,36],[959,425,21,9],[604,1231,82,31],[1317,1401,36,51],[694,761,86,45],[1658,767,15,60],[1617,1443,20,36],[644,961,44,54],[2035,44,10,42],[972,1138,15,42],[614,1097,25,35],[1450,94,48,26],[1077,800,28,40],[2025,121,20,37],[1551,110,15,6],[1452,1154,44,48],[1490,258,383,89],[1115,0,386,92],[1503,0,386,92],[576,297,383,89],[1568,164,386,92],[576,203,386,92],[0,336,383,89],[1490,203,72,48],[61,1349,61,57],[769,592,15,15],[1944,396,102,35],[1233,641,221,113],[1456,652,221,113],[1776,554,225,122],[238,658,218,108],[556,654,231,105],[0,602,236,108],[1139,486,274,108],[1788,438,255,114],[190,427,179,173],[1090,41,19,41],[1977,1440,35,29],[510,1441,30,29],[1316,1204,41,29],[473,1441,35,29],[371,427,12,16],[435,1438,36,30],[51,1442,35,29],[1355,1401,25,34],[1197,1412,35,43],[556,505,18,38],[2003,633,41,38],[1234,1431,39,29],[1807,1401,63,29],[88,1442,35,29],[1922,1056,108,96],[1463,920,188,96],[1463,767,193,110],[1956,164,83,84],[390,1093,83,84],[1602,486,172,164],[1675,108,23,13],[1395,113,19,2],[1416,113,19,2],[1679,678,146,160],[236,768,167,125],[1025,800,50,53],[1928,1315,62,73],[406,903,50,53],[1081,84,19,7],[488,1352,50,53],[964,203,160,220],[540,1352,50,53],[1197,1357,50,53],[1508,1139,99,67],[1749,1142,99,67],[406,768,50,133],[1262,967,135,114],[1875,258,134,88],[434,1280,66,70],[1346,113,47,7],[0,912,135,141],[236,895,168,117],[502,1280,66,70],[570,1280,66,70],[1201,1285,66,70],[1436,1289,66,70],[239,1361,50,53],[761,1292,66,70],[1689,1292,66,70],[829,1295,66,70],[1609,1144,80,80],[1081,94,263,25],[689,1438,32,32],[1091,1439,32,32],[2035,88,13,7],[897,1295,66,70]]}
 ];
 
 
@@ -158,42 +158,42 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedBmp_471 = function() {
+(lib.CachedBmp_472 = function() {
 	this.initialize(ss["new_multitouch_atlas_15"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_467 = function() {
+(lib.CachedBmp_469 = function() {
 	this.initialize(ss["new_multitouch_atlas_15"]);
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_468 = function() {
+(lib.CachedBmp_471 = function() {
 	this.initialize(ss["new_multitouch_atlas_15"]);
 	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_469 = function() {
+(lib.CachedBmp_467 = function() {
 	this.initialize(ss["new_multitouch_atlas_15"]);
 	this.gotoAndStop(4);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_472 = function() {
+(lib.CachedBmp_470 = function() {
 	this.initialize(ss["new_multitouch_atlas_15"]);
 	this.gotoAndStop(5);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_470 = function() {
+(lib.CachedBmp_468 = function() {
 	this.initialize(ss["new_multitouch_atlas_15"]);
 	this.gotoAndStop(6);
 }).prototype = p = new cjs.Sprite();
@@ -221,14 +221,14 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedBmp_464 = function() {
+(lib.CachedBmp_462 = function() {
 	this.initialize(ss["new_multitouch_atlas_15"]);
 	this.gotoAndStop(10);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_462 = function() {
+(lib.CachedBmp_461 = function() {
 	this.initialize(ss["new_multitouch_atlas_15"]);
 	this.gotoAndStop(11);
 }).prototype = p = new cjs.Sprite();
@@ -242,7 +242,7 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedBmp_461 = function() {
+(lib.CachedBmp_464 = function() {
 	this.initialize(ss["new_multitouch_atlas_15"]);
 	this.gotoAndStop(13);
 }).prototype = p = new cjs.Sprite();
@@ -256,63 +256,63 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedBmp_458 = function() {
+(lib.CachedBmp_457 = function() {
 	this.initialize(ss["new_multitouch_atlas_15"]);
 	this.gotoAndStop(15);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_457 = function() {
+(lib.CachedBmp_456 = function() {
 	this.initialize(ss["new_multitouch_atlas_15"]);
 	this.gotoAndStop(16);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_456 = function() {
+(lib.CachedBmp_455 = function() {
 	this.initialize(ss["new_multitouch_atlas_15"]);
 	this.gotoAndStop(17);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_454 = function() {
+(lib.CachedBmp_453 = function() {
 	this.initialize(ss["new_multitouch_atlas_15"]);
 	this.gotoAndStop(18);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_455 = function() {
+(lib.CachedBmp_458 = function() {
 	this.initialize(ss["new_multitouch_atlas_15"]);
 	this.gotoAndStop(19);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_453 = function() {
+(lib.CachedBmp_454 = function() {
 	this.initialize(ss["new_multitouch_atlas_15"]);
 	this.gotoAndStop(20);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_448 = function() {
+(lib.CachedBmp_450 = function() {
 	this.initialize(ss["new_multitouch_atlas_15"]);
 	this.gotoAndStop(21);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_450 = function() {
+(lib.CachedBmp_449 = function() {
 	this.initialize(ss["new_multitouch_atlas_15"]);
 	this.gotoAndStop(22);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_449 = function() {
+(lib.CachedBmp_448 = function() {
 	this.initialize(ss["new_multitouch_atlas_15"]);
 	this.gotoAndStop(23);
 }).prototype = p = new cjs.Sprite();
@@ -326,28 +326,28 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedBmp_452 = function() {
+(lib.CachedBmp_446 = function() {
 	this.initialize(ss["new_multitouch_atlas_15"]);
 	this.gotoAndStop(25);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_441 = function() {
+(lib.CachedBmp_447 = function() {
 	this.initialize(ss["new_multitouch_atlas_15"]);
 	this.gotoAndStop(26);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_447 = function() {
+(lib.CachedBmp_441 = function() {
 	this.initialize(ss["new_multitouch_atlas_15"]);
 	this.gotoAndStop(27);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_446 = function() {
+(lib.CachedBmp_452 = function() {
 	this.initialize(ss["new_multitouch_atlas_15"]);
 	this.gotoAndStop(28);
 }).prototype = p = new cjs.Sprite();
@@ -361,7 +361,7 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedBmp_440 = function() {
+(lib.CachedBmp_443 = function() {
 	this.initialize(ss["new_multitouch_atlas_15"]);
 	this.gotoAndStop(30);
 }).prototype = p = new cjs.Sprite();
@@ -375,21 +375,21 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedBmp_443 = function() {
+(lib.CachedBmp_431 = function() {
 	this.initialize(ss["new_multitouch_atlas_15"]);
 	this.gotoAndStop(32);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_434 = function() {
+(lib.CachedBmp_440 = function() {
 	this.initialize(ss["new_multitouch_atlas_15"]);
 	this.gotoAndStop(33);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_433 = function() {
+(lib.CachedBmp_434 = function() {
 	this.initialize(ss["new_multitouch_atlas_15"]);
 	this.gotoAndStop(34);
 }).prototype = p = new cjs.Sprite();
@@ -403,79 +403,65 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedBmp_427 = function() {
+(lib.CachedBmp_433 = function() {
 	this.initialize(ss["new_multitouch_atlas_15"]);
 	this.gotoAndStop(36);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_428 = function() {
+(lib.CachedBmp_429 = function() {
 	this.initialize(ss["new_multitouch_atlas_15"]);
 	this.gotoAndStop(37);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_431 = function() {
+(lib.CachedBmp_430 = function() {
 	this.initialize(ss["new_multitouch_atlas_15"]);
 	this.gotoAndStop(38);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_430 = function() {
+(lib.CachedBmp_428 = function() {
 	this.initialize(ss["new_multitouch_atlas_15"]);
 	this.gotoAndStop(39);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_426 = function() {
+(lib.CachedBmp_425 = function() {
 	this.initialize(ss["new_multitouch_atlas_15"]);
 	this.gotoAndStop(40);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_429 = function() {
+(lib.CachedBmp_420 = function() {
 	this.initialize(ss["new_multitouch_atlas_15"]);
 	this.gotoAndStop(41);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_423 = function() {
+(lib.CachedBmp_426 = function() {
 	this.initialize(ss["new_multitouch_atlas_15"]);
 	this.gotoAndStop(42);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_420 = function() {
+(lib.CachedBmp_427 = function() {
 	this.initialize(ss["new_multitouch_atlas_15"]);
 	this.gotoAndStop(43);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_418 = function() {
+(lib.CachedBmp_423 = function() {
 	this.initialize(ss["new_multitouch_atlas_15"]);
 	this.gotoAndStop(44);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_425 = function() {
-	this.initialize(ss["new_multitouch_atlas_15"]);
-	this.gotoAndStop(45);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_417 = function() {
-	this.initialize(ss["new_multitouch_atlas_15"]);
-	this.gotoAndStop(46);
 }).prototype = p = new cjs.Sprite();
 
 
@@ -487,9 +473,16 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedBmp_416 = function() {
-	this.initialize(ss["new_multitouch_atlas_14"]);
-	this.gotoAndStop(1);
+(lib.CachedBmp_418 = function() {
+	this.initialize(ss["new_multitouch_atlas_15"]);
+	this.gotoAndStop(45);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_417 = function() {
+	this.initialize(ss["new_multitouch_atlas_15"]);
+	this.gotoAndStop(46);
 }).prototype = p = new cjs.Sprite();
 
 
@@ -515,14 +508,21 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedBmp_408 = function() {
+(lib.CachedBmp_416 = function() {
+	this.initialize(ss["new_multitouch_atlas_14"]);
+	this.gotoAndStop(1);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_407 = function() {
 	this.initialize(ss["new_multitouch_atlas_15"]);
 	this.gotoAndStop(50);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_407 = function() {
+(lib.CachedBmp_408 = function() {
 	this.initialize(ss["new_multitouch_atlas_15"]);
 	this.gotoAndStop(51);
 }).prototype = p = new cjs.Sprite();
@@ -536,20 +536,6 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedBmp_405 = function() {
-	this.initialize(ss["new_multitouch_atlas_15"]);
-	this.gotoAndStop(53);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_404 = function() {
-	this.initialize(ss["new_multitouch_atlas_15"]);
-	this.gotoAndStop(54);
-}).prototype = p = new cjs.Sprite();
-
-
-
 (lib.CachedBmp_419 = function() {
 	this.initialize(ss["new_multitouch_atlas_13"]);
 	this.gotoAndStop(0);
@@ -557,14 +543,28 @@ lib.ssMetadata = [
 
 
 
+(lib.CachedBmp_405 = function() {
+	this.initialize(ss["new_multitouch_atlas_15"]);
+	this.gotoAndStop(53);
+}).prototype = p = new cjs.Sprite();
+
+
+
 (lib.CachedBmp_403 = function() {
+	this.initialize(ss["new_multitouch_atlas_15"]);
+	this.gotoAndStop(54);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_401 = function() {
 	this.initialize(ss["new_multitouch_atlas_15"]);
 	this.gotoAndStop(55);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_401 = function() {
+(lib.CachedBmp_404 = function() {
 	this.initialize(ss["new_multitouch_atlas_15"]);
 	this.gotoAndStop(56);
 }).prototype = p = new cjs.Sprite();
@@ -592,7 +592,7 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedBmp_394 = function() {
+(lib.CachedBmp_396 = function() {
 	this.initialize(ss["new_multitouch_atlas_15"]);
 	this.gotoAndStop(60);
 }).prototype = p = new cjs.Sprite();
@@ -606,7 +606,7 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedBmp_396 = function() {
+(lib.CachedBmp_394 = function() {
 	this.initialize(ss["new_multitouch_atlas_15"]);
 	this.gotoAndStop(62);
 }).prototype = p = new cjs.Sprite();
@@ -627,14 +627,14 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedBmp_391 = function() {
+(lib.CachedBmp_390 = function() {
 	this.initialize(ss["new_multitouch_atlas_15"]);
 	this.gotoAndStop(65);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_390 = function() {
+(lib.CachedBmp_391 = function() {
 	this.initialize(ss["new_multitouch_atlas_15"]);
 	this.gotoAndStop(66);
 }).prototype = p = new cjs.Sprite();
@@ -655,9 +655,23 @@ lib.ssMetadata = [
 
 
 
+(lib.CachedBmp_409 = function() {
+	this.initialize(ss["new_multitouch_atlas_14"]);
+	this.gotoAndStop(4);
+}).prototype = p = new cjs.Sprite();
+
+
+
 (lib.CachedBmp_382 = function() {
 	this.initialize(ss["new_multitouch_atlas_15"]);
 	this.gotoAndStop(67);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_397 = function() {
+	this.initialize(ss["new_multitouch_atlas_13"]);
+	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
@@ -679,20 +693,6 @@ lib.ssMetadata = [
 (lib.CachedBmp_379 = function() {
 	this.initialize(ss["new_multitouch_atlas_15"]);
 	this.gotoAndStop(70);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_409 = function() {
-	this.initialize(ss["new_multitouch_atlas_14"]);
-	this.gotoAndStop(4);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_397 = function() {
-	this.initialize(ss["new_multitouch_atlas_13"]);
-	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
@@ -725,9 +725,23 @@ lib.ssMetadata = [
 
 
 
+(lib.CachedBmp_373 = function() {
+	this.initialize(ss["new_multitouch_atlas_14"]);
+	this.gotoAndStop(5);
+}).prototype = p = new cjs.Sprite();
+
+
+
 (lib.CachedBmp_372 = function() {
 	this.initialize(ss["new_multitouch_atlas_15"]);
 	this.gotoAndStop(75);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_378 = function() {
+	this.initialize(ss["new_multitouch_atlas_14"]);
+	this.gotoAndStop(6);
 }).prototype = p = new cjs.Sprite();
 
 
@@ -739,9 +753,9 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedBmp_378 = function() {
-	this.initialize(ss["new_multitouch_atlas_14"]);
-	this.gotoAndStop(5);
+(lib.CachedBmp_383 = function() {
+	this.initialize(ss["new_multitouch_atlas_13"]);
+	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
@@ -753,21 +767,14 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedBmp_373 = function() {
-	this.initialize(ss["new_multitouch_atlas_14"]);
-	this.gotoAndStop(6);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_367 = function() {
+(lib.CachedBmp_368 = function() {
 	this.initialize(ss["new_multitouch_atlas_15"]);
 	this.gotoAndStop(78);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_368 = function() {
+(lib.CachedBmp_367 = function() {
 	this.initialize(ss["new_multitouch_atlas_15"]);
 	this.gotoAndStop(79);
 }).prototype = p = new cjs.Sprite();
@@ -809,20 +816,6 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedBmp_383 = function() {
-	this.initialize(ss["new_multitouch_atlas_13"]);
-	this.gotoAndStop(2);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_370 = function() {
-	this.initialize(ss["new_multitouch_atlas_14"]);
-	this.gotoAndStop(7);
-}).prototype = p = new cjs.Sprite();
-
-
-
 (lib.CachedBmp_361 = function() {
 	this.initialize(ss["new_multitouch_atlas_15"]);
 	this.gotoAndStop(85);
@@ -844,21 +837,28 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedBmp_358 = function() {
+(lib.CachedBmp_370 = function() {
+	this.initialize(ss["new_multitouch_atlas_14"]);
+	this.gotoAndStop(7);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_357 = function() {
 	this.initialize(ss["new_multitouch_atlas_15"]);
 	this.gotoAndStop(88);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_356 = function() {
+(lib.CachedBmp_358 = function() {
 	this.initialize(ss["new_multitouch_atlas_15"]);
 	this.gotoAndStop(89);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_357 = function() {
+(lib.CachedBmp_356 = function() {
 	this.initialize(ss["new_multitouch_atlas_15"]);
 	this.gotoAndStop(90);
 }).prototype = p = new cjs.Sprite();
@@ -879,14 +879,14 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedBmp_352 = function() {
+(lib.CachedBmp_355 = function() {
 	this.initialize(ss["new_multitouch_atlas_15"]);
 	this.gotoAndStop(93);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_355 = function() {
+(lib.CachedBmp_352 = function() {
 	this.initialize(ss["new_multitouch_atlas_15"]);
 	this.gotoAndStop(94);
 }).prototype = p = new cjs.Sprite();
@@ -900,16 +900,16 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedBmp_350 = function() {
-	this.initialize(ss["new_multitouch_atlas_14"]);
-	this.gotoAndStop(8);
+(lib.CachedBmp_349 = function() {
+	this.initialize(ss["new_multitouch_atlas_15"]);
+	this.gotoAndStop(96);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_349 = function() {
-	this.initialize(ss["new_multitouch_atlas_15"]);
-	this.gotoAndStop(96);
+(lib.CachedBmp_350 = function() {
+	this.initialize(ss["new_multitouch_atlas_14"]);
+	this.gotoAndStop(8);
 }).prototype = p = new cjs.Sprite();
 
 
@@ -942,23 +942,16 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedBmp_342 = function() {
+(lib.CachedBmp_343 = function() {
 	this.initialize(ss["new_multitouch_atlas_15"]);
 	this.gotoAndStop(99);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_343 = function() {
+(lib.CachedBmp_342 = function() {
 	this.initialize(ss["new_multitouch_atlas_15"]);
 	this.gotoAndStop(100);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_341 = function() {
-	this.initialize(ss["new_multitouch_atlas_15"]);
-	this.gotoAndStop(101);
 }).prototype = p = new cjs.Sprite();
 
 
@@ -970,6 +963,13 @@ lib.ssMetadata = [
 
 
 
+(lib.CachedBmp_341 = function() {
+	this.initialize(ss["new_multitouch_atlas_15"]);
+	this.gotoAndStop(101);
+}).prototype = p = new cjs.Sprite();
+
+
+
 (lib.CachedBmp_338 = function() {
 	this.initialize(ss["new_multitouch_atlas_15"]);
 	this.gotoAndStop(102);
@@ -977,9 +977,16 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedBmp_340 = function() {
+(lib.CachedBmp_339 = function() {
 	this.initialize(ss["new_multitouch_atlas_14"]);
 	this.gotoAndStop(12);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_340 = function() {
+	this.initialize(ss["new_multitouch_atlas_14"]);
+	this.gotoAndStop(13);
 }).prototype = p = new cjs.Sprite();
 
 
@@ -991,9 +998,15 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedBmp_339 = function() {
-	this.initialize(ss["new_multitouch_atlas_14"]);
-	this.gotoAndStop(13);
+(lib.CachedBmp_385 = function() {
+	this.initialize(img.CachedBmp_385);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,2248,684);
+
+
+(lib.CachedBmp_333 = function() {
+	this.initialize(ss["new_multitouch_atlas_15"]);
+	this.gotoAndStop(104);
 }).prototype = p = new cjs.Sprite();
 
 
@@ -1005,23 +1018,9 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedBmp_333 = function() {
-	this.initialize(ss["new_multitouch_atlas_15"]);
-	this.gotoAndStop(104);
-}).prototype = p = new cjs.Sprite();
-
-
-
 (lib.CachedBmp_335 = function() {
 	this.initialize(ss["new_multitouch_atlas_15"]);
 	this.gotoAndStop(105);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_332 = function() {
-	this.initialize(ss["new_multitouch_atlas_15"]);
-	this.gotoAndStop(106);
 }).prototype = p = new cjs.Sprite();
 
 
@@ -1033,14 +1032,21 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedBmp_331 = function() {
+(lib.CachedBmp_332 = function() {
+	this.initialize(ss["new_multitouch_atlas_15"]);
+	this.gotoAndStop(106);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_328 = function() {
 	this.initialize(ss["new_multitouch_atlas_15"]);
 	this.gotoAndStop(107);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_328 = function() {
+(lib.CachedBmp_331 = function() {
 	this.initialize(ss["new_multitouch_atlas_15"]);
 	this.gotoAndStop(108);
 }).prototype = p = new cjs.Sprite();
@@ -1075,14 +1081,14 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedBmp_302 = function() {
+(lib.CachedBmp_301 = function() {
 	this.initialize(ss["new_multitouch_atlas_15"]);
 	this.gotoAndStop(111);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_301 = function() {
+(lib.CachedBmp_302 = function() {
 	this.initialize(ss["new_multitouch_atlas_15"]);
 	this.gotoAndStop(112);
 }).prototype = p = new cjs.Sprite();
@@ -1138,49 +1144,49 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedBmp_293 = function() {
+(lib.CachedBmp_291 = function() {
 	this.initialize(ss["new_multitouch_atlas_15"]);
 	this.gotoAndStop(119);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_291 = function() {
+(lib.CachedBmp_293 = function() {
 	this.initialize(ss["new_multitouch_atlas_15"]);
 	this.gotoAndStop(120);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_292 = function() {
+(lib.CachedBmp_290 = function() {
 	this.initialize(ss["new_multitouch_atlas_15"]);
 	this.gotoAndStop(121);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_290 = function() {
+(lib.CachedBmp_292 = function() {
 	this.initialize(ss["new_multitouch_atlas_15"]);
 	this.gotoAndStop(122);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_287 = function() {
+(lib.CachedBmp_286 = function() {
 	this.initialize(ss["new_multitouch_atlas_15"]);
 	this.gotoAndStop(123);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_288 = function() {
+(lib.CachedBmp_287 = function() {
 	this.initialize(ss["new_multitouch_atlas_15"]);
 	this.gotoAndStop(124);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_286 = function() {
+(lib.CachedBmp_288 = function() {
 	this.initialize(ss["new_multitouch_atlas_15"]);
 	this.gotoAndStop(125);
 }).prototype = p = new cjs.Sprite();
@@ -1192,12 +1198,6 @@ lib.ssMetadata = [
 	this.gotoAndStop(19);
 }).prototype = p = new cjs.Sprite();
 
-
-
-(lib.CachedBmp_385 = function() {
-	this.initialize(img.CachedBmp_385);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,2248,684);
 
 
 (lib.CachedBmp_285 = function() {
@@ -1242,21 +1242,21 @@ p.nominalBounds = new cjs.Rectangle(0,0,2248,684);
 
 
 
-(lib.CachedBmp_278 = function() {
+(lib.CachedBmp_276 = function() {
 	this.initialize(ss["new_multitouch_atlas_15"]);
 	this.gotoAndStop(132);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_276 = function() {
+(lib.CachedBmp_275 = function() {
 	this.initialize(ss["new_multitouch_atlas_15"]);
 	this.gotoAndStop(133);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_275 = function() {
+(lib.CachedBmp_278 = function() {
 	this.initialize(ss["new_multitouch_atlas_15"]);
 	this.gotoAndStop(134);
 }).prototype = p = new cjs.Sprite();
@@ -1270,7 +1270,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,2248,684);
 
 
 
-(lib.CachedBmp_273 = function() {
+(lib.CachedBmp_271 = function() {
 	this.initialize(ss["new_multitouch_atlas_15"]);
 	this.gotoAndStop(136);
 }).prototype = p = new cjs.Sprite();
@@ -1284,7 +1284,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,2248,684);
 
 
 
-(lib.CachedBmp_271 = function() {
+(lib.CachedBmp_273 = function() {
 	this.initialize(ss["new_multitouch_atlas_15"]);
 	this.gotoAndStop(138);
 }).prototype = p = new cjs.Sprite();
@@ -1315,6 +1315,13 @@ p.nominalBounds = new cjs.Rectangle(0,0,2248,684);
 (lib.CachedBmp_267 = function() {
 	this.initialize(ss["new_multitouch_atlas_15"]);
 	this.gotoAndStop(142);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_384 = function() {
+	this.initialize(ss["new_multitouch_atlas_9"]);
+	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
@@ -1382,6 +1389,13 @@ p.nominalBounds = new cjs.Rectangle(0,0,2248,684);
 
 
 
+(lib.CachedBmp_265 = function() {
+	this.initialize(ss["new_multitouch_atlas_14"]);
+	this.gotoAndStop(20);
+}).prototype = p = new cjs.Sprite();
+
+
+
 (lib.CachedBmp_254 = function() {
 	this.initialize(ss["new_multitouch_atlas_15"]);
 	this.gotoAndStop(152);
@@ -1392,13 +1406,6 @@ p.nominalBounds = new cjs.Rectangle(0,0,2248,684);
 (lib.CachedBmp_255 = function() {
 	this.initialize(ss["new_multitouch_atlas_15"]);
 	this.gotoAndStop(153);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_265 = function() {
-	this.initialize(ss["new_multitouch_atlas_14"]);
-	this.gotoAndStop(20);
 }).prototype = p = new cjs.Sprite();
 
 
@@ -1424,14 +1431,14 @@ p.nominalBounds = new cjs.Rectangle(0,0,2248,684);
 
 
 
-(lib.CachedBmp_249 = function() {
+(lib.CachedBmp_250 = function() {
 	this.initialize(ss["new_multitouch_atlas_15"]);
 	this.gotoAndStop(157);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_250 = function() {
+(lib.CachedBmp_249 = function() {
 	this.initialize(ss["new_multitouch_atlas_15"]);
 	this.gotoAndStop(158);
 }).prototype = p = new cjs.Sprite();
@@ -1522,13 +1529,6 @@ p.nominalBounds = new cjs.Rectangle(0,0,2248,684);
 
 
 
-(lib.CachedBmp_384 = function() {
-	this.initialize(ss["new_multitouch_atlas_9"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
 (lib.CachedBmp_236 = function() {
 	this.initialize(ss["new_multitouch_atlas_15"]);
 	this.gotoAndStop(171);
@@ -1543,14 +1543,14 @@ p.nominalBounds = new cjs.Rectangle(0,0,2248,684);
 
 
 
-(lib.CachedBmp_232 = function() {
+(lib.CachedBmp_233 = function() {
 	this.initialize(ss["new_multitouch_atlas_15"]);
 	this.gotoAndStop(173);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_233 = function() {
+(lib.CachedBmp_232 = function() {
 	this.initialize(ss["new_multitouch_atlas_15"]);
 	this.gotoAndStop(174);
 }).prototype = p = new cjs.Sprite();
@@ -1585,35 +1585,35 @@ p.nominalBounds = new cjs.Rectangle(0,0,2248,684);
 
 
 
-(lib.CachedBmp_223 = function() {
+(lib.CachedBmp_224 = function() {
 	this.initialize(ss["new_multitouch_atlas_15"]);
 	this.gotoAndStop(179);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_222 = function() {
+(lib.CachedBmp_223 = function() {
 	this.initialize(ss["new_multitouch_atlas_15"]);
 	this.gotoAndStop(180);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_224 = function() {
+(lib.CachedBmp_222 = function() {
 	this.initialize(ss["new_multitouch_atlas_15"]);
 	this.gotoAndStop(181);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_218 = function() {
+(lib.CachedBmp_219 = function() {
 	this.initialize(ss["new_multitouch_atlas_15"]);
 	this.gotoAndStop(182);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_219 = function() {
+(lib.CachedBmp_218 = function() {
 	this.initialize(ss["new_multitouch_atlas_15"]);
 	this.gotoAndStop(183);
 }).prototype = p = new cjs.Sprite();
@@ -1634,56 +1634,56 @@ p.nominalBounds = new cjs.Rectangle(0,0,2248,684);
 
 
 
-(lib.CachedBmp_214 = function() {
+(lib.CachedBmp_215 = function() {
 	this.initialize(ss["new_multitouch_atlas_15"]);
 	this.gotoAndStop(186);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_215 = function() {
+(lib.CachedBmp_214 = function() {
 	this.initialize(ss["new_multitouch_atlas_15"]);
 	this.gotoAndStop(187);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_212 = function() {
+(lib.CachedBmp_213 = function() {
 	this.initialize(ss["new_multitouch_atlas_15"]);
 	this.gotoAndStop(188);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_211 = function() {
+(lib.CachedBmp_212 = function() {
 	this.initialize(ss["new_multitouch_atlas_15"]);
 	this.gotoAndStop(189);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_208 = function() {
+(lib.CachedBmp_211 = function() {
 	this.initialize(ss["new_multitouch_atlas_15"]);
 	this.gotoAndStop(190);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_207 = function() {
+(lib.CachedBmp_208 = function() {
 	this.initialize(ss["new_multitouch_atlas_15"]);
 	this.gotoAndStop(191);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_205 = function() {
+(lib.CachedBmp_207 = function() {
 	this.initialize(ss["new_multitouch_atlas_15"]);
 	this.gotoAndStop(192);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_213 = function() {
+(lib.CachedBmp_205 = function() {
 	this.initialize(ss["new_multitouch_atlas_15"]);
 	this.gotoAndStop(193);
 }).prototype = p = new cjs.Sprite();
@@ -1732,6 +1732,13 @@ p.nominalBounds = new cjs.Rectangle(0,0,2248,684);
 
 
 
+(lib.CachedBmp_198 = function() {
+	this.initialize(ss["new_multitouch_atlas_14"]);
+	this.gotoAndStop(21);
+}).prototype = p = new cjs.Sprite();
+
+
+
 (lib.CachedBmp_329 = function() {
 	this.initialize(ss["new_multitouch_atlas_15"]);
 	this.gotoAndStop(200);
@@ -1739,9 +1746,9 @@ p.nominalBounds = new cjs.Rectangle(0,0,2248,684);
 
 
 
-(lib.CachedBmp_198 = function() {
-	this.initialize(ss["new_multitouch_atlas_14"]);
-	this.gotoAndStop(21);
+(lib.CachedBmp_280 = function() {
+	this.initialize(ss["new_multitouch_atlas_6"]);
+	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
@@ -1788,6 +1795,13 @@ p.nominalBounds = new cjs.Rectangle(0,0,2248,684);
 
 
 
+(lib.CachedBmp_256 = function() {
+	this.initialize(ss["new_multitouch_atlas_5"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
 (lib.CachedBmp_188 = function() {
 	this.initialize(ss["new_multitouch_atlas_15"]);
 	this.gotoAndStop(207);
@@ -1802,6 +1816,12 @@ p.nominalBounds = new cjs.Rectangle(0,0,2248,684);
 
 
 
+(lib.CachedBmp_414 = function() {
+	this.initialize(img.CachedBmp_414);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,3032,1777);
+
+
 (lib.CachedBmp_167 = function() {
 	this.initialize(ss["new_multitouch_atlas_14"]);
 	this.gotoAndStop(22);
@@ -1809,23 +1829,15 @@ p.nominalBounds = new cjs.Rectangle(0,0,2248,684);
 
 
 
+(lib.CachedBmp_415 = function() {
+	this.initialize(img.CachedBmp_415);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,3032,1777);
+
+
 (lib.CachedBmp_166 = function() {
 	this.initialize(ss["new_multitouch_atlas_14"]);
 	this.gotoAndStop(23);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_165 = function() {
-	this.initialize(ss["new_multitouch_atlas_14"]);
-	this.gotoAndStop(24);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_161 = function() {
-	this.initialize(ss["new_multitouch_atlas_14"]);
-	this.gotoAndStop(25);
 }).prototype = p = new cjs.Sprite();
 
 
@@ -1837,9 +1849,9 @@ p.nominalBounds = new cjs.Rectangle(0,0,2248,684);
 
 
 
-(lib.CachedBmp_280 = function() {
-	this.initialize(ss["new_multitouch_atlas_6"]);
-	this.gotoAndStop(0);
+(lib.CachedBmp_165 = function() {
+	this.initialize(ss["new_multitouch_atlas_14"]);
+	this.gotoAndStop(24);
 }).prototype = p = new cjs.Sprite();
 
 
@@ -1851,29 +1863,16 @@ p.nominalBounds = new cjs.Rectangle(0,0,2248,684);
 
 
 
+(lib.CachedBmp_161 = function() {
+	this.initialize(ss["new_multitouch_atlas_14"]);
+	this.gotoAndStop(25);
+}).prototype = p = new cjs.Sprite();
+
+
+
 (lib.CachedBmp_157 = function() {
 	this.initialize(ss["new_multitouch_atlas_14"]);
 	this.gotoAndStop(26);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_256 = function() {
-	this.initialize(ss["new_multitouch_atlas_5"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_415 = function() {
-	this.initialize(img.CachedBmp_415);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,3032,1777);
-
-
-(lib.CachedBmp_241 = function() {
-	this.initialize(ss["new_multitouch_atlas_4"]);
-	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
@@ -1885,16 +1884,30 @@ p.nominalBounds = new cjs.Rectangle(0,0,3032,1777);
 
 
 
-(lib.CachedBmp_138 = function() {
-	this.initialize(ss["new_multitouch_atlas_15"]);
-	this.gotoAndStop(212);
+(lib.CachedBmp_241 = function() {
+	this.initialize(ss["new_multitouch_atlas_4"]);
+	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_137 = function() {
 	this.initialize(ss["new_multitouch_atlas_15"]);
+	this.gotoAndStop(212);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_138 = function() {
+	this.initialize(ss["new_multitouch_atlas_15"]);
 	this.gotoAndStop(213);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_227 = function() {
+	this.initialize(ss["new_multitouch_atlas_7"]);
+	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
@@ -1902,13 +1915,6 @@ p.nominalBounds = new cjs.Rectangle(0,0,3032,1777);
 (lib.CachedBmp_135 = function() {
 	this.initialize(ss["new_multitouch_atlas_15"]);
 	this.gotoAndStop(214);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_141 = function() {
-	this.initialize(ss["new_multitouch_atlas_13"]);
-	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
 
 
@@ -1927,13 +1933,6 @@ p.nominalBounds = new cjs.Rectangle(0,0,3032,1777);
 
 
 
-(lib.CachedBmp_227 = function() {
-	this.initialize(ss["new_multitouch_atlas_7"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
 (lib.CachedBmp_133 = function() {
 	this.initialize(ss["new_multitouch_atlas_15"]);
 	this.gotoAndStop(217);
@@ -1941,14 +1940,14 @@ p.nominalBounds = new cjs.Rectangle(0,0,3032,1777);
 
 
 
-(lib.CachedBmp_131 = function() {
+(lib.CachedBmp_130 = function() {
 	this.initialize(ss["new_multitouch_atlas_15"]);
 	this.gotoAndStop(218);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_130 = function() {
+(lib.CachedBmp_131 = function() {
 	this.initialize(ss["new_multitouch_atlas_15"]);
 	this.gotoAndStop(219);
 }).prototype = p = new cjs.Sprite();
@@ -1990,14 +1989,14 @@ p.nominalBounds = new cjs.Rectangle(0,0,3032,1777);
 
 
 
-(lib.CachedBmp_122 = function() {
+(lib.CachedBmp_123 = function() {
 	this.initialize(ss["new_multitouch_atlas_15"]);
 	this.gotoAndStop(225);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_123 = function() {
+(lib.CachedBmp_122 = function() {
 	this.initialize(ss["new_multitouch_atlas_15"]);
 	this.gotoAndStop(226);
 }).prototype = p = new cjs.Sprite();
@@ -2011,30 +2010,37 @@ p.nominalBounds = new cjs.Rectangle(0,0,3032,1777);
 
 
 
-(lib.CachedBmp_119 = function() {
+(lib.CachedBmp_120 = function() {
 	this.initialize(ss["new_multitouch_atlas_15"]);
 	this.gotoAndStop(228);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_120 = function() {
+(lib.CachedBmp_119 = function() {
 	this.initialize(ss["new_multitouch_atlas_15"]);
 	this.gotoAndStop(229);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_115 = function() {
+(lib.CachedBmp_116 = function() {
 	this.initialize(ss["new_multitouch_atlas_15"]);
 	this.gotoAndStop(230);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_116 = function() {
+(lib.CachedBmp_115 = function() {
 	this.initialize(ss["new_multitouch_atlas_15"]);
 	this.gotoAndStop(231);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_141 = function() {
+	this.initialize(ss["new_multitouch_atlas_13"]);
+	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
 
 
@@ -2060,13 +2066,6 @@ p.nominalBounds = new cjs.Rectangle(0,0,3032,1777);
 
 
 
-(lib.CachedBmp_196 = function() {
-	this.initialize(ss["new_multitouch_atlas_1"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
 (lib.CachedBmp_110 = function() {
 	this.initialize(ss["new_multitouch_atlas_15"]);
 	this.gotoAndStop(235);
@@ -2074,14 +2073,14 @@ p.nominalBounds = new cjs.Rectangle(0,0,3032,1777);
 
 
 
-(lib.CachedBmp_108 = function() {
+(lib.CachedBmp_109 = function() {
 	this.initialize(ss["new_multitouch_atlas_15"]);
 	this.gotoAndStop(236);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_109 = function() {
+(lib.CachedBmp_108 = function() {
 	this.initialize(ss["new_multitouch_atlas_15"]);
 	this.gotoAndStop(237);
 }).prototype = p = new cjs.Sprite();
@@ -2102,14 +2101,14 @@ p.nominalBounds = new cjs.Rectangle(0,0,3032,1777);
 
 
 
-(lib.CachedBmp_155 = function() {
+(lib.CachedBmp_105 = function() {
 	this.initialize(ss["new_multitouch_atlas_15"]);
 	this.gotoAndStop(240);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_105 = function() {
+(lib.CachedBmp_155 = function() {
 	this.initialize(ss["new_multitouch_atlas_15"]);
 	this.gotoAndStop(241);
 }).prototype = p = new cjs.Sprite();
@@ -2158,14 +2157,14 @@ p.nominalBounds = new cjs.Rectangle(0,0,3032,1777);
 
 
 
-(lib.CachedBmp_144 = function() {
+(lib.CachedBmp_145 = function() {
 	this.initialize(ss["new_multitouch_atlas_15"]);
 	this.gotoAndStop(248);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_145 = function() {
+(lib.CachedBmp_144 = function() {
 	this.initialize(ss["new_multitouch_atlas_15"]);
 	this.gotoAndStop(249);
 }).prototype = p = new cjs.Sprite();
@@ -2186,14 +2185,14 @@ p.nominalBounds = new cjs.Rectangle(0,0,3032,1777);
 
 
 
-(lib.CachedBmp_84 = function() {
+(lib.CachedBmp_79 = function() {
 	this.initialize(ss["new_multitouch_atlas_15"]);
 	this.gotoAndStop(252);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_79 = function() {
+(lib.CachedBmp_84 = function() {
 	this.initialize(ss["new_multitouch_atlas_15"]);
 	this.gotoAndStop(253);
 }).prototype = p = new cjs.Sprite();
@@ -2214,6 +2213,20 @@ p.nominalBounds = new cjs.Rectangle(0,0,3032,1777);
 
 
 
+(lib.CachedBmp_196 = function() {
+	this.initialize(ss["new_multitouch_atlas_1"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_118 = function() {
+	this.initialize(ss["new_multitouch_atlas_12"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
 (lib.CachedBmp_81 = function() {
 	this.initialize(ss["new_multitouch_atlas_15"]);
 	this.gotoAndStop(256);
@@ -2228,21 +2241,21 @@ p.nominalBounds = new cjs.Rectangle(0,0,3032,1777);
 
 
 
-(lib.CachedBmp_72 = function() {
+(lib.CachedBmp_73 = function() {
 	this.initialize(ss["new_multitouch_atlas_15"]);
 	this.gotoAndStop(258);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_73 = function() {
+(lib.CachedBmp_70 = function() {
 	this.initialize(ss["new_multitouch_atlas_15"]);
 	this.gotoAndStop(259);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_70 = function() {
+(lib.CachedBmp_72 = function() {
 	this.initialize(ss["new_multitouch_atlas_15"]);
 	this.gotoAndStop(260);
 }).prototype = p = new cjs.Sprite();
@@ -2256,30 +2269,9 @@ p.nominalBounds = new cjs.Rectangle(0,0,3032,1777);
 
 
 
-(lib.CachedBmp_118 = function() {
-	this.initialize(ss["new_multitouch_atlas_12"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
 (lib.CachedBmp_66 = function() {
 	this.initialize(ss["new_multitouch_atlas_15"]);
 	this.gotoAndStop(262);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_140 = function() {
-	this.initialize(ss["new_multitouch_atlas_8"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_45 = function() {
-	this.initialize(ss["new_multitouch_atlas_15"]);
-	this.gotoAndStop(263);
 }).prototype = p = new cjs.Sprite();
 
 
@@ -2291,14 +2283,28 @@ p.nominalBounds = new cjs.Rectangle(0,0,3032,1777);
 
 
 
-(lib.CachedBmp_44 = function() {
+(lib.CachedBmp_45 = function() {
+	this.initialize(ss["new_multitouch_atlas_15"]);
+	this.gotoAndStop(263);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_140 = function() {
+	this.initialize(ss["new_multitouch_atlas_8"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_43 = function() {
 	this.initialize(ss["new_multitouch_atlas_15"]);
 	this.gotoAndStop(264);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_43 = function() {
+(lib.CachedBmp_44 = function() {
 	this.initialize(ss["new_multitouch_atlas_15"]);
 	this.gotoAndStop(265);
 }).prototype = p = new cjs.Sprite();
@@ -2347,11 +2353,10 @@ p.nominalBounds = new cjs.Rectangle(0,0,3032,1777);
 
 
 
-(lib.CachedBmp_71 = function() {
-	this.initialize(ss["new_multitouch_atlas_11"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
+(lib.CachedBmp_156 = function() {
+	this.initialize(img.CachedBmp_156);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,2150,1349);
 
 
 (lib.CachedBmp_158 = function() {
@@ -2361,10 +2366,18 @@ p.nominalBounds = new cjs.Rectangle(0,0,3032,1777);
 
 
 
-(lib.CachedBmp_156 = function() {
-	this.initialize(img.CachedBmp_156);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,2150,1349);
+(lib.CachedBmp_111 = function() {
+	this.initialize(ss["new_multitouch_atlas_9"]);
+	this.gotoAndStop(1);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_71 = function() {
+	this.initialize(ss["new_multitouch_atlas_11"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
 
 
 (lib.CachedBmp_320 = function() {
@@ -2409,13 +2422,6 @@ p.nominalBounds = new cjs.Rectangle(0,0,2150,1349);
 
 
 
-(lib.CachedBmp_32 = function() {
-	this.initialize(ss["new_multitouch_atlas_13"]);
-	this.gotoAndStop(4);
-}).prototype = p = new cjs.Sprite();
-
-
-
 (lib.CachedBmp_312 = function() {
 	this.initialize(ss["new_multitouch_atlas_15"]);
 	this.gotoAndStop(278);
@@ -2437,6 +2443,13 @@ p.nominalBounds = new cjs.Rectangle(0,0,2150,1349);
 
 
 
+(lib.CachedBmp_36 = function() {
+	this.initialize(ss["new_multitouch_atlas_13"]);
+	this.gotoAndStop(4);
+}).prototype = p = new cjs.Sprite();
+
+
+
 (lib.CachedBmp_309 = function() {
 	this.initialize(ss["new_multitouch_atlas_15"]);
 	this.gotoAndStop(281);
@@ -2451,13 +2464,6 @@ p.nominalBounds = new cjs.Rectangle(0,0,2150,1349);
 
 
 
-(lib.CachedBmp_111 = function() {
-	this.initialize(ss["new_multitouch_atlas_9"]);
-	this.gotoAndStop(1);
-}).prototype = p = new cjs.Sprite();
-
-
-
 (lib.CachedBmp_307 = function() {
 	this.initialize(ss["new_multitouch_atlas_15"]);
 	this.gotoAndStop(283);
@@ -2465,35 +2471,28 @@ p.nominalBounds = new cjs.Rectangle(0,0,2150,1349);
 
 
 
-(lib.CachedBmp_306 = function() {
+(lib.CachedBmp_305 = function() {
 	this.initialize(ss["new_multitouch_atlas_15"]);
 	this.gotoAndStop(284);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_305 = function() {
+(lib.CachedBmp_306 = function() {
 	this.initialize(ss["new_multitouch_atlas_15"]);
 	this.gotoAndStop(285);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_36 = function() {
-	this.initialize(ss["new_multitouch_atlas_13"]);
-	this.gotoAndStop(5);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_12 = function() {
+(lib.CachedBmp_304 = function() {
 	this.initialize(ss["new_multitouch_atlas_15"]);
 	this.gotoAndStop(286);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_304 = function() {
+(lib.CachedBmp_12 = function() {
 	this.initialize(ss["new_multitouch_atlas_15"]);
 	this.gotoAndStop(287);
 }).prototype = p = new cjs.Sprite();
@@ -2521,6 +2520,13 @@ p.nominalBounds = new cjs.Rectangle(0,0,2150,1349);
 
 
 
+(lib.CachedBmp_32 = function() {
+	this.initialize(ss["new_multitouch_atlas_13"]);
+	this.gotoAndStop(5);
+}).prototype = p = new cjs.Sprite();
+
+
+
 (lib.CachedBmp_7 = function() {
 	this.initialize(ss["new_multitouch_atlas_15"]);
 	this.gotoAndStop(291);
@@ -2542,14 +2548,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,2150,1349);
 
 
 
-(lib.CachedBmp_1 = function() {
-	this.initialize(ss["new_multitouch_atlas_14"]);
-	this.gotoAndStop(30);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_6 = function() {
+(lib.CachedBmp_5 = function() {
 	this.initialize(ss["new_multitouch_atlas_13"]);
 	this.gotoAndStop(6);
 }).prototype = p = new cjs.Sprite();
@@ -2558,7 +2557,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,2150,1349);
 
 (lib._16 = function() {
 	this.initialize(ss["new_multitouch_atlas_14"]);
-	this.gotoAndStop(31);
+	this.gotoAndStop(30);
 }).prototype = p = new cjs.Sprite();
 
 
@@ -2570,9 +2569,16 @@ p.nominalBounds = new cjs.Rectangle(0,0,2150,1349);
 
 
 
-(lib._3 = function() {
-	this.initialize(ss["new_multitouch_atlas_13"]);
-	this.gotoAndStop(8);
+(lib.Group = function() {
+	this.initialize(ss["new_multitouch_atlas_15"]);
+	this.gotoAndStop(293);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.Path = function() {
+	this.initialize(ss["new_multitouch_atlas_15"]);
+	this.gotoAndStop(294);
 }).prototype = p = new cjs.Sprite();
 
 
@@ -2597,30 +2603,44 @@ p.nominalBounds = new cjs.Rectangle(0,0,2480,1754);
 
 
 
-(lib.Bitmap20 = function() {
-	this.initialize(ss["new_multitouch_atlas_12"]);
+(lib.Bitmap19 = function() {
+	this.initialize(ss["new_multitouch_atlas_10"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Group = function() {
-	this.initialize(ss["new_multitouch_atlas_15"]);
-	this.gotoAndStop(293);
+(lib.CachedBmp_6 = function() {
+	this.initialize(ss["new_multitouch_atlas_14"]);
+	this.gotoAndStop(31);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.Bitmap26 = function() {
+	this.initialize(ss["new_multitouch_atlas_3"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_1 = function() {
+	this.initialize(ss["new_multitouch_atlas_14"]);
+	this.gotoAndStop(32);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Path_1 = function() {
 	this.initialize(ss["new_multitouch_atlas_15"]);
-	this.gotoAndStop(294);
+	this.gotoAndStop(295);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Asset51001 = function() {
-	this.initialize(ss["new_multitouch_atlas_15"]);
-	this.gotoAndStop(295);
+(lib.Bitmap20 = function() {
+	this.initialize(ss["new_multitouch_atlas_12"]);
+	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
@@ -2632,9 +2652,22 @@ p.nominalBounds = new cjs.Rectangle(0,0,2480,1754);
 
 
 
-(lib.Bitmap301 = function() {
+(lib.image419 = function() {
 	this.initialize(ss["new_multitouch_atlas_15"]);
 	this.gotoAndStop(297);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.boook = function() {
+	this.initialize(img.boook);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,3333,2083);
+
+
+(lib.CachedBmp_226 = function() {
+	this.initialize(ss["new_multitouch_atlas_12"]);
+	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
@@ -2646,16 +2679,16 @@ p.nominalBounds = new cjs.Rectangle(0,0,2480,1754);
 
 
 
-(lib.image421 = function() {
-	this.initialize(ss["new_multitouch_atlas_15"]);
-	this.gotoAndStop(299);
+(lib._3 = function() {
+	this.initialize(ss["new_multitouch_atlas_13"]);
+	this.gotoAndStop(8);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_5 = function() {
-	this.initialize(ss["new_multitouch_atlas_14"]);
-	this.gotoAndStop(32);
+(lib.Bitmap301 = function() {
+	this.initialize(ss["new_multitouch_atlas_15"]);
+	this.gotoAndStop(299);
 }).prototype = p = new cjs.Sprite();
 
 
@@ -2667,14 +2700,14 @@ p.nominalBounds = new cjs.Rectangle(0,0,2480,1754);
 
 
 
-(lib.image419 = function() {
+(lib.image427 = function() {
 	this.initialize(ss["new_multitouch_atlas_15"]);
 	this.gotoAndStop(301);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Path = function() {
+(lib.image425 = function() {
 	this.initialize(ss["new_multitouch_atlas_15"]);
 	this.gotoAndStop(302);
 }).prototype = p = new cjs.Sprite();
@@ -2688,27 +2721,14 @@ p.nominalBounds = new cjs.Rectangle(0,0,2480,1754);
 
 
 
-(lib.boook = function() {
-	this.initialize(img.boook);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,3333,2083);
-
-
-(lib.Bitmap19 = function() {
-	this.initialize(ss["new_multitouch_atlas_10"]);
-	this.gotoAndStop(1);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.image431 = function() {
+(lib.image422 = function() {
 	this.initialize(ss["new_multitouch_atlas_15"]);
 	this.gotoAndStop(304);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.image425 = function() {
+(lib.image424 = function() {
 	this.initialize(ss["new_multitouch_atlas_15"]);
 	this.gotoAndStop(305);
 }).prototype = p = new cjs.Sprite();
@@ -2722,14 +2742,14 @@ p.nominalBounds = new cjs.Rectangle(0,0,3333,2083);
 
 
 
-(lib.image558 = function() {
+(lib.image451 = function() {
 	this.initialize(ss["new_multitouch_atlas_15"]);
 	this.gotoAndStop(307);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.image559 = function() {
+(lib.image452 = function() {
 	this.initialize(ss["new_multitouch_atlas_15"]);
 	this.gotoAndStop(308);
 }).prototype = p = new cjs.Sprite();
@@ -2743,35 +2763,35 @@ p.nominalBounds = new cjs.Rectangle(0,0,3333,2083);
 
 
 
-(lib.image575 = function() {
+(lib.image558 = function() {
 	this.initialize(ss["new_multitouch_atlas_15"]);
 	this.gotoAndStop(310);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.image429 = function() {
+(lib.image577 = function() {
 	this.initialize(ss["new_multitouch_atlas_15"]);
 	this.gotoAndStop(311);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.image578 = function() {
+(lib.image431 = function() {
 	this.initialize(ss["new_multitouch_atlas_15"]);
 	this.gotoAndStop(312);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.image427 = function() {
+(lib.image575 = function() {
 	this.initialize(ss["new_multitouch_atlas_15"]);
 	this.gotoAndStop(313);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.image577 = function() {
+(lib.image559 = function() {
 	this.initialize(ss["new_multitouch_atlas_15"]);
 	this.gotoAndStop(314);
 }).prototype = p = new cjs.Sprite();
@@ -2785,35 +2805,35 @@ p.nominalBounds = new cjs.Rectangle(0,0,3333,2083);
 
 
 
-(lib.image583 = function() {
+(lib.image579 = function() {
 	this.initialize(ss["new_multitouch_atlas_15"]);
 	this.gotoAndStop(316);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.image582 = function() {
+(lib.image580 = function() {
 	this.initialize(ss["new_multitouch_atlas_15"]);
 	this.gotoAndStop(317);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.image424 = function() {
+(lib.image584 = function() {
 	this.initialize(ss["new_multitouch_atlas_15"]);
 	this.gotoAndStop(318);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.image580 = function() {
+(lib.image421 = function() {
 	this.initialize(ss["new_multitouch_atlas_15"]);
 	this.gotoAndStop(319);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.image584 = function() {
+(lib.image583 = function() {
 	this.initialize(ss["new_multitouch_atlas_15"]);
 	this.gotoAndStop(320);
 }).prototype = p = new cjs.Sprite();
@@ -2827,9 +2847,16 @@ p.nominalBounds = new cjs.Rectangle(0,0,3333,2083);
 
 
 
-(lib.image451 = function() {
+(lib.image582 = function() {
 	this.initialize(ss["new_multitouch_atlas_15"]);
 	this.gotoAndStop(322);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.Asset51001 = function() {
+	this.initialize(ss["new_multitouch_atlas_15"]);
+	this.gotoAndStop(323);
 }).prototype = p = new cjs.Sprite();
 
 
@@ -2837,13 +2864,6 @@ p.nominalBounds = new cjs.Rectangle(0,0,3333,2083);
 (lib.images1 = function() {
 	this.initialize(ss["new_multitouch_atlas_14"]);
 	this.gotoAndStop(33);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.image579 = function() {
-	this.initialize(ss["new_multitouch_atlas_15"]);
-	this.gotoAndStop(323);
 }).prototype = p = new cjs.Sprite();
 
 
@@ -2862,9 +2882,16 @@ p.nominalBounds = new cjs.Rectangle(0,0,3333,2083);
 
 
 
-(lib.TextInput = function() {
+(lib.sfrechfqf = function() {
 	this.initialize(ss["new_multitouch_atlas_15"]);
 	this.gotoAndStop(324);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.images1pngcopy = function() {
+	this.initialize(ss["new_multitouch_atlas_14"]);
+	this.gotoAndStop(36);
 }).prototype = p = new cjs.Sprite();
 
 
@@ -2876,19 +2903,6 @@ p.nominalBounds = new cjs.Rectangle(0,0,3333,2083);
 
 
 
-(lib.PHOTO = function() {
-	this.initialize(img.PHOTO);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,4961,3508);
-
-
-(lib.images1_3 = function() {
-	this.initialize(ss["new_multitouch_atlas_14"]);
-	this.gotoAndStop(36);
-}).prototype = p = new cjs.Sprite();
-
-
-
 (lib.whitrglossyrectanglebuttonmd = function() {
 	this.initialize(ss["new_multitouch_atlas_14"]);
 	this.gotoAndStop(37);
@@ -2896,44 +2910,36 @@ p.nominalBounds = new cjs.Rectangle(0,0,4961,3508);
 
 
 
-(lib.Bitmap26 = function() {
-	this.initialize(ss["new_multitouch_atlas_3"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.images1pngcopy = function() {
-	this.initialize(ss["new_multitouch_atlas_14"]);
-	this.gotoAndStop(38);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.sfrechfqf = function() {
+(lib.TextInput = function() {
 	this.initialize(ss["new_multitouch_atlas_15"]);
 	this.gotoAndStop(326);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.image422 = function() {
+(lib.PHOTO = function() {
+	this.initialize(img.PHOTO);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,4961,3508);
+
+
+(lib.image429 = function() {
 	this.initialize(ss["new_multitouch_atlas_15"]);
 	this.gotoAndStop(327);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.image452 = function() {
+(lib.image578 = function() {
 	this.initialize(ss["new_multitouch_atlas_15"]);
 	this.gotoAndStop(328);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_226 = function() {
-	this.initialize(ss["new_multitouch_atlas_12"]);
-	this.gotoAndStop(2);
+(lib.images1_3 = function() {
+	this.initialize(ss["new_multitouch_atlas_14"]);
+	this.gotoAndStop(38);
 }).prototype = p = new cjs.Sprite();
 
 
@@ -2944,17 +2950,17 @@ p.nominalBounds = new cjs.Rectangle(0,0,4961,3508);
 p.nominalBounds = new cjs.Rectangle(0,0,3016,1517);
 
 
-(lib.CachedBmp_67 = function() {
-	this.initialize(img.CachedBmp_67);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,3024,1701);
-
-
 (lib.CachedBmp_2 = function() {
 	this.initialize(ss["new_multitouch_atlas_2"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
-// helper functions:
+
+
+
+(lib.CachedBmp_67 = function() {
+	this.initialize(img.CachedBmp_67);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,3024,1701);// helper functions:
 
 function mc_symbol_clone() {
 	var clone = this._cloneProps(new this.constructor(this.mode, this.startPosition, this.loop));
@@ -5328,10 +5334,13 @@ p.nominalBounds = new cjs.Rectangle(-20.9,-22,40,40);
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(14).to({_off:false},0).wait(5).to({regX:0.1,regY:-0.4,scaleX:0.3134,scaleY:0.3134,skewX:50.7973,skewY:39.2027,y:-0.15},0).wait(5).to({regX:-0.2,regY:-0.1,scaleX:0.2802,scaleY:0.3434,rotation:90,skewX:0,skewY:0,y:-0.1},0).wait(5).to({regX:-0.4,scaleX:0.3134,scaleY:0.3134,rotation:0,skewX:129.1983,skewY:140.7938,x:0.35,y:-0.15},0).wait(5).to({regX:-0.3,regY:0,scaleX:0.3434,scaleY:0.2801,rotation:180,skewX:0,skewY:0,y:-0.1},0).wait(5).to({regX:0,scaleX:0.2801,scaleY:0.3434,rotation:270},0).wait(5).to({startPosition:0},0).wait(6));
 
 	// Layer_1
-	this.instance_1 = new lib.CachedBmp_415();
+	this.instance_1 = new lib.CachedBmp_414();
 	this.instance_1.setTransform(-394,-230.95,0.2599,0.2599);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(50));
+	this.instance_2 = new lib.CachedBmp_415();
+	this.instance_2.setTransform(-394,-230.95,0.2599,0.2599);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_1}]}).to({state:[{t:this.instance_2}]},14).wait(36));
 
 	this._renderFirstFrame();
 
@@ -9089,7 +9098,7 @@ p.nominalBounds = new cjs.Rectangle(-27,-23.5,87.5,49.9);
 	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(3));
 
 	// Layer_2
-	this.instance = new lib.images1_1();
+	this.instance = new lib.images1_2();
 	this.instance.setTransform(-21,-15,0.2095,0.1814);
 
 	this.instance_1 = new lib.CachedBmp_158();
@@ -9612,7 +9621,7 @@ p.nominalBounds = new cjs.Rectangle(-29.5,-28.3,59.6,57.6);
 	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(3));
 
 	// Layer_2
-	this.instance = new lib.images1_2();
+	this.instance = new lib.images1_1();
 	this.instance.setTransform(-30,8,0.2095,0.1814);
 
 	this.instance_1 = new lib.akmilcopy_1();
@@ -9641,7 +9650,7 @@ p.nominalBounds = new cjs.Rectangle(-35.1,8,85.6,41.4);
 	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(3));
 
 	// Layer_2
-	this.instance_3 = new lib.images1_2();
+	this.instance_3 = new lib.images1_1();
 	this.instance_3.setTransform(-30,8,0.2095,0.1814);
 
 	this.instance_4 = new lib.akmilcopy_3();
@@ -10933,7 +10942,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.4,102);
 			console.log(' pt ', pt.x)
 			console.log(' ptc ', ptc.x)
 		
-			if (e.pointerID === -1) return ;//e.pointerID = 0;
+			if (e.pointerID === -1) e.pointerID = 0;
 			console.log('add fonger mousedown', e.pointerID)
 			fingers[e.pointerID] = {
 				start: {
@@ -10974,6 +10983,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.4,102);
 		
 		function swapToNext(newdist, evt) {
 		
+			
 			if(tmrnAdded) return ;
 		
 			if (newdist > 100) {
@@ -10990,7 +11000,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.4,102);
 		function onpressmove(e) {
 		
 		
-			if (e.pointerID === -1) return ;//e.pointerID = 0;
+			if (e.pointerID === -1) e.pointerID = 0;
 			fingers[e.pointerID].current.x = e.stageX;
 			fingers[e.pointerID].current.y = e.stageY;
 		
@@ -11074,7 +11084,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.4,102);
 			scaleTouchFac = scalTouchfactor;
 			console.log('	scaleTouchFac', scaleTouchFac);
 		
-			if (evt.pointerID === -1) return ;//evt.pointerID = 0;
+			if (evt.pointerID === -1) evt.pointerID = 0;
 		
 			if (fingers[evt.pointerID]) {
 				console.log('deleted', evt.pointerID);
@@ -15419,39 +15429,40 @@ lib.properties = {
 	color: "#DBDBDB",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/CachedBmp_385.png?1633894203764", id:"CachedBmp_385"},
-		{src:"images/CachedBmp_415.png?1633894203764", id:"CachedBmp_415"},
-		{src:"images/CachedBmp_156.png?1633894203764", id:"CachedBmp_156"},
-		{src:"images/_30.jpg?1633894203764", id:"_30"},
-		{src:"images/boook.jpg?1633894203764", id:"boook"},
-		{src:"images/PHOTO.png?1633894203764", id:"PHOTO"},
-		{src:"images/CachedBmp_134.png?1633894203764", id:"CachedBmp_134"},
-		{src:"images/CachedBmp_67.png?1633894203764", id:"CachedBmp_67"},
-		{src:"images/new_multitouch_atlas_1.png?1633894203444", id:"new_multitouch_atlas_1"},
-		{src:"images/new_multitouch_atlas_2.png?1633894203444", id:"new_multitouch_atlas_2"},
-		{src:"images/new_multitouch_atlas_3.png?1633894203444", id:"new_multitouch_atlas_3"},
-		{src:"images/new_multitouch_atlas_4.png?1633894203444", id:"new_multitouch_atlas_4"},
-		{src:"images/new_multitouch_atlas_5.png?1633894203444", id:"new_multitouch_atlas_5"},
-		{src:"images/new_multitouch_atlas_6.png?1633894203445", id:"new_multitouch_atlas_6"},
-		{src:"images/new_multitouch_atlas_7.png?1633894203445", id:"new_multitouch_atlas_7"},
-		{src:"images/new_multitouch_atlas_8.png?1633894203445", id:"new_multitouch_atlas_8"},
-		{src:"images/new_multitouch_atlas_9.png?1633894203445", id:"new_multitouch_atlas_9"},
-		{src:"images/new_multitouch_atlas_10.png?1633894203445", id:"new_multitouch_atlas_10"},
-		{src:"images/new_multitouch_atlas_11.png?1633894203446", id:"new_multitouch_atlas_11"},
-		{src:"images/new_multitouch_atlas_12.png?1633894203446", id:"new_multitouch_atlas_12"},
-		{src:"images/new_multitouch_atlas_13.png?1633894203446", id:"new_multitouch_atlas_13"},
-		{src:"images/new_multitouch_atlas_14.png?1633894203447", id:"new_multitouch_atlas_14"},
-		{src:"images/new_multitouch_atlas_15.png?1633894203453", id:"new_multitouch_atlas_15"},
-		{src:"sounds/_12wav.mp3?1633894203764", id:"_12wav"},
-		{src:"sounds/_22wav.mp3?1633894203764", id:"_22wav"},
-		{src:"sounds/_32wav.mp3?1633894203764", id:"_32wav"},
-		{src:"sounds/_42wav.mp3?1633894203764", id:"_42wav"},
-		{src:"sounds/_52wav.mp3?1633894203764", id:"_52wav"},
-		{src:"sounds/_5JEFRAPPELESSYLLABESP17wav.mp3?1633894203764", id:"_5JEFRAPPELESSYLLABESP17wav"},
-		{src:"https://code.jquery.com/jquery-3.4.1.min.js?1633894203764", id:"lib/jquery-3.4.1.min.js"},
-		{src:"components/sdk/anwidget.js?1633894203764", id:"sdk/anwidget.js"},
-		{src:"components/ui/src/textinput.js?1633894203764", id:"an.TextInput"},
-		{src:"components/ui/src/textinput.js?1633894203764", id:"an.TextInput"}
+		{src:"images/CachedBmp_385.png?1633896098756", id:"CachedBmp_385"},
+		{src:"images/CachedBmp_414.png?1633896098756", id:"CachedBmp_414"},
+		{src:"images/CachedBmp_415.png?1633896098756", id:"CachedBmp_415"},
+		{src:"images/CachedBmp_156.png?1633896098756", id:"CachedBmp_156"},
+		{src:"images/_30.jpg?1633896098756", id:"_30"},
+		{src:"images/boook.jpg?1633896098756", id:"boook"},
+		{src:"images/PHOTO.png?1633896098757", id:"PHOTO"},
+		{src:"images/CachedBmp_134.png?1633896098757", id:"CachedBmp_134"},
+		{src:"images/CachedBmp_67.png?1633896098757", id:"CachedBmp_67"},
+		{src:"images/new_multitouch_atlas_1.png?1633896098389", id:"new_multitouch_atlas_1"},
+		{src:"images/new_multitouch_atlas_2.png?1633896098389", id:"new_multitouch_atlas_2"},
+		{src:"images/new_multitouch_atlas_3.png?1633896098390", id:"new_multitouch_atlas_3"},
+		{src:"images/new_multitouch_atlas_4.png?1633896098390", id:"new_multitouch_atlas_4"},
+		{src:"images/new_multitouch_atlas_5.png?1633896098390", id:"new_multitouch_atlas_5"},
+		{src:"images/new_multitouch_atlas_6.png?1633896098391", id:"new_multitouch_atlas_6"},
+		{src:"images/new_multitouch_atlas_7.png?1633896098391", id:"new_multitouch_atlas_7"},
+		{src:"images/new_multitouch_atlas_8.png?1633896098391", id:"new_multitouch_atlas_8"},
+		{src:"images/new_multitouch_atlas_9.png?1633896098391", id:"new_multitouch_atlas_9"},
+		{src:"images/new_multitouch_atlas_10.png?1633896098391", id:"new_multitouch_atlas_10"},
+		{src:"images/new_multitouch_atlas_11.png?1633896098391", id:"new_multitouch_atlas_11"},
+		{src:"images/new_multitouch_atlas_12.png?1633896098392", id:"new_multitouch_atlas_12"},
+		{src:"images/new_multitouch_atlas_13.png?1633896098392", id:"new_multitouch_atlas_13"},
+		{src:"images/new_multitouch_atlas_14.png?1633896098393", id:"new_multitouch_atlas_14"},
+		{src:"images/new_multitouch_atlas_15.png?1633896098399", id:"new_multitouch_atlas_15"},
+		{src:"sounds/_12wav.mp3?1633896098757", id:"_12wav"},
+		{src:"sounds/_32wav.mp3?1633896098757", id:"_32wav"},
+		{src:"sounds/_42wav.mp3?1633896098757", id:"_42wav"},
+		{src:"sounds/_5JEFRAPPELESSYLLABESP17wav.mp3?1633896098757", id:"_5JEFRAPPELESSYLLABESP17wav"},
+		{src:"sounds/_52wav.mp3?1633896098757", id:"_52wav"},
+		{src:"sounds/_22wav.mp3?1633896098757", id:"_22wav"},
+		{src:"https://code.jquery.com/jquery-3.4.1.min.js?1633896098757", id:"lib/jquery-3.4.1.min.js"},
+		{src:"components/sdk/anwidget.js?1633896098757", id:"sdk/anwidget.js"},
+		{src:"components/ui/src/textinput.js?1633896098757", id:"an.TextInput"},
+		{src:"components/ui/src/textinput.js?1633896098757", id:"an.TextInput"}
 	],
 	preloads: []
 };

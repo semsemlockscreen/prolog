@@ -10658,7 +10658,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.4,102);
 			cont.addChildAt(bmp, 1);
 			cont.addChildAt(dill, 2);
 			cont.addChildAt(sbr, 3);
-			cont.addChildAt(anti_sbr , 4);
+			//cont.addChildAt(anti_sbr , 4);
 			frameChafaf();
 		
 		});

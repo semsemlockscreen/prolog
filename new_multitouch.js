@@ -10321,7 +10321,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.4,102);
 		var isTouch = true;
 		
 		
-		alert('106');
+		alert('107');
 		
 		setTimeout(function () {
 		
@@ -10437,7 +10437,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.4,102);
 		
 			changePage(currentPage);
 		
-			//createjs.Ticker.on("tick", enterFrame);
+			createjs.Ticker.on("tick", enterFrame);
 		}
 		
 		

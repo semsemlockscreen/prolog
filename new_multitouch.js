@@ -10311,7 +10311,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.4,102);
 		
 		
 		
-		createjs.Touch.enable(stage, true, true);
+		createjs.Touch.enable(stage, false, true);
 		
 		
 		window.Modernizr = {
@@ -10658,7 +10658,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.4,102);
 			cont.addChildAt(bmp, 1);
 			cont.addChildAt(dill, 2);
 			cont.addChildAt(sbr, 3);
-			//cont.addChildAt(anti_sbr , 4);
+			cont.addChildAt(anti_sbr , 4);
 			frameChafaf();
 		
 		});
@@ -14112,12 +14112,12 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.4,102);
 			shape_draw_w = type === 'ktb' ? 700 : 900;
 			shape_draw_h = type === 'ktb' ? 500 : 500;
 		
-			shapeDraw.cache(shape_draw_x, shape_draw_y, shape_draw_w, shape_draw_h , 6 );
+			shapeDraw.cache(shape_draw_x, shape_draw_y, shape_draw_w, shape_draw_h  );
 		
 			var f_shapeDraw = new createjs.Shape();
 			f_shapeDraw.name = 'f_shapeDraw';
 		
-			f_shapeDraw.cache(shape_draw_x, shape_draw_y, shape_draw_w, shape_draw_h , 6 );
+			f_shapeDraw.cache(shape_draw_x, shape_draw_y, shape_draw_w, shape_draw_h  );
 		
 		
 		

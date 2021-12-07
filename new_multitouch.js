@@ -9785,7 +9785,9 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.4,102);
 		
 		}, 100);
 		
-		
+		that.addEventListener('dblclick', () => {
+	alert('You just double clicked the div!');
+});
 		function initTextStyle() {
 		
 		

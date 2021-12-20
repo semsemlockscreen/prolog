@@ -10541,6 +10541,12 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.4,102);
 		
 		function onmousedown(e) {
 		
+				
+		cont.addEventListener('touchmove', function (e) {
+                     console.log('moveeeee')
+			
+		}
+				      )
 			console.log('onmousedown finger e.pointerID ', e.pointerID)
 		
 			cont.isDragged = false;
@@ -10606,12 +10612,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.4,102);
 		
 		}
 		
-		
-		cont.addEventListener('touchmove', function (e) {
-                     console.log('moveeeee')
-			
-		}
-				      )
+	
 		cont.stopDrag = stopDrag;
 		
 		function swapToNext(newdist, evt) {

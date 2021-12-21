@@ -10515,9 +10515,9 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.4,102);
 		
 		function startDrag() {
 		
-			cont.addEventListener("pressup", onpressup);
+			//cont.addEventListener("pressup", onpressup);
 			//cont.addEventListener("pressmove", onpressmove);
-			cont.addEventListener("mousedown", onmousedown);
+			//cont.addEventListener("mousedown", onmousedown);
 		
 		
 		}
@@ -10525,9 +10525,23 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.4,102);
 		startDrag();
 		cont.startDrag = startDrag;
 		
+		cont.addEventListener('touchstart', function (e) {
+                     console.log('starrrrrrrrrrrrrrrrrr')
 		
+		})
 		
-		
+				
+		cont.addEventListener('touchmove', function (e) {
+                     console.log('moveeeeemmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm')
+			
+		}
+				      )
+				
+		cont.addEventListener('touchend', function (e) {
+                     console.log('enddddddddddddddddddddddddddddddd')
+			
+		}
+				      )
 		var previous_x_update = false;
 		stage.preventSelection = false;
 		

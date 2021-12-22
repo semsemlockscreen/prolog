@@ -10543,7 +10543,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.4,102);
 		}
 				      )
 		var previous_x_update = false;
-		stage.preventSelection = false;
+		//stage.preventSelection = false;
 		
 		
 		fingers = [];

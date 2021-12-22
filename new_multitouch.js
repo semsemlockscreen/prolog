@@ -10521,12 +10521,10 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.4,102);
 		
 		
 		}
-		
+		document.ontouchmove = function(e){ e.preventDefault(); }
 		startDrag();
 		cont.startDrag = startDrag;
-		stage.addEventListener("stagemousemove", function (evt) {
-    console.log("stagemousemove");
-});
+
 		cont.addEventListener('mousedown', function (e) {
                      console.log('starrrrrrrrrrrrrrrrrr')
 			e.nativeEvent.preventDefault();

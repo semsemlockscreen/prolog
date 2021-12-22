@@ -9768,7 +9768,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.4,102);
 		
 		
 		
-		createjs.Touch.enable(stage, false, false);
+		createjs.Touch.enable(stage, false, true);
 		
 		
 		//window.Modernizr = {
@@ -10537,7 +10537,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.4,102);
 		}
 				      )
 				
-		cont.addEventListener('touchend', function (e) {
+		cont.addEventListener('pressup', function (e) {
                      console.log('enddddddddddddddddddddddddddddddd')
 			
 		}

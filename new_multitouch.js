@@ -10546,7 +10546,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.4,102);
 			twoFinger = false;
 		
 		
-			\\cont.addEventListener("pressmove", onpressmove);
+			//cont.addEventListener("pressmove", onpressmove);
 		
 		
 			previous_x_update = false;

@@ -10545,7 +10545,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.4,102);
 		}
 				      )
 		
-		animation_container.addEventListener('touchmove', function (e) {
+		document.getElementById("animation_container").addEventListener('touchmove', function (e) {
                      console.log('cont touchermove.addEventListener')
 			
 		}

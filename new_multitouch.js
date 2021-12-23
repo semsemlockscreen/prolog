@@ -10521,28 +10521,32 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.4,102);
 		
 		
 		}
-		document.ontouchmove = function(e){ e.preventDefault(); 
-					  console.log('document.ontouchmove ')	  
-						  }
+		
 		startDrag();
 		cont.startDrag = startDrag;
 
-		that.addEventListener('mousedown', function (e) {
+		cont.addEventListener('mousedown', function (e) {
                      console.log('starrrrrrrrrrrrrrrrrr')
 			e.nativeEvent.preventDefault();
 		
 		})
 		
 				
-		that.addEventListener('pressmove', function (e) {
+		cont.addEventListener('pressmove', function (e) {
 			e.nativeEvent.preventDefault();
                      console.log('moveeeeemmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm')
 			
 		}
 				      )
 				
-		that.addEventListener('pressup', function (e) {
+		cont.addEventListener('pressup', function (e) {
                      console.log('enddddddddddddddddddddddddddddddd')
+			
+		}
+				      )
+		
+		document.addEventListener('touchmove', function (e) {
+                     console.log('document.addEventListener')
 			
 		}
 				      )

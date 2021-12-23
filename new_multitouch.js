@@ -10527,21 +10527,21 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.4,102);
 		startDrag();
 		cont.startDrag = startDrag;
 
-		cont.addEventListener('mousedown', function (e) {
+		that.addEventListener('mousedown', function (e) {
                      console.log('starrrrrrrrrrrrrrrrrr')
 			e.nativeEvent.preventDefault();
 		
 		})
 		
 				
-		cont.addEventListener('pressmove', function (e) {
+		that.addEventListener('pressmove', function (e) {
 			e.nativeEvent.preventDefault();
                      console.log('moveeeeemmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm')
 			
 		}
 				      )
 				
-		cont.addEventListener('pressup', function (e) {
+		that.addEventListener('pressup', function (e) {
                      console.log('enddddddddddddddddddddddddddddddd')
 			
 		}

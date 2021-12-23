@@ -10515,9 +10515,9 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.4,102);
 		
 		function startDrag() {
 		
-			//cont.addEventListener("pressup", onpressup);
-			//cont.addEventListener("pressmove", onpressmove);
-			//cont.addEventListener("mousedown", onmousedown);
+			cont.addEventListener("pressup", onpressup);
+			cont.addEventListener("pressmove", onpressmove);
+			cont.addEventListener("mousedown", onmousedown);
 		
 		
 		}
@@ -10525,31 +10525,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.4,102);
 		startDrag();
 		cont.startDrag = startDrag;
 
-		cont.addEventListener('mousedown', function (e) {
-                     console.log('starrrrrrrrrrrrrrrrrr')
-			e.nativeEvent.preventDefault();
 		
-		})
-		
-				
-		cont.addEventListener('pressmove', function (e) {
-			e.nativeEvent.preventDefault();
-                     console.log('moveeeeemmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm')
-			
-		}
-				      )
-				
-		cont.addEventListener('pressup', function (e) {
-                     console.log('enddddddddddddddddddddddddddddddd')
-			
-		}
-				      )
-		
-		document.getElementById("canvas").addEventListener('touchmove', function (e) {
-                     console.log('cont touchermove.addEventListener')
-			
-		}
-				      )
 		var previous_x_update = false;
 		stage.preventSelection = false;
 		
@@ -10563,19 +10539,14 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.4,102);
 		
 		function onmousedown(e) {
 		
-				
-		cont.addEventListener('touchmove', function (e) {
-                     console.log('moveeeeemmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm')
-			
-		}
-				      )
+		
 			console.log('onmousedown finger e.pointerID ', e.pointerID)
 		
 			cont.isDragged = false;
 			twoFinger = false;
 		
 		
-			cont.addEventListener("pressmove", onpressmove);
+			\\cont.addEventListener("pressmove", onpressmove);
 		
 		
 			previous_x_update = false;

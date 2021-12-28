@@ -10544,9 +10544,9 @@ container.on("mousedown", function(e)
 });
 
 createjs.Ticker.on("tick", function(e)
-{	console.log('container.on ticker ', target)
+{	
 	if (target)
-	{
+	{console.log('container.on ticker ', target)
 		var point = getMouse();
 		console.log('container.on ticker')
 		target.x = point.x - target.offset.x;

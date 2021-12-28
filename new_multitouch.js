@@ -10538,7 +10538,7 @@ container.children.forEach(function(child){ child.mouseChildren = false; });
 container.on("mousedown", function(e)
 {
 	var point = getMouse();
-	
+	console.log('container.on mousedown ')
 	e.target.offset = { x: point.x - e.target.x, y: point.y - e.target.y };
 	target = e.target;
 });
@@ -10548,7 +10548,7 @@ createjs.Ticker.on("tick", function(e)
 	if (target)
 	{
 		var point = getMouse();
-		
+		console.log('container.on ticker')
 		target.x = point.x - target.offset.x;
 		target.y = point.y - target.offset.y;
 	}

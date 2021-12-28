@@ -10538,13 +10538,13 @@ container.children.forEach(function(child){ child.mouseChildren = false; });
 container.on("mousedown", function(e)
 {
 	var point = getMouse();
-	console.log('container.on mousedown ')
+	console.log('container.on mousedown ', e.target)
 	e.target.offset = { x: point.x - e.target.x, y: point.y - e.target.y };
 	target = e.target;
 });
 
 createjs.Ticker.on("tick", function(e)
-{	
+{	console.log('container.on ticker ', target)
 	if (target)
 	{
 		var point = getMouse();

@@ -10514,7 +10514,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.4,102);
 		
 		
 		function startDrag() {
-		
+		return ;
 			cont.addEventListener("pressup", onpressup);
 			cont.addEventListener("pressmove", onpressmove);
 			cont.addEventListener("mousedown", onmousedown);
@@ -10525,6 +10525,43 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.4,102);
 		startDrag();
 		cont.startDrag = startDrag;
 
+		
+		
+		
+		var container = cont;
+var getMouse = function(){ return container.globalToLocal(stage.mouseX, stage.mouseY); };
+var target = null;
+
+stage.mouseMoveOutside = true;
+container.children.forEach(function(child){ child.mouseChildren = false; });
+
+container.on("mousedown", function(e)
+{
+	var point = getMouse();
+	
+	e.target.offset = { x: point.x - e.target.x, y: point.y - e.target.y };
+	target = e.target;
+});
+
+createjs.Ticker.on("tick", function(e)
+{	
+	if (target)
+	{
+		var point = getMouse();
+		
+		target.x = point.x - target.offset.x;
+		target.y = point.y - target.offset.y;
+	}
+});
+
+container.on("pressup", function(e)
+{
+	target = null;
+});
+		
+		
+		
+		
 		
 		var previous_x_update = false;
 		stage.preventSelection = false;

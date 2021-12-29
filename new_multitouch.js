@@ -10514,7 +10514,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.4,102);
 		
 		
 		function startDrag() {
-		return ;
+		
 			cont.addEventListener("pressup", onpressup);
 			cont.addEventListener("pressmove", onpressmove);
 			cont.addEventListener("mousedown", onmousedown);
@@ -10524,41 +10524,6 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.4,102);
 		
 		startDrag();
 		cont.startDrag = startDrag;
-
-		
-		
-		
-		var container = cont;
-var getMouse = function(){ return container.globalToLocal(stage.mouseX, stage.mouseY); };
-var target = null;
-
-stage.mouseMoveOutside = true;
-container.children.forEach(function(child){ child.mouseChildren = false; });
-
-container.on("mousedown", function(e)
-{
-	var point = getMouse();
-	console.log('container.on mousedown ', e.currentTarget)
-	e.currentTarget.offset = { x: point.x - e.currentTarget.x, y: point.y - e.currentTarget.y };
-	target = e.currentTarget;
-});
-
-createjs.Ticker.on("tick", function(e)
-{	
-	if (target)
-	{console.log('container.on ticker ', target)
-		var point = getMouse();
-		console.log('container.on ticker')
-		target.x = point.x - target.offset.x;
-		target.y = point.y - target.offset.y;
-	}
-});
-
-container.on("pressup", function(e)
-{
-	target = null;
-});
-		
 		
 		
 		

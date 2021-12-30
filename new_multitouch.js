@@ -1,7 +1,7 @@
 (function (cjs, an) {
 
 var p; // shortcut to reference prototypes
-var lib={};var ss={};var img={};
+vafr lib={};var ss={};var img={};
 lib.ssMetadata = [
 		{name:"new_multitouch_atlas_1", frames: [[0,0,1974,1443]]},
 		{name:"new_multitouch_atlas_2", frames: [[0,0,1915,1285]]},
@@ -9782,7 +9782,12 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.4,102);
 		
 			initTextStyle();
 		
+	var t = (('ontouchstart' in window) // iOS & Android
+			|| (window.navigator['msPointerEnabled'] && window.navigator['msMaxTouchPoints'] > 0) // IE10
+			|| (window.navigator['pointerEnabled'] && window.navigator['maxTouchPoints'] > 0)); // IE11+
 	
+		cosole.log('touch enable' ,t)
+		
 		}, 100);
 		
 		

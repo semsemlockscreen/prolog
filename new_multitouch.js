@@ -9769,7 +9769,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.4,102);
 		createjs.Touch.isSupported = function() { return true };
 		
 		var ana = createjs.Touch.enable(stage, true, false);
-		alert('touch enable return'  ,ana)
+		alert( ana )
 		
 		//window.Modernizr = {
 			//touch: true,

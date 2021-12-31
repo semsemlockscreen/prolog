@@ -9782,7 +9782,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.4,102);
 		
 			initTextStyle();
 		
-	var t = ('ontouchstart' in window)|| (window.navigator['msPointerEnabled'] && window.navigator['msMaxTouchPoints'] > 0)|| (window.navigator['pointerEnabled'] && window.navigator['maxTouchPoints'] > 0); // IE11+
+	var t = ('ontouchstart' in window)//|| (window.navigator['msPointerEnabled'] && window.navigator['msMaxTouchPoints'] > 0)|| (window.navigator['pointerEnabled'] && window.navigator['maxTouchPoints'] > 0); // IE11+
 	
 		console.log('touch enable' ,t)
 		

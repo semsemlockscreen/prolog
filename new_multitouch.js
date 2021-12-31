@@ -9784,8 +9784,8 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.4,102);
 	};
   
 	
-		console.log('pointerEnabled' ,window.navigator.pointerEnabled)
-		console.log('msPointerEnabled' ,window.navigato.msPointerEnabled)
+		console.log('pointerEnabled' ,window.PointerEvent)
+		console.log('msPointerEnabled' ,window.navigator.msPointerEnabled)
 		
 		setTimeout(function () {
 		

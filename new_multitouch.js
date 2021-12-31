@@ -9774,7 +9774,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.4,102);
 		
 		createjs.Touch._IE_enable = function(stage) {
 		
-		var f = stage.__touch.f = function(e) { Touch._IE_handleEvent(stage,e); };
+		var f = stage.__touch.f = function(e) { createjs.Touch._IE_handleEvent(stage,e); };
  
 		 if(ana) {
 			canvas.addEventListener("pointerdown", f, false);

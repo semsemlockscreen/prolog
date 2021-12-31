@@ -9782,10 +9782,13 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.4,102);
 		
 			initTextStyle();
 		
-	//var t =  (window.navigator['msPointerEnabled'] && window.navigator['msMaxTouchPoints'] > 0)|| (window.navigator['pointerEnabled'] && window.navigator['maxTouchPoints'] > 0); // IE11+
-	var t = true&&(window.navigator['msMaxTouchPoints'] ); // IE11+
+   var upported = function() {
+		return	!!(('ontouchstart' in window) // iOS & Android
+			|| (window.navigator['msPointerEnabled'] && window.navigator['msMaxTouchPoints'] > 0) // IE10
+			|| (window.navigator['pointerEnabled'] && window.navigator['maxTouchPoints'] > 0)); // IE11+
+	};
 	
-		console.log('touch enable' ,t)
+		console.log('touch enable' ,upported())
 		
 		}, 100);
 		

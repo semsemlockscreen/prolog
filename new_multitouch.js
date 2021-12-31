@@ -9789,7 +9789,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.4,102);
   
 	
 		console.log('touch enable issuppored' ,upported())
-		console.log('touch enable return'  ,ana)
+		alert('touch enable return'  ,ana)
 		
 		}, 100);
 		

@@ -9771,6 +9771,23 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.4,102);
 		var ana = createjs.Touch.enable(stage, true, false);
 		alert( ana )
 		
+		
+		Touch._IE_enable = function(stage) {
+		
+		var f = stage.__touch.f = function(e) { Touch._IE_handleEvent(stage,e); };
+ 
+		 if(ana) {
+			canvas.addEventListener("pointerdown", f, false);
+			window.addEventListener("pointermove", f, false);
+			window.addEventListener("pointerup", f, false);
+			window.addEventListener("pointercancel", f, false);
+			if (stage.__touch.preventDefault) { canvas.style.touchAction = "none"; }
+ 
+		}
+		stage.__touch.activeIDs = {};
+	};
+		
+		
 		//window.Modernizr = {
 			//touch: true,
 		//};

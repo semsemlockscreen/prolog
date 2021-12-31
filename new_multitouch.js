@@ -9772,7 +9772,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.4,102);
 		alert( ana )
 		
 		
-		Touch._IE_enable = function(stage) {
+		createjs.Touch._IE_enable = function(stage) {
 		
 		var f = stage.__touch.f = function(e) { Touch._IE_handleEvent(stage,e); };
  

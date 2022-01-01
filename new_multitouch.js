@@ -9790,13 +9790,13 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.4,102);
 		createjs.Touch.enable = function(stage, singleTouch, allowDefault) {
 		
 		if (stage.__touch) { return true; }
- 
+                  alert( ' in createjs.Touch.enable')               
 		// inject required properties on stage:
 		stage.__touch = {pointers:{}, multitouch:!singleTouch, preventDefault:!allowDefault, count:0};
  
 		// note that in the future we may need to disable the standard mouse event model before adding
 		// these to prevent duplicate calls. It doesn't seem to be an issue with iOS devices though.
-		if ('ontouchstart' in window) { Touch._IOS_enable(stage); }
+		if ('ontouchstart' in window) { createjs.Touch._IOS_enable(stage); }
 		else if (window.navigator['msPointerEnabled'] || window.navigator.pointerEnabled) { createjs.Touch._IE_enable(stage); }
 		return true;
 	};

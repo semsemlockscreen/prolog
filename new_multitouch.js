@@ -9773,8 +9773,13 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.4,102);
 		
 		var f = stage.__touch.f = function(e) { createjs.Touch._IE_handleEvent(stage,e); };
  
-		 if(true) {
-			 alert( 'canvas.addEventListener("pointerdown", f, false);' )
+		if (window.pointerEnabled === undefined) {
+			canvas.addEventListener("MSPointerDown", f, false);
+			window.addEventListener("MSPointerMove", f, false);
+			window.addEventListener("MSPointerUp", f, false);
+			window.addEventListener("MSPointerCancel", f, false);
+			if (stage.__touch.preventDefault) { canvas.style.msTouchAction = "none"; }
+		} else { alert( ' in new Touch._IE_enable')  
 			canvas.addEventListener("pointerdown", f, false);
 			window.addEventListener("pointermove", f, false);
 			window.addEventListener("pointerup", f, false);
@@ -9784,6 +9789,8 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.4,102);
 		}
 		stage.__touch.activeIDs = {};
 	};
+		
+		
 		
 		
 		
@@ -10559,7 +10566,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.4,102);
 		function startDrag() {
 		
 			cont.addEventListener("pressup", onpressup);
-			cont.addEventListener("pressmove", onpressmove);
+			//cont.addEventListener("pressmove", onpressmove);
 			cont.addEventListener("mousedown", onmousedown);
 		
 		
@@ -10591,7 +10598,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.4,102);
 			twoFinger = false;
 		
 		
-			//cont.addEventListener("pressmove", onpressmove);
+			cont.addEventListener("pressmove", onpressmove);
 		
 		
 			previous_x_update = false;

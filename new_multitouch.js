@@ -9766,8 +9766,11 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.4,102);
 		stage.enableMouseOver(20);
 		
 		
-		createjs.Touch.isSupported = function() { return true };
-		
+		createjs.Touch.isSupported = function() {
+		return	!!(('ontouchstart' in window) // iOS & Android
+			|| (window.navigator['msPointerEnabled'] && window.navigator['msMaxTouchPoints'] > 0) // IE10
+			|| (window.PointerEvent && window.navigator['maxTouchPoints'] > 0)); // IE11+
+	};
 		
 		createjs.Touch._IE_enable = function(stage) {
 		
@@ -9813,7 +9816,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.4,102);
 		
 		
 		var ana = createjs.Touch.enable(stage, true, false);
-		
+		console.log('createjs.Touch.isSupported ',createjs.Touch.isSupported() )
 		
 		console.log('ana  ' ,ana)
 		

@@ -9773,7 +9773,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.4,102);
 		
 		var f = stage.__touch.f = function(e) { createjs.Touch._IE_handleEvent(stage,e); };
  
-		 if(ana) {
+		 if(true) {
 			 alert( 'canvas.addEventListener("pointerdown", f, false);' )
 			canvas.addEventListener("pointerdown", f, false);
 			window.addEventListener("pointermove", f, false);
@@ -9784,11 +9784,28 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.4,102);
 		}
 		stage.__touch.activeIDs = {};
 	};
-		createjs.Touch._IE_enable (stage)
+		
+		
+		
+		createjs.Touch.enable = function(stage, singleTouch, allowDefault) {
+		
+		if (stage.__touch) { return true; }
+ 
+		// inject required properties on stage:
+		stage.__touch = {pointers:{}, multitouch:!singleTouch, preventDefault:!allowDefault, count:0};
+ 
+		// note that in the future we may need to disable the standard mouse event model before adding
+		// these to prevent duplicate calls. It doesn't seem to be an issue with iOS devices though.
+		if ('ontouchstart' in window) { Touch._IOS_enable(stage); }
+		else if (window.navigator['msPointerEnabled'] || window.navigator.pointerEnabled) { createjs.Touch._IE_enable(stage); }
+		return true;
+	};
+		
+		
 		var ana = createjs.Touch.enable(stage, true, false);
 		
 		
-		
+		console.log('ana  ' ,ana)
 		
 		
 		//window.Modernizr = {
@@ -9797,15 +9814,9 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.4,102);
 		
 		var isTouch = true;
 		
-		 var upported = function() {
-		return	!!(('ontouchstart' in window) // iOS & Android
-			|| (window.navigator['msPointerEnabled'] && window.navigator['msMaxTouchPoints'] > 0) // IE10
-			|| (window.navigator['pointerEnabled'] && window.navigator['maxTouchPoints'] > 0)); // IE11+
-	};
-  
+		
 	
 		console.log('pointerEnabled' ,window.PointerEvent)
-		console.log('msPointerEnabled' ,window.navigator.msPointerEnabled)
 		
 		setTimeout(function () {
 		

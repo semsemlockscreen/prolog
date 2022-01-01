@@ -9814,7 +9814,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.4,102);
 	};
 		
 		
-		var ana = createjs.Touch.enable(stage, true, false);
+		var ana = createjs.Touch.enable(stage, true, true);
 		
 		console.log('ana  ' ,ana)
 		

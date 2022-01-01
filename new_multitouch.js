@@ -9773,8 +9773,8 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.4,102);
 		
 		var f = stage.__touch.f = function(e) { createjs.Touch._IE_handleEvent(stage,e); };
  
-		alert( 'window.pointerEnabled == undefined' + window.pointerEnabled === undefined)	
-		if (window.pointerEnabled === undefined) {
+		alert( 'window.PointerEvent == undefined' + window.PointerEvent === undefined)	
+		if (window.PointerEvent === undefined) {
 			canvas.addEventListener("MSPointerDown", f, false);
 			window.addEventListener("MSPointerMove", f, false);
 			window.addEventListener("MSPointerUp", f, false);

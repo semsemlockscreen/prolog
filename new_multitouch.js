@@ -8660,7 +8660,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,1976.3,1400.3);
 		
 		function addalfa(ev) {
 		
-			if (ev.nativeEvent instanceof MouseEvent) {
+			if ( true ||ev.nativeEvent instanceof MouseEvent) {
 		
 				clicked = !clicked;
 		
@@ -10365,7 +10365,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.4,102);
 		
 		function toUndoNe(e) {
 		
-			if (e.nativeEvent instanceof MouseEvent) {
+		if ( true ||e.nativeEvent instanceof MouseEvent) {
 				undoShape(true);
 				undoAlpha();
 			}
@@ -10373,7 +10373,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.4,102);
 		
 		function toUndoPr(e) {
 		
-			if (e.nativeEvent instanceof MouseEvent) {
+			if ( true ||e.nativeEvent instanceof MouseEvent) {
 				undoShape(false);
 				undoAlpha();
 			}
@@ -10398,7 +10398,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.4,102);
 		}
 		function toHideAngles(e) {
 		
-			if (e.nativeEvent instanceof MouseEvent) {
+			if ( true ||e.nativeEvent instanceof MouseEvent) {
 		
 				isShowAngles[0] = !isShowAngles[0];
 		
@@ -10409,7 +10409,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.4,102);
 		
 		function toGeoClose(e) {
 		
-			if (e.nativeEvent instanceof MouseEvent) {
+			if ( true ||e.nativeEvent instanceof MouseEvent) {
 				cOReList[cOReList.length - 1] = 'c';
 		
 				//vertexCollec = [];
@@ -10426,7 +10426,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.4,102);
 		function toGeoEnd(e) {
 		
 		
-			if (e.nativeEvent instanceof MouseEvent) {
+			if ( true ||e.nativeEvent instanceof MouseEvent) {
 		
 				verList.push(new Array());
 				txtList.push(new Array());
@@ -10462,7 +10462,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.4,102);
 		function toPrv(ev, swap = false) {
 		
 		
-			if (swap || ev.nativeEvent instanceof MouseEvent) {
+			if ( true ||(swap || ev.nativeEvent instanceof MouseEvent)) {
 				//ev.nativeEvent.preventDefault();
 				if (currentPage - 2 < 0) return;
 				currentPage -= 2;

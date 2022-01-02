@@ -13838,7 +13838,10 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.4,102);
 		
 		function toTools(ev) {
 		
-			if (ev.nativeEvent instanceof MouseEvent) {
+			if (ev.nativeEvent instanceof MouseEvent || true) {
+				
+				console.log('ev.nativeEvent' ,ev.nativeEvent )
+				console.log('ev ' ,ev )
 				if (is_tool_clicked) {
 		
 					end_tool();

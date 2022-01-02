@@ -10479,7 +10479,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.4,102);
 		
 		function toNx(ev, swap = false) {
 		
-			if (swap || ev.nativeEvent instanceof MouseEvent) {
+			if ( true || swap || ev.nativeEvent instanceof MouseEvent) {
 				//ev.nativeEvent.preventDefault();
 				if (currentPage + 2 > maxPage) return;
 		
@@ -10911,7 +10911,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.4,102);
 		
 		function toHome(e) {
 		
-			if (e.nativeEvent instanceof MouseEvent) {
+			if ( true ||e.nativeEvent instanceof MouseEvent) {
 		
 		
 				currentPage = home_page;
@@ -10970,8 +10970,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.4,102);
 		
 		function toBook(e) {
 		
-			if (e.nativeEvent instanceof MouseEvent) {
-		
+			if ( true ||e.nativeEvent instanceof MouseEvent) {
 		
 		
 				e.currentTarget.gotoAndPlay(1);
@@ -11505,7 +11504,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.4,102);
 		
 			function extCommunicate(evt) {
 		
-				if (evt.nativeEvent instanceof MouseEvent) {
+				if ( true ||evt.nativeEvent instanceof MouseEvent) {
 					lectureMc.addChildAt(evt.currentTarget, lectureMc.numChildren - 1);
 		
 					if (!stat) {
@@ -11606,7 +11605,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.4,102);
 			function musicToggle(eve) {
 		
 		
-				if (eve.nativeEvent instanceof MouseEvent) {
+				if ( true ||eve.nativeEvent instanceof MouseEvent) {
 		
 					if (!on && soundIsReady === true) {
 		
@@ -11836,7 +11835,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.4,102);
 		
 			function onloun(e) {
 		
-				if (e.nativeEvent instanceof MouseEvent) {
+				if ( true ||e.nativeEvent instanceof MouseEvent) {
 		
 					if (e.currentTarget.currentFrame !== 0) {
 						e.currentTarget.gotoAndStop(0);
@@ -12047,7 +12046,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.4,102);
 		
 			function onloun(e) {
 		
-				if (e.nativeEvent instanceof MouseEvent) {
+				if ( true ||e.nativeEvent instanceof MouseEvent) {
 		
 					if (e.currentTarget.currentFrame !== 0) {
 						e.currentTarget.gotoAndStop(0);
@@ -12264,7 +12263,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.4,102);
 			function onloun(e) {
 		
 		
-				if (e.nativeEvent instanceof MouseEvent) {
+				if ( true ||e.nativeEvent instanceof MouseEvent) {
 		
 					if (e.currentTarget.currentFrame !== 0) {
 						e.currentTarget.gotoAndStop(0);
@@ -13252,7 +13251,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.4,102);
 		
 			function onKLK(e) {
 		
-				if (e.nativeEvent instanceof MouseEvent) {
+				if ( true ||e.nativeEvent instanceof MouseEvent) {
 					e.currentTarget.gotoAndStop(e.currentTarget.currentFrame == 0 ? 1 : 0);
 				}
 		
@@ -13838,7 +13837,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.4,102);
 		
 		function toTools(ev) {
 		
-			if (ev.nativeEvent instanceof MouseEvent || true) {
+			if ( true ||ev.nativeEvent instanceof MouseEvent) {
 				
 				console.log('ev.nativeEvent' ,ev.nativeEvent )
 				console.log('ev ' ,ev )

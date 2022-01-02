@@ -15650,7 +15650,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.4,102);
 		
 		function toAnti_Square(eve) {
 		
-			if (eve.nativeEvent instanceof MouseEvent) {
+			if (eve.nativeEvent instanceof MouseEvent || true) {
 		
 		
 		

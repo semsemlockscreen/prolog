@@ -15150,7 +15150,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.4,102);
 		
 		function f_kom(eve) {
 		
-		
+		console.log(' from f_kom .event = ' , eve)
 			if ( true || eve.nativeEvent instanceof MouseEvent ) {
 		
 		

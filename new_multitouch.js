@@ -15152,7 +15152,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.4,102);
 		function f_kom(eve) {
 		
 		
-			if (eve.nativeEvent instanceof MouseEvent) {
+			if ( true || eve.nativeEvent instanceof MouseEvent ) {
 		
 		
 				if (that.tool.isdraged) return;
@@ -15178,8 +15178,8 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.4,102);
 		function kom(eve) {
 		
 		
-			if (eve !== null && eve.nativeEvent instanceof MouseEvent) {
-		
+			
+		if ( eve !== null && (true || eve.nativeEvent instanceof MouseEvent) ) {
 		
 				if (that.tool.isdraged) return;
 		
@@ -15207,7 +15207,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.4,102);
 		
 		function kom1(eve) {
 		
-			if (eve.nativeEvent instanceof MouseEvent) {
+			if ( true || eve.nativeEvent instanceof MouseEvent ) {
 		
 		
 				if (that.tool.isdraged) return;
@@ -15234,7 +15234,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.4,102);
 		
 		function toSquare(eve) {
 		
-			if (eve.nativeEvent instanceof MouseEvent) {
+			if ( true || eve.nativeEvent instanceof MouseEvent ) {
 		
 		
 				if (that.tool.isdraged) return;
@@ -15252,7 +15252,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.4,102);
 		
 		function toCircle(eve) {
 		
-			if (eve.nativeEvent instanceof MouseEvent) {
+			if ( true || eve.nativeEvent instanceof MouseEvent ) {
 		
 		
 				if (that.tool.isdraged) return;
@@ -15270,7 +15270,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.4,102);
 		
 		function toGeom(eve) {
 		
-			if (eve.nativeEvent instanceof MouseEvent) {
+			if ( true || eve.nativeEvent instanceof MouseEvent ) {
 		
 		
 				if (that.tool.isdraged) return;
@@ -15417,7 +15417,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.4,102);
 		var is_settin_clicked = false;
 		function toSettin(ev) {
 		
-			if (ev.nativeEvent instanceof MouseEvent) {
+			if ( true || ev.nativeEvent instanceof MouseEvent ) {
 				if (is_settin_clicked) {
 		
 					remove_settin();
@@ -15433,7 +15433,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.4,102);
 		var is_eye_clicked = false;
 		function toeye(ev) {
 		
-			if (ev.nativeEvent instanceof MouseEvent) {
+			if ( true || ev.nativeEvent instanceof MouseEvent ) {
 				if (!is_eye_clicked) {
 					that.blockChafaf();
 					chafaf.visible = false;
@@ -15454,7 +15454,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.4,102);
 		var isDefault_menu = false;
 		function toDefault_menu(ev) {
 		
-			if (ev.nativeEvent instanceof MouseEvent) {
+			if ( true || ev.nativeEvent instanceof MouseEvent ) {
 				if (isDefault_menu) {
 					reset_menu();
 					isDefault_menu = false;
@@ -15504,7 +15504,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.4,102);
 		var is_full_clicked = false;
 		function tofull(ev) {
 		
-			if (ev.nativeEvent instanceof MouseEvent) {
+			if ( true || ev.nativeEvent instanceof MouseEvent ) {
 				if (!is_full_clicked) {
 		
 					is_full_clicked = true;
@@ -15594,7 +15594,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.4,102);
 		function onPlus(ev) {
 		
 			console.log('OnPlus');
-			if (ev.nativeEvent instanceof MouseEvent) {
+			if ( true || ev.nativeEvent instanceof MouseEvent ) {
 		
 		
 				toTouchScal(1.2);
@@ -15604,7 +15604,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.4,102);
 		
 		function onMinus(ev) {
 		
-			if (ev.nativeEvent instanceof MouseEvent) {
+			if ( true || ev.nativeEvent instanceof MouseEvent ) {
 		
 		
 				toTouchScal(0.8);
@@ -15653,7 +15653,7 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.4,102);
 		
 		function toAnti_Square(eve) {
 		
-			if (eve.nativeEvent instanceof MouseEvent || true) {
+			if ( true || eve.nativeEvent instanceof MouseEvent ) {
 		
 		
 		

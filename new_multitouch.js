@@ -9800,7 +9800,9 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.4,102);
 		
 		
 		createjs.Touch.enable = function(stage, singleTouch, allowDefault) {
-		if (!stage || !stage.canvas || !createjs.Touch.isSupported()) { return false; }
+			
+			return false
+		if ( !stage || !stage.canvas || !createjs.Touch.isSupported()) { return false; }
 		if (stage.__touch) { return true; }
  
 		// inject required properties on stage:

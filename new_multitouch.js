@@ -10769,8 +10769,8 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.4,102);
 		
 			if (fingers[evt.pointerID]) {
 		
-				//fingers[evt.pointerID] = undefined;
-		delete ([evt.pointerID])
+				fingers[evt.pointerID] = undefined;
+		
 			}
 		
 			calculateActiveFingers();

@@ -10694,7 +10694,9 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.4,102);
 		
 		
 			if (activeFingers === 2) {
+				if (e.nativeEvent.cancelable) {
 				e.nativeEvent.preventDefault();
+				}
 				cont.isDragged = false;
 				return;
 			}
@@ -10767,8 +10769,8 @@ p.nominalBounds = new cjs.Rectangle(-67.9,-51.6,87.4,102);
 		
 			if (fingers[evt.pointerID]) {
 		
-				fingers[evt.pointerID] = undefined;
-		
+				//fingers[evt.pointerID] = undefined;
+		delete ([evt.pointerID])
 			}
 		
 			calculateActiveFingers();
